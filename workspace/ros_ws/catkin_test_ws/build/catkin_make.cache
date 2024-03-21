@@ -1,0 +1,2 @@
+plumbing_pub_sub
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/ros_ws/catkin_test_ws/devel -DCMAKE_INSTALL_PREFIX=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/ros_ws/catkin_test_ws/install -G Unix Makefiles
