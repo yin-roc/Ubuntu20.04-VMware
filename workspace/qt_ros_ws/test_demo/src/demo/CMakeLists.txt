@@ -1,0 +1,78 @@
+cmake_minimum_required(VERSION 3.0.2)
+project(demo VERSION 0.1.0 LANGUAGES CXX)
+
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+
+find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
+find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
+
+set(PROJECT_SOURCES
+        src/main.cpp
+        src/mainwindow.cpp
+        src/mainwindow.h
+        src/mainwindow.ui
+        src/qnode.h
+        src/qnode.cpp
+        src/serialport_view.h
+        src/serialport_view.cpp
+        src/serialport_view.ui
+)
+
+find_package(catkin REQUIRED COMPONENTS
+  roscpp
+)
+catkin_package(
+#  INCLUDE_DIRS include
+#  LIBRARIES demo
+#  CATKIN_DEPENDS roscpp
+#  DEPENDS system_lib
+)
+
+include_directories(
+# include
+  ${catkin_INCLUDE_DIRS}
+)
+
+if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
+    qt_add_executable(demo
+        MANUAL_FINALIZATION
+        ${PROJECT_SOURCES}
+    )
+else()
+    if(ANDROID)
+        add_library(demo SHARED
+            ${PROJECT_SOURCES}
+        )
+else()
+    add_executable(demo
+        ${PROJECT_SOURCES}
+    )
+    endif()
+endif()
+
+target_link_libraries(demo PRIVATE Qt${QT_VERSION_MAJOR}::Widgets ${catkin_LIBRARIES})
+
+set_target_properties(demo PROPERTIES
+    MACOSX_BUNDLE_GUI_IDENTIFIER my.example.com
+    MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
+    MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
+    MACOSX_BUNDLE TRUE
+    WIN32_EXECUTABLE TRUE
+)
+
+install(TARGETS demo
+    BUNDLE DESTINATION .
+    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+)
+
+if(QT_VERSION_MAJOR EQUAL 6)
+    qt_finalize_executable(demo)
+endif()
+

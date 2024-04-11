@@ -1,0 +1,5 @@
+CMake Error at /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/test_demo/src/demo/CMakeLists.txt:58 (set_target_properties):
+  set_target_properties called with incorrect number of arguments.
+
+
+make: *** [Makefile:734：cmake_check_build_system] 错误 1

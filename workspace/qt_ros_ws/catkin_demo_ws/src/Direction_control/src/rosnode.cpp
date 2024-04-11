@@ -12,8 +12,8 @@ ROSNode::ROSNode(int argc, char ** argv) {
     ros::Rate r(1);
     int count = 0;
     std_msgs::String msg;
-    while(ros::ok())
-    {
+    // while(ros::ok())
+    // {
         std::stringstream ss;
 
         ss << "Hello world------> " << count;
@@ -25,5 +25,5 @@ ROSNode::ROSNode(int argc, char ** argv) {
         count++;
         r.sleep();
         ros::spinOnce();
-    }
+    // }
 }
