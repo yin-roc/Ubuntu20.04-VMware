@@ -1,6 +1,0 @@
-[ 16%] [34m[1mAutomatic MOC and UIC for target Direction_control[0m
-[ 16%] Built target Direction_control_autogen
-[35m[1mScanning dependencies of target Direction_control[0m
-[ 33%] [32mBuilding CXX object CMakeFiles/Direction_control.dir/src/rosnode.cpp.o[0m
-[ 50%] [32m[1mLinking CXX executable /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/catkin_demo_ws/devel/lib/Direction_control/Direction_control[0m
-[100%] Built target Direction_control

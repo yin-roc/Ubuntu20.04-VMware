@@ -10,6 +10,7 @@ MainWindow::MainWindow(int argc, char ** argv, QWidget *parent)
     connect(ui->pushButton, &QPushButton::clicked, this, [=](){
         ROSNode node(argc, argv);
     });
+    ui->
 }
 
 MainWindow::~MainWindow()
