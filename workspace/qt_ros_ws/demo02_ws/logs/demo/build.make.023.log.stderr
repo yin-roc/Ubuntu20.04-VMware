@@ -1,0 +1,25 @@
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo02_ws/src/demo/src/view.cpp:[m[K In constructor ‘[01m[Kview::view(QWidget*)[m[K’:
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo02_ws/src/demo/src/view.cpp:10:5:[m[K [01;31m[Kerror: [m[K‘[01m[KQWebEngineView[m[K’ was not declared in this scope
+   10 |     [01;31m[KQWebEngineView[m[K * webView = new QWebEngineView(this);
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo02_ws/src/demo/src/view.cpp:10:22:[m[K [01;31m[Kerror: [m[K‘[01m[KwebView[m[K’ was not declared in this scope
+   10 |     QWebEngineView * [01;31m[KwebView[m[K = new QWebEngineView(this);
+      |                      [01;31m[K^~~~~~~[m[K
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo02_ws/src/demo/src/view.cpp:10:36:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KQWebEngineView[m[K’
+   10 |     QWebEngineView * webView = new [01;31m[KQWebEngineView[m[K(this);
+      |                                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo02_ws/src/demo/src/view.cpp:11:47:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass QUrl[m[K’
+   11 |     webView->load(QUrl("http://map.baidu.com/"[01;31m[K)[m[K);
+      |                                               [01;31m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:54[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:1[m[K,
+                 from [01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo02_ws/src/demo/src/view.h:4[m[K,
+                 from [01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo02_ws/src/demo/src/view.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h:1970:1:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass QUrl[m[K’
+ 1970 | [01;36m[KQT_FOR_EACH_STATIC_CORE_CLASS[m[K(QT_FORWARD_DECLARE_STATIC_TYPES_ITER)
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/demo_node.dir/build.make:115：CMakeFiles/demo_node.dir/src/view.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[1]: *** [CMakeFiles/Makefile2:453：CMakeFiles/demo_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

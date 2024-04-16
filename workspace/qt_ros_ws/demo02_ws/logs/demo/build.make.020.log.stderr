@@ -1,0 +1,7 @@
+/usr/bin/ld: CMakeFiles/demo_node.dir/src/view.cpp.o: in function `view::view(QWidget*)':
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo02_ws/src/demo/src/view.cpp:10: undefined reference to `QWebEngineView::QWebEngineView(QWidget*)'
+/usr/bin/ld: /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo02_ws/src/demo/src/view.cpp:11: undefined reference to `QWebEngineView::load(QUrl const&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/demo_node.dir/build.make:164：/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo02_ws/devel/lib/demo/demo_node] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:453：CMakeFiles/demo_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

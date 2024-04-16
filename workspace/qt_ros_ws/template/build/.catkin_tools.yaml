@@ -1,0 +1,6 @@
+devel_space: /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/template/devel
+install: false
+install_space: /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/template/install
+profile: default
+source_space: /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/template/src
+workspace: /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/template

@@ -1,0 +1,22 @@
+In file included from [01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/template/src/demo/src/main.cpp:1[m[K:
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/template/src/demo/src/mainwindow.h:5:10:[m[K [01;31m[Kfatal error: [m[Kview.h: 没有那个文件或目录
+    5 | #include [01;31m[K<view.h>[m[K
+      |          [01;31m[K^~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/demo_node.dir/build.make:76：CMakeFiles/demo_node.dir/src/main.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+In file included from [01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/template/src/demo/src/mainwindow.cpp:1[m[K:
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/template/src/demo/src/mainwindow.h:5:10:[m[K [01;31m[Kfatal error: [m[Kview.h: 没有那个文件或目录
+    5 | #include [01;31m[K<view.h>[m[K
+      |          [01;31m[K^~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/demo_node.dir/build.make:89：CMakeFiles/demo_node.dir/src/mainwindow.cpp.o] 错误 1
+In file included from [01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/template/build/demo/demo_node_autogen/UVLADIE3JM/moc_mainwindow.cpp:9[m[K,
+                 from [01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/template/build/demo/demo_node_autogen/mocs_compilation.cpp:2[m[K:
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/template/src/demo/src/mainwindow.h:5:10:[m[K [01;31m[Kfatal error: [m[Kview.h: 没有那个文件或目录
+    5 | #include [01;31m[K<view.h>[m[K
+      |          [01;31m[K^~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/demo_node.dir/build.make:63：CMakeFiles/demo_node.dir/demo_node_autogen/mocs_compilation.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:453：CMakeFiles/demo_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

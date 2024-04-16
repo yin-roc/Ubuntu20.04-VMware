@@ -1,0 +1,20 @@
+CMake Error at /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/template/src/demo/CMakeLists.txt:163 (add_executable):
+  Target "demo_node" links to target "Qt5::webenginewidgets" but the target
+  was not found.  Perhaps a find_package() call is missing for an IMPORTED
+  target, or an ALIAS target is missing?
+
+
+CMake Error at /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/template/src/demo/CMakeLists.txt:163 (add_executable):
+  Target "demo_node" links to target "Qt5::webengine" but the target was not
+  found.  Perhaps a find_package() call is missing for an IMPORTED target, or
+  an ALIAS target is missing?
+
+
+CMake Error at /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/template/src/demo/CMakeLists.txt:163 (add_executable):
+  Target "demo_node" links to target "Qt5::webchannel" but the target was not
+  found.  Perhaps a find_package() call is missing for an IMPORTED target, or
+  an ALIAS target is missing?
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** [Makefile:708：cmake_check_build_system] 错误 1

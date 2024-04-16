@@ -1,0 +1,31 @@
+[  2%] Built target reformat
+[  3%] Built target 02_alias
+[  4%] Built target 04_subclasses
+[  6%] Built target 05_enums
+[  8%] Built target 03_optional_types
+[  9%] Built target 06_map
+[ 11%] Built target 07_stdtypes
+[ 12%] Built target 08_custom_types
+[ 13%] Built target 10_simple_tokenize
+[ 15%] Built target 13_diff_missing_data
+[ 16%] Built target 01_simple_struct
+[ 18%] Built target 09_nested_types
+[ 20%] Built target 11_calling_functions
+[ 21%] Built target 12_simple_diff
+[ 24%] Built target external_json_resources
+[ 25%] Built target catch_main
+[ 58%] Built target unit-tests
+[ 59%] Built target zero-value-test-fp-default
+[ 61%] Built target zero-value-test-fp-fast
+[ 95%] Built target unit-tests-cxx17
+[ 97%] Built target catch_main_benchmark
+[100%] Built target benchmark
+[36mInstall the project...[0m
+-- Install configuration: "Debug"
+CMake Error at cmake_install.cmake:41 (file):
+  file INSTALL cannot find
+  "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/ros_qt_gui/build/json_struct/json_structConfigVersion.cmake":
+  No such file or directory.
+
+
+make: *** [Makefile:119：install] 错误 1

@@ -1,0 +1,25 @@
+foreach-> Qt5Core_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5Core
+foreach-> Qt5Gui_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5Gui
+foreach-> Qt5Widgets_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5Widgets
+foreach-> Qt5Multimedia_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5Multimedia
+foreach-> Qt5Network_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5Network
+foreach-> Qt5WebChannel_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5WebChannel
+foreach-> Qt5WebEngine_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5WebEngine
+foreach-> Qt5WebEngineWidgets_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5WebEngineWidgets
+foreach-> Qt5SerialPort_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5SerialPort
+Qt5::Core;Qt5::Gui;Qt5::Widgets;Qt5::Multimedia;Qt5::Network;Qt5::WebChannel;Qt5::WebEngine;Qt5::WebEngineWidgets;Qt5::SerialPort
+CMake Error at /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake:28 (find_package):
+  Could not find a package configuration file provided by "Qt5Multimedia"
+  with any of the following names:
+
+    Qt5MultimediaConfig.cmake
+    qt5multimedia-config.cmake
+
+  Add the installation prefix of "Qt5Multimedia" to CMAKE_PREFIX_PATH or set
+  "Qt5Multimedia_DIR" to a directory containing one of the above files.  If
+  "Qt5Multimedia" provides a separate development package or SDK, be sure it
+  has been installed.
+Call Stack (most recent call first):
+  CMakeLists.txt:63 (find_package)
+
+

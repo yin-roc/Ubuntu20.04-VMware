@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="chao_node" pkg="ssr_pkg" type="chao_node" output="screen"/>
+    <node name="yao_node" pkg="ssr_pkg" type="yao_node" output="screen" launch-prefix="gnome-terminal -e"/>
+    <node name="ma_node" pkg="atr_pkg" type="ma_node" output="screen"/>
+
+    
+
+</launch>

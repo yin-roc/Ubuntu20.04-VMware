@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target ros_qt_demo[0m
+[  5%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/include/ros_qt_demo/moc_pointcloud.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/src/slamresviewer.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/src/main.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/include/ros_qt_demo/moc_qrviz.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/include/ros_qt_demo/moc_loginwidget.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/include/ros_qt_demo/moc_main_window.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/include/ros_qt_demo/moc_mylabel.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/include/ros_qt_demo/moc_qnode.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/include/ros_qt_demo/moc_slamresviewer.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/ros_qt_demo.dir/include/ros_qt_demo/moc_slamset.cpp.o[0m
+[ 27%] [32m[1mLinking CXX executable /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/ros_qt_demo/devel/lib/ros_qt_demo/ros_qt_demo[0m
+[100%] Built target ros_qt_demo

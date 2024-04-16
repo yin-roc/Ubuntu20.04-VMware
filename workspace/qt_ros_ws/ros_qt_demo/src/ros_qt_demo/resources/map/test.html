@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=4nDEx9VDbvFUecclhXgBZSxG3pxpQQ7f"></script>    <title>根据经纬度定位</title>
+    <style>
+        html, body, #allmap{
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+        }
+        #result{
+            padding: 7px 10px;
+            position: fixed;
+            top: 10px;
+            left: 20px;
+            width: 450px;
+            background: #fff;
+            box-shadow: 0 2px 6px 0 rgba(27, 142, 236, 0.5);
+            border-radius: 7px;
+            z-index: 99;
+        }
+        #result input{
+            width:130px; 
+            margin-right:10px;
+            height:25px;
+            border: 1px solid rgba(27, 142, 236, 0.5);
+            border-radius: 5px;
+        }
+        #result button{
+            border: 1px solid rgba(27, 142, 236, 0.5);
+            border-radius: 5px;
+            background: rgba(27, 142, 236, 0.5);
+            color: #fff
+        }
+    </style>
+</head>
+<body>
+    <div id='allmap'></div>
+    <div id='result'>
+        经度: <input id="lng" type="text"/>
+        纬度: <input id="lat" type="text"/>
+		<button onclick="theLocation()"/>查询</button>
+    </div>
+</body>
+</html>
+<!--打通Qt和Js的通讯-->
+<script src="qwebchannel.js"></script>
+
+
+<script type="text/javascript">
+    // 创建并加载地图
+    var map = new BMap.Map("allmap");
+  //  map.centerAndZoom(new BMap.Point(120.631275,30.106734), 19); 
+    map.centerAndZoom(new BMap.Point(121.4047, 31.3244), 20);//初始点
+
+    //缩放按钮
+    map.addControl(new BMap.ScaleControl()); //比例尺
+    map.addControl(new BMap.NavigationControl({offset: new BMap.Size(10, 90)}));
+    map.enableScrollWheelZoom();                  // 启用滚轮放大缩小。
+    map.enableContinuousZoom();                   // 启用连续缩放
+
+   // 添加定位控件
+	var geolocationControl = new BMap.GeolocationControl({anchor: BMAP_ANCHOR_BOTTOM_RIGHT});
+
+	geolocationControl.addEventListener("locationSuccess", function(e){
+    // 定位成功事件
+		var address = '';
+		address += e.addressComponent.province;
+		address += e.addressComponent.city;
+		address += e.addressComponent.district;
+		address += e.addressComponent.street;
+		address += e.addressComponent.streetNumber;
+		alert("当前定位地址为：" + address);
+	});
+
+    // 定位失败事件
+	geolocationControl.addEventListener("locationError",function(e){alert(e.message);});
+  	map.addControl(geolocationControl);
+
+    //添加地图类型控件
+	map.addControl(new BMap.MapTypeControl({
+		mapTypes:[
+            BMAP_NORMAL_MAP,
+            BMAP_HYBRID_MAP
+        ]}));	  
+    
+    //注册成员
+    new QWebChannel(qt.webChannelTransport,	
+    function(channel){
+        window.bridge = channel.objects.person; //注册名称：person
+    }                                                          
+    );
+
+    //qt对应的槽函数
+    var updateInfo = function(lon, lat){
+        window.bridge.getCoordinates(lon, lat);
+    }
+    map.addEventListener("mousemove",function(e) {		
+        updateInfo(e.point.lng, e.point.lat);
+    });
+    
+    // 用经纬度设置地图中心点
+    function theLocation(){
+        if(document.getElementById("lng").value != "" && document.getElementById("lat").value != ""){
+            map.clearOverlays(); 
+            map.clearOverlays(); 
+            map.clearOverlays(); 
+            var new_point = new BMap.Point(document.getElementById("lng").value,document.getElementById("lat").value);
+            var marker = new BMap.Marker(new_point);  // 创建标注
+            map.addOverlay(marker);              // 将标注添加到地图中
+            map.panTo(new_point);      
+            map.panTo(new_point);      
+            map.panTo(new_point);      
+        }
+    } 
+
+    function sendPoint(lng, lat){
+        window.bridge.receivePoint(lng, lat);
+    }
+    
+    
+    var pointArr = [];
+    var lastpoint = new BMap.Marker(new BMap.Point(0, 0));
+    var index = 0;
+    function markpoint(lng, lat){
+        if(lng == -1){
+            map.clearOverlays();
+            clearAll();
+            window.bridge.receivePoint(-1,  -1);
+            //window.bridge.jsDebug(_setMouseMark);
+        }else{
+            var p = new BMap.Point(lng, lat); 
+            var m = new BMap.Marker(p); //标记点
+            map.centerAndZoom(p, 20); //定位至中心
+            pointArr.push(m);
+            if(index > 0)
+            {
+                var polyline = new BMap.Polyline([p,lastpoint.getPosition()], {
+                strokeColor: 'blue',
+                strokeWeight: 5,
+                strokeOpacity: 1
+                });
+                map.addOverlay(polyline); //当前点与上一个相连
+            }
+        lastpoint = m;
+        index++;
+        } 
+    }
+
+    //计算两点距离
+    function countDistance(lng1, lat1, lng2, lat2){
+        var p1 = new BMap.Point(lng1, lat1); 
+        var p2 = new BMap.Point(lng2, lat2);
+        var dis = map.getDistance(p1, p2);
+        window.bridge.getDistance(dis);
+    }
+
+
+    var _setMouseMark = 0;
+    function enableMouseMark(set){
+        if(set == 1)_setMouseMark = 1;
+        else _setMouseMark = 0;
+        //window.bridge.jsDebug(_setMouseMark);
+    }
+
+    map.addEventListener("click",function(e){  
+    if(e.overlay){
+    }else{
+            if(_setMouseMark ==1){
+                // 获取单击点的位置(经度，纬度)
+                var p = new BMap.Point(e.point.lng, e.point.lat); 
+                // 创建一个标记
+                var m = new BMap.Marker(p); 
+                // 显示标记
+                map.addOverlay(m);
+                sendPoint(e.point.lng, e.point.lat);
+            }
+        }     
+    });
+
+    //右键清空
+    map.addEventListener("rightclick",function(e){  
+		if(e.overlay){
+        }else{
+			map.clearOverlays();
+            pointArr = [];
+			index = 0;
+            window.bridge.receivePoint(-1,  -1);
+        }     
+	});
+    
+    //只标记点
+    function justMarkPoint(lng, lat){
+       // var p = new BMap.Point(lng, lat); 
+        //var m = new BMap.Marker(p); 
+        var convertor = new BMap.Convertor();
+        var pointArr = [];
+        var ggPoint = new BMap.Point(lng, lat);
+        pointArr.push(ggPoint);
+        convertor.translate(pointArr, 1, 5, function(data){
+            var m = new BMap.Marker(data.points[0]); //标记点
+            map.centerAndZoom(data.points[0], 20); //定位至中心
+            map.addOverlay(m);
+            window.bridge.receivePoint(data.points[0].lng,  data.points[0].lat);
+            //window.alert(data.points[0]);
+        });
+        //map.addOverlay(m);
+        //map.centerAndZoom(p, 20); //定位至中心
+    }
+
+    var pathLastPoint = new BMap.Marker(new BMap.Point(0, 0));
+    var pathIndex = 0;
+    function pathDrawer(lng, lat){
+
+        var p = new BMap.Point(lng, lat); 
+        var m = new BMap.Marker(p); //标记点
+        map.centerAndZoom(p, 20); //定位至中心
+
+        if(pathIndex > 0)
+        {
+            var polyline = new BMap.Polyline([p,pathLastPoint.getPosition()], {
+                strokeColor: 'green',
+                strokeWeight: 5,
+                strokeOpacity: 1
+            });
+            map.addOverlay(polyline); //当前点与上一个相连
+        }
+        pathLastPoint = m;
+        pathIndex++;
+    }
+
+    function clearAll(){
+        pathLastPoint = new BMap.Marker(new BMap.Point(0, 0));
+        pathIndex = 0;
+
+        followPathLastPoint = new BMap.Marker(new BMap.Point(0, 0));
+        followPathIndex = 0; 
+
+        pointArr = [];
+        lastpoint = new BMap.Marker(new BMap.Point(0, 0));
+        index = 0;
+
+        window.bridge.jsDebug("js clear all completed");
+    }
+    
+    var followPathLastPoint = new BMap.Marker(new BMap.Point(0, 0));
+    var followPathIndex = 0; 
+    function followPathDrawer(lng, lat){
+        var p = new BMap.Point(lng, lat); 
+       var m = new BMap.Marker(p); //标记点
+         map.centerAndZoom(p, 20); //定位至中心
+
+        if(followPathIndex > 0)
+        {
+            var polyline = new BMap.Polyline([p,followPathLastPoint.getPosition()], {
+                strokeColor: 'red',
+                strokeWeight: 5,
+                strokeOpacity: 1
+            });
+            map.addOverlay(polyline); //当前点与上一个相连
+        }
+        followPathLastPoint = m;
+        followPathIndex++;
+        window.bridge.jsDebug("followPathLastPoint worked.")
+}
+
+    translateCallback = function (data){
+      if(data.status === 0) {
+        var m = new BMap.Marker(data.points[0]); //标记点
+        map.centerAndZoom(data.points[0], 20); //定位至中心
+        if(followPathIndex > 0)
+        {
+            var polyline = new BMap.Polyline([data.points[0], followPathLastPoint.getPosition()], {
+                strokeColor: 'red',
+                strokeWeight: 5,
+                strokeOpacity: 1
+            });
+            map.addOverlay(polyline); //当前点与上一个相连
+        }
+        followPathLastPoint = m;
+        followPathIndex = 1;
+        //window.bridge.jsDebug("_followPathLastPoint worked.")
+      }
+    }
+    
+    function  _followPathDrawer(lng, lat){
+        //window.alert(lng);
+        if(lng > 0){
+            var convertor = new BMap.Convertor();
+            var pointArr = [];
+            var ggPoint = new BMap.Point(lng, lat);
+            pointArr.push(ggPoint);
+            convertor.translate(pointArr, 1, 5, translateCallback);
+            //window.bridge.jsDebug("i'm here");
+            //window.bridge.jsDebug("_followPathLastPoint worked.");
+        }else{
+            //window.alert("reset");
+            var followPathLastPoint = new BMap.Marker(new BMap.Point(0, 0));
+            var followPathIndex = 0; 
+        }
+    }
+        
+
+
+
+
+
+    </script>

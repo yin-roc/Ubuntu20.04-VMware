@@ -1,0 +1,14 @@
+<launch>
+    <include file="$(find wpr_simulation)/launch/wpb_stage_slam.launch"/>
+
+    <node name="hector_mapping" pkg="hector_mapping" type="hector_mapping" output="screen">
+        <param name="map_update_distance_thresh" value="0.1"/>
+        <param name="map_update_angle_thresh" value="0.1"/>
+        <param name="map_pub_period" value="0.1"/>
+    </node>
+
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find slam_pkg)/rviz/slam.rviz"/>
+
+    <node name="rqt_robot_steering" pkg="rqt_robot_steering" type="rqt_robot_steering" output="screen"/>
+
+</launch>

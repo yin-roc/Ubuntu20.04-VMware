@@ -1,0 +1,63 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/ros_qt_demo/devel
+-- Using CMAKE_PREFIX_PATH: /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/ros_qt_demo/devel;/opt/ros/noetic
+-- This workspace overlays: /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/ros_qt_demo/devel;/opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/ros_qt_demo/build/ros_qt_demo/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10")
+-- Found Threads: TRUE
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+foreach-> Qt5Core_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5Core
+foreach-> Qt5Gui_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5Gui
+foreach-> Qt5Widgets_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5Widgets
+foreach-> Qt5Multimedia_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5Multimedia
+foreach-> Qt5Network_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5Network
+foreach-> Qt5WebChannel_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5WebChannel
+foreach-> Qt5WebEngine_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5WebEngine
+foreach-> Qt5WebEngineWidgets_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5WebEngineWidgets
+foreach-> Qt5SerialPort_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5SerialPort
+Qt5::Core;Qt5::Gui;Qt5::Widgets;Qt5::Multimedia;Qt5::Network;Qt5::WebChannel;Qt5::WebEngine;Qt5::WebEngineWidgets;Qt5::SerialPort
+CMake Error at /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake:28 (find_package):
+  Could not find a package configuration file provided by "Qt5Multimedia"
+  with any of the following names:
+
+    Qt5MultimediaConfig.cmake
+    qt5multimedia-config.cmake
+
+  Add the installation prefix of "Qt5Multimedia" to CMAKE_PREFIX_PATH or set
+  "Qt5Multimedia_DIR" to a directory containing one of the above files.  If
+  "Qt5Multimedia" provides a separate development package or SDK, be sure it
+  has been installed.
+Call Stack (most recent call first):
+  CMakeLists.txt:63 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/ros_qt_demo/build/ros_qt_demo/CMakeFiles/CMakeOutput.log".
+See also "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/ros_qt_demo/build/ros_qt_demo/CMakeFiles/CMakeError.log".

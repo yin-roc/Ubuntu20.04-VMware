@@ -1,0 +1,23 @@
+CMake Warning (dev) at CMakeLists.txt:6 (project):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    CMAKE_PROJECT_VERSION
+    CMAKE_PROJECT_VERSION_MAJOR
+    CMAKE_PROJECT_VERSION_MINOR
+    CMAKE_PROJECT_VERSION_PATCH
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+foreach-> Qt5Core_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5Core
+foreach-> Qt5Gui_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5Gui
+foreach-> Qt5Widgets_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5Widgets
+foreach-> Qt5Multimedia_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5Multimedia
+foreach-> Qt5Network_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5Network
+foreach-> Qt5WebChannel_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5WebChannel
+foreach-> Qt5WebEngine_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5WebEngine
+foreach-> Qt5WebEngineWidgets_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5WebEngineWidgets
+foreach-> Qt5SerialPort_DIR : /opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake/Qt5SerialPort
+Qt5::Core;Qt5::Gui;Qt5::Widgets;Qt5::Multimedia;Qt5::Network;Qt5::WebChannel;Qt5::WebEngine;Qt5::WebEngineWidgets;Qt5::SerialPort

@@ -1,0 +1,8 @@
+prefix=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo01_ws/devel
+
+Name: demo01_Dir_Control
+Description: Description of demo01_Dir_Control
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

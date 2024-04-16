@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target marker_node_autogen[0m
+[ 20%] [34m[1mAutomatic MOC and UIC for target marker_node[0m
+[ 20%] Built target marker_node_autogen
+[35m[1mScanning dependencies of target marker_node[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/marker_node.dir/src/marker_test.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/marker_node.dir/marker_node_autogen/mocs_compilation.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/marker_node.dir/src/basic.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/test/devel/lib/marker/marker_node[0m
+[100%] Built target marker_node

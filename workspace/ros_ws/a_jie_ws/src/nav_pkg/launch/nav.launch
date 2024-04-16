@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- move_base 导航节点-->
+    <node name="move_base" pkg="move_base" type="move_base" output="screen">
+        <rosparam file="$(find wpb_home_tutorials)/nav_lidar/costmap_common_params.yaml" command="load" ns="global_costmap" />
+        <rosparam file="$(find wpb_home_tutorials)/nav_lidar/costmap_common_params.yaml" command="load" ns="local_costmap" />
+        <rosparam file="$(find wpb_home_tutorials)/nav_lidar/global_costmap_params.yaml" command="load" />
+        <rosparam file="$(find wpb_home_tutorials)/nav_lidar/local_costmap_params.yaml" command="load" />
+        <param name="base_global_planner" value="global_planner/GlobalPlanner" /> 
+        <!-- <param name="base_local_planner" value="wpbh_local_planner/WpbhLocalPlanner" /> -->
+        <param name="base_local_planner" value="dwa_local_planner/DWAPlannerROS"/>
+        <rosparam command="load" file="$(find wpb_home_tutorials)/nav_lidar/dwa_local_planner_params.yaml"/>
+        
+        
+    </node>
+    
+    <!-- map_server 地图服务节点 -->
+    <node name="map_server" pkg="map_server" type="map_server" args="$(find wpr_simulation)/maps/map.yaml"/>
+    
+    <!-- amcl 定位节点 -->
+    <node name="amcl" pkg="amcl" type="amcl"/>
+    
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find nav_pkg)/rviz/nav.rviz"/>
+    
+</launch>

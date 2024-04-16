@@ -1,0 +1,19 @@
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/ros_qt_demo/src/ros_qt_demo/src/slamresviewer.cpp:[m[K In member function ‘[01m[Kvirtual bool SlamResViewer::eventFilter(QObject*, QEvent*)[m[K’:
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/ros_qt_demo/src/ros_qt_demo/src/slamresviewer.cpp:56:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+   56 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/ros_qt_demo/src/ros_qt_demo/src/slamset.cpp:[m[K In member function ‘[01m[Kvirtual bool slamSet::eventFilter(QObject*, QEvent*)[m[K’:
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/ros_qt_demo/src/ros_qt_demo/src/slamset.cpp:210:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  210 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[K已杀死 signal terminated program cc1plus
+compilation terminated.
+make[2]: *** [CMakeFiles/ros_qt_demo.dir/build.make:178：CMakeFiles/ros_qt_demo.dir/src/main.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/ros_qt_demo/src/ros_qt_demo/src/loginwidget.cpp:[m[K In member function ‘[01m[Kvoid LoginWidget::on_gpsset_Button_clicked(bool)[m[K’:
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/ros_qt_demo/src/ros_qt_demo/src/loginwidget.cpp:82:87:[m[K [01;35m[Kwarning: [m[K‘[01m[Kargc[m[K’ is used uninitialized in this function [[01;35m[K-Wuninitialized[m[K]
+   82 |     class1_ros_qt_demo::MainWindow* tw = new class1_ros_qt_demo::MainWindow(argc, argv[01;35m[K)[m[K;
+      |                                                                                       [01;35m[K^[m[K
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/ros_qt_demo/src/ros_qt_demo/src/loginwidget.cpp:82:87:[m[K [01;35m[Kwarning: [m[K‘[01m[Kargv[m[K’ is used uninitialized in this function [[01;35m[K-Wuninitialized[m[K]
+make[1]: *** [CMakeFiles/Makefile2:399：CMakeFiles/ros_qt_demo.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

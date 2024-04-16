@@ -1,7 +1,0 @@
-[ 14%] [34m[1mAutomatic MOC and UIC for target demo[0m
-[ 14%] Built target demo_autogen
-[35m[1mScanning dependencies of target demo[0m
-[ 28%] [32mBuilding CXX object CMakeFiles/demo.dir/demo_autogen/mocs_compilation.cpp.o[0m
-[ 42%] [32mBuilding CXX object CMakeFiles/demo.dir/src/serialport_view.cpp.o[0m
-[ 57%] [32m[1mLinking CXX executable /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/test_demo/devel/lib/demo/demo[0m
-[100%] Built target demo

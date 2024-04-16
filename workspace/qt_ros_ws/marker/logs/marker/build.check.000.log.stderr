@@ -1,0 +1,5 @@
+CMake Error at /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/test/src/marker/CMakeLists.txt:113:
+  Parse error.  Function missing ending ")".  End of file reached.
+
+
+make: *** [Makefile:648：cmake_check_build_system] 错误 1

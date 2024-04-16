@@ -1,0 +1,10 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/ros_ws/a_jie_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/ros_ws/a_jie_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

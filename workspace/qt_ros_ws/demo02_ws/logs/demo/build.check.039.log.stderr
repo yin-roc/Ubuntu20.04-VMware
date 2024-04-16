@@ -1,0 +1,5 @@
+CMake Error at /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo02_ws/src/demo/CMakeLists.txt:17 (find_package):
+  find_package called with invalid argument "Qt5"
+
+
+make: *** [Makefile:708：cmake_check_build_system] 错误 1
