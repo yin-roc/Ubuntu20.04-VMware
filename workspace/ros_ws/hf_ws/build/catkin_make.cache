@@ -1,0 +1,2 @@
+mower_ctrl
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/ros_ws/hf_ws/devel -DCMAKE_INSTALL_PREFIX=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/ros_ws/hf_ws/install -G Unix Makefiles

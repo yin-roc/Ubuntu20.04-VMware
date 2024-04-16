@@ -1,8 +1,0 @@
-prefix=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/ros_ws/catkin_test_ws/devel
-
-Name: plumbing_pub_sub
-Description: Description of plumbing_pub_sub
-Version: 0.0.0
-Cflags: -I/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/ros_ws/catkin_test_ws/devel/include
-Libs: -L${prefix}/lib 
-Requires: roscpp rospy std_msgs message_runtime

@@ -1,0 +1,12 @@
+uint8 col_data1
+uint8 col_data2
+uint8 col_data3
+uint8 col_data4
+uint16 ul_data1
+uint16 ul_data2
+uint16 ul_data3
+uint16 ul_data4
+uint32 distance
+uint8 carpipe
+uint8 rollpipe
+float32 nowcar_speed
