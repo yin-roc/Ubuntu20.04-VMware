@@ -1,7 +1,0 @@
-CMake Error at cmake_install.cmake:41 (file):
-  file INSTALL cannot find
-  "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/ros_qt_gui/build/json_struct/json_structConfigVersion.cmake":
-  No such file or directory.
-
-
-make: *** [Makefile:119：install] 错误 1

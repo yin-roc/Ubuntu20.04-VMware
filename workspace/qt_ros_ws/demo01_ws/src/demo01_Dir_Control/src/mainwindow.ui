@@ -59,8 +59,24 @@
               <pointsize>16</pointsize>
              </font>
             </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(252, 233, 79);
+alternate-background-color: rgb(173, 127, 168);</string>
+            </property>
             <property name="text">
              <string>串口调试</string>
+            </property>
+            <property name="autoDefault">
+             <bool>false</bool>
+            </property>
+            <property name="default">
+             <bool>false</bool>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -70,6 +86,12 @@
              <font>
               <pointsize>16</pointsize>
              </font>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(252, 175, 62);</string>
             </property>
             <property name="text">
              <string>方向控制</string>

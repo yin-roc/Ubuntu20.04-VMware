@@ -1,0 +1,16 @@
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/mainwindow.cpp:[m[K In member function ‘[01m[Kvoid MainWindow::on_pushButton_clicked()[m[K’:
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/mainwindow.cpp:19:29:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+   19 |     if(ui->Account_lineEdit([01;31m[K)[m[K->text() == "user"){
+      |                             [01;31m[K^[m[K
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/mainwindow.cpp:23:34:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+   23 |     else if(ui->Account_lineEdit([01;31m[K)[m[K->text() == "admin" && ui->password_lineEdit()->text() == "123456"){
+      |                                  [01;31m[K^[m[K
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/mainwindow.cpp:23:80:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+   23 |     else if(ui->Account_lineEdit()->text() == "admin" && ui->password_lineEdit([01;31m[K)[m[K->text() == "123456"){
+      |                                                                                [01;31m[K^[m[K
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/mainwindow.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kview1[m[K’ was not declared in this scope
+   26 |     [01;31m[Kview1[m[K.show();
+      |     [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/demo_node.dir/build.make:89：CMakeFiles/demo_node.dir/src/mainwindow.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:453：CMakeFiles/demo_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

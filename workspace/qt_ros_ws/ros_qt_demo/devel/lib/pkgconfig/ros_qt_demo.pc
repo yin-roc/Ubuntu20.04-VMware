@@ -1,8 +1,0 @@
-prefix=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/ros_qt_demo/devel
-
-Name: ros_qt_demo
-Description: Description of ros_qt_demo
-Version: 0.1.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -66,12 +66,19 @@ public:
         QFont font1;
         font1.setPointSize(16);
         pushButton->setFont(font1);
+        pushButton->setAutoFillBackground(false);
+        pushButton->setStyleSheet(QString::fromUtf8("background-color: rgb(252, 233, 79);\n"
+"alternate-background-color: rgb(173, 127, 168);"));
+        pushButton->setAutoDefault(false);
+        pushButton->setFlat(true);
 
         verticalLayout->addWidget(pushButton);
 
         pushButton_2 = new QPushButton(centralwidget);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
         pushButton_2->setFont(font1);
+        pushButton_2->setAutoFillBackground(false);
+        pushButton_2->setStyleSheet(QString::fromUtf8("background-color: rgb(252, 175, 62);"));
 
         verticalLayout->addWidget(pushButton_2);
 
@@ -95,6 +102,9 @@ public:
         MainWindow->setCentralWidget(centralwidget);
 
         retranslateUi(MainWindow);
+
+        pushButton->setDefault(false);
+
 
         QMetaObject::connectSlotsByName(MainWindow);
     } // setupUi

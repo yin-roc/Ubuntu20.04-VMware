@@ -1,0 +1,9 @@
+[ 12%] [34m[1mAutomatic MOC and UIC for target demo_node[0m
+[ 12%] Built target demo_node_autogen
+[35m[1mScanning dependencies of target demo_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/mainwindow.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/demo_node.dir/demo_node_autogen/mocs_compilation.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/main.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/user.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node[0m
+[100%] Built target demo_node
