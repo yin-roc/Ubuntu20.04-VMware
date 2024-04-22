@@ -3,10 +3,11 @@
 
 #include <QWidget>
 #include <QTimer>
-#include <QtSerialPort/QSerialPort>
+#include <QSerialPort>
 #include <QtSerialPort/QSerialPortInfo>
 #include <QString>
-#include <QMutex>
+// #include <QSerialPortInfo>
+// #include <QtSerialPort/QSerialPort>
 
 namespace Ui {
 class Serial;
@@ -42,8 +43,6 @@ private slots:
 private:
     Ui::Serial *ui;
     QTimer* timer;
-    QMutex mutex; // 互斥锁
-    QMutex portListMutex;
     QStringList portStringList; // 设备已接串口
     QSerialPort * serial;
     QString Sendtext; // 发送的字符串

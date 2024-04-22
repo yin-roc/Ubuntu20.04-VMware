@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 12.0.2, 2024-04-22T17:37:51. -->
+<!-- Written by QtCreator 12.0.2, 2024-04-22T21:00:26. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -139,17 +139,9 @@
      <value type="QString">LD_LIBRARY_PATH=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib:/opt/ros/noetic/lib:/home/yin-roc/Qt/6.6.2/gcc_64/lib</value>
      <value type="QString">PATH=/opt/ros/noetic/bin:/home/yin-roc/Qt/6.6.2/gcc_64/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin</value>
      <value type="QString">PKG_CONFIG_PATH=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/home/yin-roc/Qt/6.6.2/gcc_64/lib/pkgconfig</value>
-     <value type="QString">PWD=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws</value>
-     <value type="QString">PYTHONPATH=/opt/ros/noetic/lib/python3/dist-packages</value>
      <value type="QString">ROSLISP_PACKAGE_DIRECTORIES=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/share/common-lisp</value>
-     <value type="QString">ROS_DISTRO=noetic</value>
-     <value type="QString">ROS_ETC_DIR=/opt/ros/noetic/etc/ros</value>
-     <value type="QString">ROS_MASTER_URI=http://localhost:11311</value>
      <value type="QString">ROS_PACKAGE_PATH=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo:/opt/ros/noetic/share</value>
-     <value type="QString">ROS_PYTHON_VERSION=3</value>
-     <value type="QString">ROS_ROOT=/opt/ros/noetic/share/ros</value>
-     <value type="QString">ROS_VERSION=1</value>
-     <value type="QString">SHLVL=828</value>
+     <value type="QString">SHLVL=952</value>
      <value type="QString">TERM=xterm</value>
      <value type="QString">_=/usr/bin/env</value>
     </valuelist>

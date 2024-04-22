@@ -17,6 +17,7 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
     void deal_user_interface_back_signal();
+    void deal_admin_back_signal();
 
 private slots:
     void on_log_in_pushButton_clicked();

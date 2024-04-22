@@ -53,20 +53,26 @@ void Serial::on_pushButton_open_serial_clicked()
 
         // 串口名
         serial->setPortName(ui->comboBox_portName->currentText());
+
         // 波特率
         serial->setBaudRate(ui->comboBox_baudrate->currentText().toInt());
+
         // 数据位
         // QSerialPort::Data5、QSerialPort::Data6、QSerialPort::Data7、QSerialPort::Data8
         serial->setDataBits(QSerialPort::Data8);
+
         // 校验位
         // 可选 QSerialPort::EvenParity、QSerialPort::OddParity、QSerialPort::NoParity
         serial->setParity(QSerialPort::NoParity);
+
         // 停止位
         // 可选 QSerialPort::OneStop、QSerialPort::OneAndHalfStop、QSerialPort::TwoStop
         serial->setStopBits(QSerialPort::OneStop);
+
         // 流控
         serial->setFlowControl(QSerialPort::NoFlowControl);
-        // 无法打开串口
+
+        // 无法打开串口弹出报错信息
         if(!serial->open(QIODevice::ReadWrite)){
             // QMessageBox::information(this, "错误提示", "无法打开串口", QMessageBox::Ok);
             connect(serial, &QSerialPort::errorOccurred, this, &Serial::handleSerialError);
@@ -89,15 +95,12 @@ void Serial::on_pushButton_open_serial_clicked()
 
 //
 void Serial::TimerEvent1(){
-    QMutexLocker locker(&mutex); // 锁定互斥锁，确保在多线程环境下安全调用
-
     QStringList newportStringList;
     newportStringList.clear();
 
     for(const QSerialPortInfo &info : QSerialPortInfo::availablePorts()){
         newportStringList += info.portName();
     }
-    QMutexLocker locker2(&portListMutex); // 锁定 portStringList 的互斥锁
     if(newportStringList.size() != portStringList.size()){
         portStringList = newportStringList;
         ui->comboBox_portName->clear();

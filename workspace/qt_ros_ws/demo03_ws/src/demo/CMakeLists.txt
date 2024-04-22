@@ -172,6 +172,12 @@ add_executable(${PROJECT_NAME}_node
         src/admin.ui
         src/serial.cpp
         src/serial.ui
+        src/base_info.cpp
+        src/base_info.ui
+        src/sensor_info.cpp
+        src/sensor_info.ui
+        src/map.cpp
+        src/map.ui
 )
 
 #设置可执行文件依赖的库。
