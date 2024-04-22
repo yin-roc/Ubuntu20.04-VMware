@@ -27,7 +27,7 @@ private slots:
     void Send_back_to_admin_slots();
     void on_pushButton_open_serial_clicked(); // 打开串口
     void TimerEvent1(); // 刷新已连接串口信息
-    void on_checkBox_clicked();
+    // void on_checkBox_clicked();
     void on_checkBox_2_clicked();
     void on_checkBox_3_clicked();
     void on_pushButton_send_clicked(); // 发送 按钮槽函数

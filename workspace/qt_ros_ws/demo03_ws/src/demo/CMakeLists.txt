@@ -14,8 +14,8 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 #寻找Qt的包
-find_package(Qt6 REQUIRED COMPONENTS Widgets)
-find_package(Qt6 REQUIRED COMPONENTS SerialPort)
+find_package(Qt5 REQUIRED COMPONENTS Widgets)
+find_package(Qt5 REQUIRED COMPONENTS SerialPort)
 
 #设置自动生成moc文件，一定要设置
 set(CMAKE_AUTOMOC ON)
@@ -176,8 +176,8 @@ add_executable(${PROJECT_NAME}_node
 
 #设置可执行文件依赖的库。
 target_link_libraries(${PROJECT_NAME}_node PRIVATE ${catkin_LIBRARIES})
-target_link_libraries(${PROJECT_NAME}_node PRIVATE Qt6::Widgets)#链接Qt库
-target_link_libraries(${PROJECT_NAME}_node PRIVATE Qt6::SerialPort)
+target_link_libraries(${PROJECT_NAME}_node PRIVATE Qt5::Widgets)#链接Qt库
+target_link_libraries(${PROJECT_NAME}_node PRIVATE Qt5::SerialPort)
 
 
 #############

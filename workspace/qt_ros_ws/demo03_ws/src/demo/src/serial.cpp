@@ -107,12 +107,12 @@ void Serial::TimerEvent1(){
 
 
 // 以下三种：设置三个复选框同时只能选择一个
-void Serial::on_checkBox_clicked()
-{
-    ui->checkBox->setCheckState(Qt::Checked);
-    ui->checkBox_2->setCheckState(Qt::Unchecked);
-    ui->checkBox_3->setCheckState(Qt::Unchecked);
-}
+// void Serial::on_checkBox_clicked()
+// {
+//     ui->checkBox->setCheckState(Qt::Checked);
+//     ui->checkBox_2->setCheckState(Qt::Unchecked);
+//     ui->checkBox_3->setCheckState(Qt::Unchecked);
+// }
 void Serial::on_checkBox_2_clicked()
 {
     ui->checkBox_2->setCheckState(Qt::Checked);
