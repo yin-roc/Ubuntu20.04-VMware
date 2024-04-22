@@ -1,5 +1,0 @@
-/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/catkin_demo_ws/build/Direction_control/config.tests/static_link_order/CMakeFiles/rebuild_cache.dir
-/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/catkin_demo_ws/build/Direction_control/config.tests/static_link_order/CMakeFiles/edit_cache.dir
-/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/catkin_demo_ws/build/Direction_control/config.tests/static_link_order/CMakeFiles/static_link_order_test.dir
-/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/catkin_demo_ws/build/Direction_control/config.tests/static_link_order/CMakeFiles/staticLib.dir
-/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/catkin_demo_ws/build/Direction_control/config.tests/static_link_order/CMakeFiles/objLib.dir

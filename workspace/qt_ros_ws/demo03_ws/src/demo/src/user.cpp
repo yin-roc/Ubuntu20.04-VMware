@@ -16,6 +16,10 @@ User::User(QWidget *parent)
 {
     ui->setupUi(this);
 
+    this->setWindowTitle("用户界面");
+    this->resize(800, 600);
+
+
     // 设置 speed_horizontalSlider 相关参数
     ui->speed_horizontalSlider->setMinimum(0.0); // 设置最小值
     ui->speed_horizontalSlider->setMaximum(200.0); // 设置最大值
@@ -34,6 +38,7 @@ User::User(QWidget *parent)
     // 信号与槽：speed_horizontalSlider 变化影响 doubleSpinBox
     connect(ui->speed_horizontalSlider, &QAbstractSlider::valueChanged, ui->doubleSpinBox, &QDoubleSpinBox::setValue);
 
+    // 测试 自定义速度设置
     connect(ui->doubleSpinBox, QOverload<double>::of(&QDoubleSpinBox::valueChanged), this, &User::onDoubleSpinBoxValueChanged);
 
 
@@ -46,6 +51,7 @@ User::~User()
 }
 
 
+// 发送回退到主菜单信号
 void User::handle_back_menu_signal_slot(){
     emit back_menu_signal();
 }
@@ -53,10 +59,15 @@ void User::handle_back_menu_signal_slot(){
 
 // 测试用
 void User::onDoubleSpinBoxValueChanged(double value) {
-    qDebug() << "New value:" << value;
-    ui->label_11->setText(QString::number(value));
+    qDebug() << "New value:" << value/100 << " m/s";
 }
 
 
-
+// 开始工作
+void User::on_work_pushButton_clicked()
+{
+    // 禁止所有输入操作
+    ui->speed_horizontalSlider->setEnabled(false);
+    ui->doubleSpinBox->setEnabled(false);
+}
 

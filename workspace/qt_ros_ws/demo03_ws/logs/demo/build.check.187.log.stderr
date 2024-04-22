@@ -1,0 +1,13 @@
+CMake Error at /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/CMakeLists.txt:180 (target_link_libraries):
+  The plain signature for target_link_libraries has already been used with
+  the target "demo_node".  All uses of target_link_libraries with a target
+  must be either all-keyword or all-plain.
+
+  The uses of the plain signature are here:
+
+   * CMakeLists.txt:178 (target_link_libraries)
+   * CMakeLists.txt:179 (target_link_libraries)
+
+
+
+make: *** [Makefile:768：cmake_check_build_system] 错误 1

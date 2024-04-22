@@ -640,6 +640,33 @@ src/qnode1.cpp.s:
 	$(MAKE) -f CMakeFiles/demo_node.dir/build.make CMakeFiles/demo_node.dir/src/qnode1.cpp.s
 .PHONY : src/qnode1.cpp.s
 
+src/serial.o: src/serial.cpp.o
+
+.PHONY : src/serial.o
+
+# target to build an object file
+src/serial.cpp.o:
+	$(MAKE) -f CMakeFiles/demo_node.dir/build.make CMakeFiles/demo_node.dir/src/serial.cpp.o
+.PHONY : src/serial.cpp.o
+
+src/serial.i: src/serial.cpp.i
+
+.PHONY : src/serial.i
+
+# target to preprocess a source file
+src/serial.cpp.i:
+	$(MAKE) -f CMakeFiles/demo_node.dir/build.make CMakeFiles/demo_node.dir/src/serial.cpp.i
+.PHONY : src/serial.cpp.i
+
+src/serial.s: src/serial.cpp.s
+
+.PHONY : src/serial.s
+
+# target to generate assembly for a file
+src/serial.cpp.s:
+	$(MAKE) -f CMakeFiles/demo_node.dir/build.make CMakeFiles/demo_node.dir/src/serial.cpp.s
+.PHONY : src/serial.cpp.s
+
 src/user.o: src/user.cpp.o
 
 .PHONY : src/user.o
@@ -721,6 +748,9 @@ help:
 	@echo "... src/qnode1.o"
 	@echo "... src/qnode1.i"
 	@echo "... src/qnode1.s"
+	@echo "... src/serial.o"
+	@echo "... src/serial.i"
+	@echo "... src/serial.s"
 	@echo "... src/user.o"
 	@echo "... src/user.i"
 	@echo "... src/user.s"

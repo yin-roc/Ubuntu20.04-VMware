@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'admin.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.8
+** Created by: Qt User Interface Compiler version 6.6.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -11,7 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QLabel>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -19,16 +19,19 @@ QT_BEGIN_NAMESPACE
 class Ui_Admin
 {
 public:
-    QLabel *label;
+    QPushButton *pushButton;
 
     void setupUi(QWidget *Admin)
     {
         if (Admin->objectName().isEmpty())
-            Admin->setObjectName(QString::fromUtf8("Admin"));
-        Admin->resize(400, 300);
-        label = new QLabel(Admin);
-        label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(140, 110, 67, 17));
+            Admin->setObjectName("Admin");
+        Admin->resize(800, 600);
+        pushButton = new QPushButton(Admin);
+        pushButton->setObjectName("pushButton");
+        pushButton->setGeometry(QRect(340, 160, 101, 51));
+        QFont font;
+        font.setPointSize(16);
+        pushButton->setFont(font);
 
         retranslateUi(Admin);
 
@@ -37,8 +40,8 @@ public:
 
     void retranslateUi(QWidget *Admin)
     {
-        Admin->setWindowTitle(QApplication::translate("Admin", "Form", nullptr));
-        label->setText(QApplication::translate("Admin", "Admin", nullptr));
+        Admin->setWindowTitle(QCoreApplication::translate("Admin", "Form", nullptr));
+        pushButton->setText(QCoreApplication::translate("Admin", "\344\270\262\345\217\243\350\260\203\350\257\225", nullptr));
     } // retranslateUi
 
 };

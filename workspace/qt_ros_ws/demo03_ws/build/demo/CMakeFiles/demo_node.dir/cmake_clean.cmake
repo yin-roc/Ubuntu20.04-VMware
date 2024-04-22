@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/demo_node.dir/src/main.cpp.o"
   "CMakeFiles/demo_node.dir/src/mainwindow.cpp.o"
   "CMakeFiles/demo_node.dir/src/qnode1.cpp.o"
+  "CMakeFiles/demo_node.dir/src/serial.cpp.o"
   "CMakeFiles/demo_node.dir/src/user.cpp.o"
 )
 

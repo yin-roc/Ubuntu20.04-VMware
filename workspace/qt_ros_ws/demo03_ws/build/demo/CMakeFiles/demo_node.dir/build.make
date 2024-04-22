@@ -135,6 +135,19 @@ CMakeFiles/demo_node.dir/src/admin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo_node.dir/src/admin.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/admin.cpp -o CMakeFiles/demo_node.dir/src/admin.cpp.s
 
+CMakeFiles/demo_node.dir/src/serial.cpp.o: CMakeFiles/demo_node.dir/flags.make
+CMakeFiles/demo_node.dir/src/serial.cpp.o: /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/serial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/demo_node.dir/src/serial.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_node.dir/src/serial.cpp.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/serial.cpp
+
+CMakeFiles/demo_node.dir/src/serial.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo_node.dir/src/serial.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/serial.cpp > CMakeFiles/demo_node.dir/src/serial.cpp.i
+
+CMakeFiles/demo_node.dir/src/serial.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo_node.dir/src/serial.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/serial.cpp -o CMakeFiles/demo_node.dir/src/serial.cpp.s
+
 # Object files for target demo_node
 demo_node_OBJECTS = \
 "CMakeFiles/demo_node.dir/demo_node_autogen/mocs_compilation.cpp.o" \
@@ -142,7 +155,8 @@ demo_node_OBJECTS = \
 "CMakeFiles/demo_node.dir/src/mainwindow.cpp.o" \
 "CMakeFiles/demo_node.dir/src/qnode1.cpp.o" \
 "CMakeFiles/demo_node.dir/src/user.cpp.o" \
-"CMakeFiles/demo_node.dir/src/admin.cpp.o"
+"CMakeFiles/demo_node.dir/src/admin.cpp.o" \
+"CMakeFiles/demo_node.dir/src/serial.cpp.o"
 
 # External object files for target demo_node
 demo_node_EXTERNAL_OBJECTS =
@@ -153,6 +167,7 @@ demo_node_EXTERNAL_OBJECTS =
 /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node: CMakeFiles/demo_node.dir/src/qnode1.cpp.o
 /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node: CMakeFiles/demo_node.dir/src/user.cpp.o
 /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node: CMakeFiles/demo_node.dir/src/admin.cpp.o
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node: CMakeFiles/demo_node.dir/src/serial.cpp.o
 /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node: CMakeFiles/demo_node.dir/build.make
 /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node: /opt/ros/noetic/lib/libroscpp.so
 /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node: /usr/lib/x86_64-linux-gnu/libpthread.so
@@ -171,11 +186,14 @@ demo_node_EXTERNAL_OBJECTS =
 /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
 /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
 /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
-/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
-/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node: /home/yin-roc/Qt/6.6.2/gcc_64/lib/libQt6Widgets.so.6.6.2
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node: /home/yin-roc/Qt/6.6.2/gcc_64/lib/libQt6SerialPort.so.6.6.2
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node: /home/yin-roc/Qt/6.6.2/gcc_64/lib/libQt6Gui.so.6.6.2
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node: /usr/lib/x86_64-linux-gnu/libGLX.so
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node: /home/yin-roc/Qt/6.6.2/gcc_64/lib/libQt6Core.so.6.6.2
 /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node: CMakeFiles/demo_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/demo_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

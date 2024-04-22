@@ -1,8 +1,0 @@
-prefix=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/catkin_demo_ws/devel
-
-Name: Direction_control
-Description: Description of Direction_control
-Version: 0.1.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

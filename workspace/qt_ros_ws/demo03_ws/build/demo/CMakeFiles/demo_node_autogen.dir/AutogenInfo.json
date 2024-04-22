@@ -23,6 +23,11 @@
 			"UVLADIE3JM/moc_qnode1.cpp"
 		],
 		[
+			"/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/serial.h",
+			"MU",
+			"UVLADIE3JM/moc_serial.cpp"
+		],
+		[
 			"/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/user.h",
 			"MU",
 			"UVLADIE3JM/moc_user.cpp"
@@ -35,6 +40,7 @@
 	[
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
+		"QT_SERIALPORT_LIB",
 		"QT_WIDGETS_LIB",
 		"ROSCONSOLE_BACKEND_LOG4CXX",
 		"ROS_BUILD_SHARED_LIBS=1",
@@ -53,11 +59,12 @@
 		"/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo",
 		"/opt/ros/noetic/include",
 		"/opt/ros/noetic/include/xmlrpcpp",
-		"/usr/include/x86_64-linux-gnu/qt5",
-		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
-		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
-		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
-		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/home/yin-roc/Qt/6.6.2/gcc_64/include/QtWidgets",
+		"/home/yin-roc/Qt/6.6.2/gcc_64/include",
+		"/home/yin-roc/Qt/6.6.2/gcc_64/include/QtCore",
+		"/home/yin-roc/Qt/6.6.2/gcc_64/mkspecs/linux-g++",
+		"/home/yin-roc/Qt/6.6.2/gcc_64/include/QtGui",
+		"/home/yin-roc/Qt/6.6.2/gcc_64/include/QtSerialPort",
 		"/usr/include",
 		"/usr/include/c++/9",
 		"/usr/include/x86_64-linux-gnu/c++/9",
@@ -66,7 +73,14 @@
 		"/usr/local/include",
 		"/usr/include/x86_64-linux-gnu"
 	],
-	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_GADGET_EXPORT",
+		"Q_NAMESPACE_EXPORT"
+	],
 	"MOC_OPTIONS" : [],
 	"MOC_PATH_PREFIX" : true,
 	"MOC_PREDEFS_CMD" : 
@@ -83,9 +97,9 @@
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 16,
 	"PARSE_CACHE_FILE" : "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node_autogen.dir/ParseCache.txt",
-	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
-	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
-	"QT_VERSION_MAJOR" : 5,
+	"QT_MOC_EXECUTABLE" : "/home/yin-roc/Qt/6.6.2/gcc_64/./libexec/moc",
+	"QT_UIC_EXECUTABLE" : "/home/yin-roc/Qt/6.6.2/gcc_64/./libexec/uic",
+	"QT_VERSION_MAJOR" : 6,
 	"SETTINGS_FILE" : "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
@@ -103,6 +117,10 @@
 		],
 		[
 			"/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/qnode1.cpp",
+			"MU"
+		],
+		[
+			"/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/serial.cpp",
 			"MU"
 		],
 		[

@@ -489,3 +489,41 @@ make[1]: 离开目录“/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_r
 
 
 
+Performing C++ SOURCE FILE Test HAVE_STDATOMIC succeeded with the following output:
+Change Dir: /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_782c8/fast && make[1]: 进入目录“/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_782c8.dir/build.make CMakeFiles/cmTC_782c8.dir/build
+make[2]: 进入目录“/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_782c8.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_STDATOMIC   -o CMakeFiles/cmTC_782c8.dir/src.cxx.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_782c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_782c8.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_STDATOMIC    CMakeFiles/cmTC_782c8.dir/src.cxx.o  -o cmTC_782c8 
+make[2]: 离开目录“/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/CMakeTmp”
+make[1]: 离开目录“/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <atomic>
+#include <cstdint>
+
+int main(int, char **)
+{
+    volatile std::atomic<char>    size_1;
+    volatile std::atomic<short>   size_2;
+    volatile std::atomic<int>     size_4;
+    volatile std::atomic<int64_t> size_8;
+
+    ++size_1;
+    ++size_2;
+    ++size_4;
+    ++size_8;
+
+    (void)size_1.load(std::memory_order_relaxed);
+    (void)size_2.load(std::memory_order_relaxed);
+    (void)size_4.load(std::memory_order_relaxed);
+    (void)size_8.load(std::memory_order_relaxed);
+
+    return 0;
+}

@@ -1,0 +1,10 @@
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/serial.cpp:[m[K In member function ‘[01m[Kvoid Serial::on_pushButton_open_serial_clicked()[m[K’:
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/serial.cpp:60:13:[m[K [01;31m[Kerror: [m[K‘[01m[KQMessageBox[m[K’ has not been declared
+   60 |             [01;31m[KQMessageBox[m[K::information(this, "错误提示", "无法打开串口",QMessageBox::Ok);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/serial.cpp:60:81:[m[K [01;31m[Kerror: [m[K‘[01m[KQMessageBox[m[K’ has not been declared
+   60 |             QMessageBox::information(this, "错误提示", "无法打开串口",[01;31m[KQMessageBox[m[K::Ok);
+      |                                                                                 [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/demo_node.dir/build.make:141：CMakeFiles/demo_node.dir/src/serial.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:453：CMakeFiles/demo_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

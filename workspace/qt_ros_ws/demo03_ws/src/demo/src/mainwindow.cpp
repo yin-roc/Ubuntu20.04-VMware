@@ -8,6 +8,8 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
+    this->resize(800, 600);
+
     // 处理用户界面返回信号
     connect(&user_interface, &User::back_menu_signal, this, &MainWindow::deal_user_interface_back_signal);
 }
@@ -24,7 +26,7 @@ void MainWindow::on_log_in_pushButton_clicked()
         user_interface.show();
         this->hide();
     }
-    else if(ui->Account_lineEdit->text() == "admin" && ui->password_lineEdit->text() == "123456"){
+    else if(ui->Account_lineEdit->text() == "admin" && ui->password_lineEdit->text() == "123"){
         administrator.show();
         this->hide();
     }

@@ -1,0 +1,6 @@
+CMake Error: The INTERFACE_QT_MAJOR_VERSION property of "Qt6::SerialPort" does
+not agree with the value of QT_MAJOR_VERSION already determined
+for "demo_node".
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** [Makefile:768：cmake_check_build_system] 错误 1
