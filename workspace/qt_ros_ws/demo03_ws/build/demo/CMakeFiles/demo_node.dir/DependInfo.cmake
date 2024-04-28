@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/build/demo/demo_node_autogen/mocs_compilation.cpp" "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/demo_node_autogen/mocs_compilation.cpp.o"
   "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/admin.cpp" "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/src/admin.cpp.o"
   "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/base_info.cpp" "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/src/base_info.cpp.o"
+  "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/gpsmanager.cpp" "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/src/gpsmanager.cpp.o"
   "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/main.cpp" "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/src/main.cpp.o"
   "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/mainwindow.cpp" "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/src/mainwindow.cpp.o"
   "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/map.cpp" "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/src/map.cpp.o"
@@ -21,7 +22,15 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "QT_CORE_LIB"
   "QT_GUI_LIB"
+  "QT_NETWORK_LIB"
+  "QT_POSITIONING_LIB"
+  "QT_PRINTSUPPORT_LIB"
+  "QT_QML_LIB"
+  "QT_QUICK_LIB"
   "QT_SERIALPORT_LIB"
+  "QT_WEBCHANNEL_LIB"
+  "QT_WEBENGINECORE_LIB"
+  "QT_WEBENGINEWIDGETS_LIB"
   "QT_WIDGETS_LIB"
   "ROSCONSOLE_BACKEND_LOG4CXX"
   "ROS_BUILD_SHARED_LIBS=1"
@@ -41,6 +50,14 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"
   "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
   "/usr/include/x86_64-linux-gnu/qt5/QtSerialPort"
+  "/usr/include/x86_64-linux-gnu/qt5/QtWebEngineWidgets"
+  "/usr/include/x86_64-linux-gnu/qt5/QtWebEngineCore"
+  "/usr/include/x86_64-linux-gnu/qt5/QtQuick"
+  "/usr/include/x86_64-linux-gnu/qt5/QtQml"
+  "/usr/include/x86_64-linux-gnu/qt5/QtNetwork"
+  "/usr/include/x86_64-linux-gnu/qt5/QtWebChannel"
+  "/usr/include/x86_64-linux-gnu/qt5/QtPositioning"
+  "/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"
   )
 
 # Targets to which this target links.

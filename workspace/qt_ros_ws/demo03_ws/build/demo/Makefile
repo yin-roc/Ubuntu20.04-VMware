@@ -586,6 +586,33 @@ src/base_info.cpp.s:
 	$(MAKE) -f CMakeFiles/demo_node.dir/build.make CMakeFiles/demo_node.dir/src/base_info.cpp.s
 .PHONY : src/base_info.cpp.s
 
+src/gpsmanager.o: src/gpsmanager.cpp.o
+
+.PHONY : src/gpsmanager.o
+
+# target to build an object file
+src/gpsmanager.cpp.o:
+	$(MAKE) -f CMakeFiles/demo_node.dir/build.make CMakeFiles/demo_node.dir/src/gpsmanager.cpp.o
+.PHONY : src/gpsmanager.cpp.o
+
+src/gpsmanager.i: src/gpsmanager.cpp.i
+
+.PHONY : src/gpsmanager.i
+
+# target to preprocess a source file
+src/gpsmanager.cpp.i:
+	$(MAKE) -f CMakeFiles/demo_node.dir/build.make CMakeFiles/demo_node.dir/src/gpsmanager.cpp.i
+.PHONY : src/gpsmanager.cpp.i
+
+src/gpsmanager.s: src/gpsmanager.cpp.s
+
+.PHONY : src/gpsmanager.s
+
+# target to generate assembly for a file
+src/gpsmanager.cpp.s:
+	$(MAKE) -f CMakeFiles/demo_node.dir/build.make CMakeFiles/demo_node.dir/src/gpsmanager.cpp.s
+.PHONY : src/gpsmanager.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -823,6 +850,9 @@ help:
 	@echo "... src/base_info.o"
 	@echo "... src/base_info.i"
 	@echo "... src/base_info.s"
+	@echo "... src/gpsmanager.o"
+	@echo "... src/gpsmanager.i"
+	@echo "... src/gpsmanager.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

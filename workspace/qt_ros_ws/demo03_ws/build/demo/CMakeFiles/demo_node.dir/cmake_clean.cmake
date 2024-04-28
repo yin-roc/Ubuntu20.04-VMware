@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/demo_node.dir/demo_node_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/demo_node.dir/src/admin.cpp.o"
   "CMakeFiles/demo_node.dir/src/base_info.cpp.o"
+  "CMakeFiles/demo_node.dir/src/gpsmanager.cpp.o"
   "CMakeFiles/demo_node.dir/src/main.cpp.o"
   "CMakeFiles/demo_node.dir/src/mainwindow.cpp.o"
   "CMakeFiles/demo_node.dir/src/map.cpp.o"

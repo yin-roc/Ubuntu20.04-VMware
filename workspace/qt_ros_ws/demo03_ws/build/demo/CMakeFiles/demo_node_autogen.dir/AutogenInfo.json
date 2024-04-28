@@ -18,6 +18,11 @@
 			"UVLADIE3JM/moc_base_info.cpp"
 		],
 		[
+			"/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/gpsmanager.h",
+			"MU",
+			"UVLADIE3JM/moc_gpsmanager.cpp"
+		],
+		[
 			"/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/mainwindow.h",
 			"MU",
 			"UVLADIE3JM/moc_mainwindow.cpp"
@@ -55,7 +60,15 @@
 	[
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_POSITIONING_LIB",
+		"QT_PRINTSUPPORT_LIB",
+		"QT_QML_LIB",
+		"QT_QUICK_LIB",
 		"QT_SERIALPORT_LIB",
+		"QT_WEBCHANNEL_LIB",
+		"QT_WEBENGINECORE_LIB",
+		"QT_WEBENGINEWIDGETS_LIB",
 		"QT_WIDGETS_LIB",
 		"ROSCONSOLE_BACKEND_LOG4CXX",
 		"ROS_BUILD_SHARED_LIBS=1",
@@ -80,6 +93,14 @@
 		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
 		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
 		"/usr/include/x86_64-linux-gnu/qt5/QtSerialPort",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWebEngineWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWebEngineCore",
+		"/usr/include/x86_64-linux-gnu/qt5/QtQuick",
+		"/usr/include/x86_64-linux-gnu/qt5/QtQml",
+		"/usr/include/x86_64-linux-gnu/qt5/QtNetwork",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWebChannel",
+		"/usr/include/x86_64-linux-gnu/qt5/QtPositioning",
+		"/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport",
 		"/usr/include",
 		"/usr/include/c++/9",
 		"/usr/include/x86_64-linux-gnu/c++/9",
@@ -117,6 +138,10 @@
 		],
 		[
 			"/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/base_info.cpp",
+			"MU"
+		],
+		[
+			"/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/gpsmanager.cpp",
 			"MU"
 		],
 		[

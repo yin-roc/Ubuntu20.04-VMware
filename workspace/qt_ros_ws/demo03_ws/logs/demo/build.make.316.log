@@ -1,0 +1,16 @@
+[  7%] [34m[1mAutomatic MOC and UIC for target demo_node[0m
+[  7%] Built target demo_node_autogen
+[35m[1mScanning dependencies of target demo_node[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/admin.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/mainwindow.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/main.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/demo_node.dir/demo_node_autogen/mocs_compilation.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/demo_node.dir/src/map.cpp.o[0m
+[ 53%] [32m[1mLinking CXX executable /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node[0m
+/usr/bin/ld: CMakeFiles/demo_node.dir/src/map.cpp.o: in function `Map::Map(QWidget*)':
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/map.cpp:33: undefined reference to `Map::getCoordinatesFromAddress(QString const&)'
+/usr/bin/ld: /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/map.cpp:34: undefined reference to `Map::getCoordinatesFromAddress(QString const&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/demo_node.dir/build.make:263：/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:453：CMakeFiles/demo_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

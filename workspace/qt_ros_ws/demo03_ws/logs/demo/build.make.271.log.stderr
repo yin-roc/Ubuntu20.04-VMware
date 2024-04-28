@@ -1,0 +1,8 @@
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/map.cpp:[m[K In member function ‘[01m[Kvoid Map::onTimerTimeout()[m[K’:
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/map.cpp:94:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Ui::Map[m[K’ has no member named ‘[01m[Km_view[m[K’
+   94 |     gpsManager->drawRoute(ui->[01;31m[Km_view[m[K->page());
+      |                               [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/demo_node.dir/build.make:180：CMakeFiles/demo_node.dir/src/map.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[1]: *** [CMakeFiles/Makefile2:453：CMakeFiles/demo_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2
