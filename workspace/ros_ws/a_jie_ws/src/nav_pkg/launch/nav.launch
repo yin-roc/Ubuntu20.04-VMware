@@ -8,9 +8,13 @@
         <rosparam file="$(find wpb_home_tutorials)/nav_lidar/local_costmap_params.yaml" command="load" />
         <param name="base_global_planner" value="global_planner/GlobalPlanner" /> 
         <!-- <param name="base_local_planner" value="wpbh_local_planner/WpbhLocalPlanner" /> -->
-        <param name="base_local_planner" value="dwa_local_planner/DWAPlannerROS"/>
-        <rosparam command="load" file="$(find wpb_home_tutorials)/nav_lidar/dwa_local_planner_params.yaml"/>
-        
+
+        <!-- DWA 局部路径规划 -->
+        <!-- <param name="base_local_planner" value="dwa_local_planner/DWAPlannerROS"/>
+        <rosparam command="load" file="$(find wpb_home_tutorials)/nav_lidar/dwa_local_planner_params.yaml"/> -->
+
+        <param name="base_local_planner" value="teb_local_planner/TebLocalPlannerROS"/>
+        <rosparam command="load" file="$(find wpb_home_tutorials)/nav_lidar/teb_local_planner_params.yaml"/>    
         
     </node>
     
