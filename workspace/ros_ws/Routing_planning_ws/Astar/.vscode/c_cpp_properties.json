@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/noetic/include/**",
+        "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/ros_ws/Routing_planning_ws/Astar/src/lattice_planning/include/**",
+        "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/ros_ws/Routing_planning_ws/Astar/src/lqr_steering/include/**",
+        "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/ros_ws/Routing_planning_ws/Astar/src/pathload/include/**",
+        "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/ros_ws/Routing_planning_ws/Astar/src/purepursuit/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}

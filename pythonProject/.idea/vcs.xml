@@ -2,5 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../workspace/ros_ws/a_jie_ws/src/wpr_simulation" vcs="Git" />
   </component>
 </project>

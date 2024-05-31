@@ -1,0 +1,8 @@
+prefix=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/ros_ws/Routing_planning_ws/Astar/install
+
+Name: lqr_steering
+Description: Description of lqr_steering
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

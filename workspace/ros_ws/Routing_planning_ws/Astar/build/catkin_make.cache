@@ -1,0 +1,2 @@
+car_model:lattice_planning:lqr_steering:map_line:pathload:purepursuit
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/ros_ws/Routing_planning_ws/Astar/devel -DCMAKE_INSTALL_PREFIX=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/ros_ws/Routing_planning_ws/Astar/install -G Unix Makefiles

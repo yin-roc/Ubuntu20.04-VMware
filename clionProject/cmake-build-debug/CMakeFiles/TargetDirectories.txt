@@ -1,0 +1,3 @@
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/clionProject/cmake-build-debug/CMakeFiles/clionProject.dir
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/clionProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/clionProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
