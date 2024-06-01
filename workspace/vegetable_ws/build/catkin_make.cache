@@ -1,0 +1,2 @@
+vegetable
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/devel -DCMAKE_INSTALL_PREFIX=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/install -G Unix Makefiles

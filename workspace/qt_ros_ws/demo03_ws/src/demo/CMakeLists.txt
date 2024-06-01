@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
+  geometry_msgs
 )
 
 #寻找Qt的包
@@ -21,6 +22,28 @@ find_package(Qt5 REQUIRED COMPONENTS SerialPort WebEngineWidgets WebChannel)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)#设置工程包含当前目录，非必须
+
+
+set(SRC_LIST
+        src/main.cpp
+        src/mainwindow.cpp
+        src/qnode1.cpp
+        src/mainwindow.ui
+        src/user.cpp
+        src/user.ui
+        src/admin.cpp
+        src/admin.ui
+        src/serial.cpp
+        src/serial.ui
+        src/base_info.cpp
+        src/base_info.ui
+        src/sensor_info.cpp
+        src/sensor_info.ui
+        src/map.cpp
+        src/map.ui
+        src/map.html
+        src/gpsmanager.cpp
+)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -161,26 +184,7 @@ include_directories(
 # )
 
 #指定将要构建的可执行文件的名称，以及它所依赖的源文件
-add_executable(${PROJECT_NAME}_node
-        src/main.cpp
-        src/mainwindow.cpp
-        src/qnode1.cpp
-        src/mainwindow.ui
-        src/user.cpp
-        src/user.ui
-        src/admin.cpp
-        src/admin.ui
-        src/serial.cpp
-        src/serial.ui
-        src/base_info.cpp
-        src/base_info.ui
-        src/sensor_info.cpp
-        src/sensor_info.ui
-        src/map.cpp
-        src/map.ui
-        src/map.html
-        src/gpsmanager.cpp
-)
+add_executable(${PROJECT_NAME}_node ${SRC_LIST})
 
 #设置可执行文件依赖的库。
 target_link_libraries(${PROJECT_NAME}_node PRIVATE ${catkin_LIBRARIES})

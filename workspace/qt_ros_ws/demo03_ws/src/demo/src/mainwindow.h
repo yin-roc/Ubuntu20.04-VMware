@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include "user.h"
 #include "admin.h"
+#include "qnode1.h"
 
 namespace Ui {
 class MainWindow;
@@ -14,7 +15,7 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
-    explicit MainWindow(QWidget *parent = nullptr);
+    explicit MainWindow(int argc, char** argv, QWidget *parent = nullptr);
     ~MainWindow();
     void deal_user_interface_back_signal();
     void deal_admin_back_signal();

@@ -1,0 +1,15 @@
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:1[m[K,
+                 from [01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/user.h:4[m[K,
+                 from [01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/user.cpp:1[m[K:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h: In instantiation of ‘[01m[Kstatic QMetaObject::Connection QObject::connect(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const typename QtPrivate::FunctionPointer<Func2>::Object*, Func2, Qt::ConnectionType) [with Func1 = void (QTimer::*)(QTimer::QPrivateSignal); Func2 = void (User::*)(double); typename QtPrivate::FunctionPointer<Func>::Object = QTimer; typename QtPrivate::FunctionPointer<Func2>::Object = User][m[K’:
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/user.cpp:48:62:[m[K   required from here
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:241:9:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: Signal and slot arguments are not compatible.
+  241 |         [01;31m[KQ_STATIC_ASSERT_X[m[K((QtPrivate::CheckCompatibleArguments<typename SignalType::Arguments, typename SlotType::Arguments>::value),
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/demo_node.dir/build.make:132：CMakeFiles/demo_node.dir/src/user.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[1]: *** [CMakeFiles/Makefile2:674：CMakeFiles/demo_node.dir/all] 错误 2
+make: *** [Makefile:146：all] 错误 2

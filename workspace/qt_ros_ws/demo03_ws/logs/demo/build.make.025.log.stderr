@@ -1,0 +1,18 @@
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/qnode1.cpp:9:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kqnode1::qnode1()[m[K’
+    9 | [01;31m[Kqnode1[m[K::qnode1(){
+      | [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/qnode1.cpp:1[m[K:
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/qnode1.h:7:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kconstexpr qnode1::qnode1(qnode1&&)[m[K’
+    7 | class [01;36m[Kqnode1[m[K
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/qnode1.h:7:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kconstexpr qnode1::qnode1(const qnode1&)[m[K’
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/qnode1.h:12:5:[m[K [01;36m[Knote: [m[K                ‘[01m[Kqnode1::qnode1(int, char**)[m[K’
+   12 |     [01;36m[Kqnode1[m[K(int argc, char** argv);
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/qnode1.h:7:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass qnode1[m[K’ defined here
+    7 | class [01;36m[Kqnode1[m[K
+      |       [01;36m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/demo_node.dir/build.make:118：CMakeFiles/demo_node.dir/src/qnode1.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[1]: *** [CMakeFiles/Makefile2:674：CMakeFiles/demo_node.dir/all] 错误 2
+make: *** [Makefile:146：all] 错误 2

@@ -5,6 +5,8 @@
 #include <QSlider>
 #include <QDebug>
 #include <iostream>
+#include "qnode1.h"
+
 /*
 由于 horizontalSlider 步进最小为整数1，因此修改 doubleSpinBox 单位为 cm/s;
 但是实际使用时，需要对获得的速度（）除以 10
@@ -41,7 +43,10 @@ User::User(QWidget *parent)
     // 测试 自定义速度设置
     connect(ui->doubleSpinBox, QOverload<double>::of(&QDoubleSpinBox::valueChanged), this, &User::onDoubleSpinBoxValueChanged);
 
-
+    // 更新速度
+    timer = new QTimer(this);
+    connect(timer, &QTimer::timeout, this, &User::updateSpeed);
+    timer->start(100);
 }
 
 User::~User()
@@ -70,4 +75,10 @@ void User::on_work_pushButton_clicked()
     ui->speed_horizontalSlider->setEnabled(false);
     ui->doubleSpinBox->setEnabled(false);
 }
+
+
+void User::updateSpeed(){
+    ui->speed_lineEdit->setText(QString::number(globalSpeed));
+}
+
 

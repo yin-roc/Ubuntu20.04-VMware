@@ -18,7 +18,7 @@ Admin::Admin(QWidget *parent)
     // 处理底盘信息界面返回信号
     connect(&base_screen, &Base_info::back_to_admin_signal, this, &Admin::deal_base_info_back_signal_slot);
 
-    // 处理底盘信息界面返回信号
+    // 处理地图信息界面返回信号
     connect(&map_screen, &Map::back_to_admin_signal, this, &Admin::deal_map_back_signal_slot);
 
     // 处理传感器信息界面返回信号

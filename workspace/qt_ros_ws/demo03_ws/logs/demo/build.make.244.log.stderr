@@ -1,8 +1,0 @@
-[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/admin.cpp:[m[K In constructor ‘[01m[KAdmin::Admin(QWidget*)[m[K’:
-[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/admin.cpp:25:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_screen[m[K’ is not a class, namespace, or enumeration
-   25 |     connect(&sensor_screen, &[01;31m[Ksensor_screen[m[K::back_to_admin_signal, this, &Admin::deal_sensor_info_back_signal_slot);
-      |                              [01;31m[K^~~~~~~~~~~~~[m[K
-make[2]: *** [CMakeFiles/demo_node.dir/build.make:128：CMakeFiles/demo_node.dir/src/admin.cpp.o] 错误 1
-make[2]: *** 正在等待未完成的任务....
-make[1]: *** [CMakeFiles/Makefile2:453：CMakeFiles/demo_node.dir/all] 错误 2
-make: *** [Makefile:141：all] 错误 2

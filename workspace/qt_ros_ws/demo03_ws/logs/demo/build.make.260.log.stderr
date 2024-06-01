@@ -1,8 +1,0 @@
-[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/gpsmanager.cpp:[m[K In member function ‘[01m[Kint GPSManager::getSpeedLimit(double, double)[m[K’:
-[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/gpsmanager.cpp:46:28:[m[K [01;31m[Kerror: [m[K‘[01m[KQRandomGenerator[m[K’ has not been declared
-   46 |     int randomSpeedLimit = [01;31m[KQRandomGenerator[m[K::global()->bounded(30, 110); // 生成30到109之间的随机数
-      |                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
-make[2]: *** [CMakeFiles/demo_node.dir/build.make:193：CMakeFiles/demo_node.dir/src/gpsmanager.cpp.o] 错误 1
-make[2]: *** 正在等待未完成的任务....
-make[1]: *** [CMakeFiles/Makefile2:453：CMakeFiles/demo_node.dir/all] 错误 2
-make: *** [Makefile:141：all] 错误 2

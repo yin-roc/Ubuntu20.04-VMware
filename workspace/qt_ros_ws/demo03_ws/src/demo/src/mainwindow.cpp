@@ -2,13 +2,16 @@
 #include "ui_mainwindow.h"
 #include "QMessageBox"
 
-MainWindow::MainWindow(QWidget *parent)
+MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
 
     this->resize(800, 600);
+
+    qnode1 node1(argc, argv);
+
 
     // 处理用户界面返回信号
     connect(&user_interface, &User::back_menu_signal, this, &MainWindow::deal_user_interface_back_signal);

@@ -1,7 +1,0 @@
-/usr/bin/ld: CMakeFiles/demo_node.dir/src/map.cpp.o: in function `Map::Map(QWidget*)':
-/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/map.cpp:33: undefined reference to `Map::getCoordinatesFromAddress(QString const&)'
-/usr/bin/ld: /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/map.cpp:34: undefined reference to `Map::getCoordinatesFromAddress(QString const&)'
-collect2: error: ld returned 1 exit status
-make[2]: *** [CMakeFiles/demo_node.dir/build.make:263：/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node] 错误 1
-make[1]: *** [CMakeFiles/Makefile2:453：CMakeFiles/demo_node.dir/all] 错误 2
-make: *** [Makefile:141：all] 错误 2

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="clionProject" targetName="clionProject" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7794dfc3-1249-4fef-b67e-b92be1b1b17b" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chhRobotics_CPP/chhRobotics_CPP/PathTracking/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chhRobotics_CPP/chhRobotics_CPP/PathTracking/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-f2cb655ceddcc7d89535.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-05-13T07-23-39-0450.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/.catkin_tools/profiles/default/packages/demo/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/.catkin_tools/profiles/default/packages/demo/package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/3.16.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/3.16.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/3.16.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/3.16.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/clean_test_results.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/clean_test_results.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/clean_test_results.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/clean_test_results.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/demo_node_autogen/mocs_compilation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/demo_node_autogen/mocs_compilation.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/src/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/src/mainwindow.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/src/mainwindow.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/src/qnode1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/src/qnode1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/src/user.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node.dir/src/user.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node_autogen.dir/AutogenInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node_autogen.dir/AutogenInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node_autogen.dir/AutogenUsed.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node_autogen.dir/AutogenUsed.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node_autogen.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node_autogen.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node_autogen.dir/ParseCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node_autogen.dir/ParseCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node_autogen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node_autogen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node_autogen.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node_autogen.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node_autogen.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/demo_node_autogen.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/download_extra_data.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/download_extra_data.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/download_extra_data.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/download_extra_data.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/doxygen.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/doxygen.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/doxygen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/doxygen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/roscpp_generate_messages_eus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/roscpp_generate_messages_eus.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/roscpp_generate_messages_py.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/roscpp_generate_messages_py.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/run_tests.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/run_tests.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/run_tests.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/run_tests.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/std_msgs_generate_messages_py.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/std_msgs_generate_messages_py.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/tests.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/tests.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/tests.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CMakeFiles/tests.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CTestConfiguration.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/CTestConfiguration.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/catkin_generated/package.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/catkin_generated/package.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/catkin_generated/stamps/demo/package.xml.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/catkin_generated/stamps/demo/package.xml.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/demo.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/demo.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/demo_node_autogen/UVLADIE3JM/moc_admin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/demo_node_autogen/UVLADIE3JM/moc_admin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/demo_node_autogen/UVLADIE3JM/moc_base_info.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/demo_node_autogen/UVLADIE3JM/moc_base_info.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/demo_node_autogen/UVLADIE3JM/moc_gpsmanager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/demo_node_autogen/UVLADIE3JM/moc_gpsmanager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/demo_node_autogen/UVLADIE3JM/moc_mainwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/demo_node_autogen/UVLADIE3JM/moc_mainwindow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/demo_node_autogen/UVLADIE3JM/moc_map.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/demo_node_autogen/UVLADIE3JM/moc_map.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/demo_node_autogen/UVLADIE3JM/moc_sensor_info.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/demo_node_autogen/UVLADIE3JM/moc_sensor_info.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/demo_node_autogen/UVLADIE3JM/moc_serial.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/demo_node_autogen/UVLADIE3JM/moc_serial.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/demo_node_autogen/UVLADIE3JM/moc_user.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/demo_node_autogen/UVLADIE3JM/moc_user.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/CMakeFiles/gmock.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/CMakeFiles/gmock.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/CMakeFiles/gmock.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/CMakeFiles/gmock.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/CMakeFiles/gmock.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/CMakeFiles/gmock.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/CMakeFiles/gmock.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/CMakeFiles/gmock.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/CMakeFiles/gmock_main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/CMakeFiles/gmock_main.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/CMakeFiles/gmock_main.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/CMakeFiles/gmock_main.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/CMakeFiles/gmock_main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/CMakeFiles/gmock_main.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/CMakeFiles/gmock_main.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/CMakeFiles/gmock_main.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/gmock.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googlemock/gmock.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest-distribution.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest-distribution.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/CMakeFiles/gtest.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/CMakeFiles/gtest.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/CMakeFiles/gtest.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/CMakeFiles/gtest.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/CMakeFiles/gtest.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/CMakeFiles/gtest.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/CMakeFiles/gtest.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/CMakeFiles/gtest.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/CMakeFiles/gtest_main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/CMakeFiles/gtest_main.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/CMakeFiles/gtest_main.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/CMakeFiles/gtest_main.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/CMakeFiles/gtest_main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/CMakeFiles/gtest_main.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/CMakeFiles/gtest_main.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/CMakeFiles/gtest_main.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/gtest.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/build/demo/gtest/googletest/gtest.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/demo03.workspace.user" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/demo03.workspace.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/devel/lib/demo/demo_node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.cache-manifest.319.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.cache-manifest.320.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.cache-manifest.321.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.cache-manifest.322.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.cache-manifest.323.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.cache-manifest.324.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.cache-manifest.325.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.cache-manifest.326.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.cache-manifest.327.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.cache-manifest.328.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.check.184.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.check.186.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.check.187.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.check.188.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.check.189.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.check.316.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.check.317.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.check.318.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.check.319.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.check.320.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.check.321.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.check.322.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.check.323.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.check.324.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.check.325.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.cmake.000.log" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.cmake.000.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.cmake.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.cmake.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.cmake.log" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.cmake.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.loadenv.319.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.loadenv.320.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.loadenv.321.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.loadenv.322.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.loadenv.323.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.loadenv.324.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.loadenv.325.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.loadenv.326.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.loadenv.327.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.loadenv.328.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.013.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.014.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.015.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.061.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.065.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.068.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.069.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.072.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.073.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.078.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.079.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.082.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.083.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.090.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.103.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.113.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.114.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.125.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.130.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.133.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.134.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.137.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.143.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.144.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.168.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.169.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.170.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.186.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.195.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.196.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.228.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.229.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.230.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.233.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.234.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.237.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.240.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.244.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.257.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.258.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.259.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.260.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.262.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.263.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.264.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.265.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.266.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.267.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.268.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.269.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.270.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.271.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.272.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.276.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.277.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.314.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.315.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.315.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.316.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.316.log.stderr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.317.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.318.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.319.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.320.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.321.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.322.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.make.323.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.mkdir.648.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.mkdir.649.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.mkdir.650.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.mkdir.651.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.mkdir.652.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.mkdir.653.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.mkdir.654.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.mkdir.655.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.mkdir.656.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/logs/demo/build.mkdir.657.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/src/demo/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/src/demo/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/src/demo/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/src/demo/package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/src/demo/src/admin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/src/demo/src/admin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/src/demo/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/src/demo/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/src/demo/src/mainwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/src/demo/src/mainwindow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/src/demo/src/mainwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/src/demo/src/mainwindow.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/src/demo/src/qnode1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/src/demo/src/qnode1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/src/demo/src/qnode1.h" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/src/demo/src/qnode1.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/src/demo/src/user.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/src/demo/src/user.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/src/demo/src/user.h" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace/qt_ros_ws/demo03_ws/src/demo/src/user.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="1" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2hHiA4h9Cx153NeFyCHF01Iaz7v" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clionProject" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="clionProject" TARGET_NAME="clionProject" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="clionProject" RUN_TARGET_NAME="clionProject">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="7794dfc3-1249-4fef-b67e-b92be1b1b17b" name="更改" comment="" />
+      <created>1717257256905</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717257256905</updated>
+      <workItem from="1717257258105" duration="47000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

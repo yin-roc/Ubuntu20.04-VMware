@@ -1,0 +1,30 @@
+In file included from [01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/qnode1.cpp:1[m[K:
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/qnode1.h:12:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ksignals[m[K’ does not name a type
+   12 | [01;31m[Ksignals[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/qnode1.h:12:1:[m[K [01;36m[Knote: [m[Kthe macro ‘[01m[Ksignals[m[K’ had not yet been defined
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:46[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:49[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:1[m[K,
+                 from [01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/qnode1.cpp:2[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:93:[m[K [01;36m[Knote: [m[Kit was later defined here
+   93 | #     define signals Q_SIGNALS
+      | 
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/qnode1.cpp:[m[K In member function ‘[01m[Kvoid qnode1::SpeedCallBack(const ConstPtr&)[m[K’:
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/qnode1.cpp:5:10:[m[K [01;31m[Kerror: [m[K‘[01m[KspeedReceived[m[K’ was not declared in this scope
+    5 |     emit [01;31m[KspeedReceived[m[K(vel->linear.x);
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/user.cpp:[m[K In constructor ‘[01m[KUser::User(QWidget*)[m[K’:
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/user.cpp:47:19:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+   47 |     connect(qnode1[01;31m[K,[m[K qnode1::speedReceived, this, &User::updateSpeed);
+      |                   [01;31m[K^[m[K
+[01m[K/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/qt_ros_ws/demo03_ws/src/demo/src/user.cpp:47:29:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid qnode1::speedReceived(double)[m[K’
+   47 |     connect(qnode1, qnode1::[01;31m[KspeedReceived[m[K, this, &User::updateSpeed);
+      |                             [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/demo_node.dir/build.make:118：CMakeFiles/demo_node.dir/src/qnode1.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/demo_node.dir/build.make:132：CMakeFiles/demo_node.dir/src/user.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:674：CMakeFiles/demo_node.dir/all] 错误 2
+make: *** [Makefile:146：all] 错误 2
