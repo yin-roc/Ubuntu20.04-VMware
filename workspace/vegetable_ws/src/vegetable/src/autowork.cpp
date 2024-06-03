@@ -27,7 +27,6 @@ int main(int argc, char *argv[])
     speed.angular.y = 0.0;
     speed.angular.z = 0.0;
 
-    ros::Rate rate(1);
 
     // 设置串口信息
     ser = new serial::Serial();
@@ -35,33 +34,40 @@ int main(int argc, char *argv[])
     int serial_baudrate = 115200;                                        
     int control_rate = 10;
 
+    ros::Rate rate(1);
+
     // 初始化串口（串口名、波特率、控制频率），打开串口失败则报错
     bool is_serial_ok = serial_init(ser, serial_port, serial_baudrate, control_rate);
 
-    if(is_serial_ok){
-        ROS_INFO("serial port is ok.");
-    }
-    else{
-        ROS_INFO("Fail to open serial port");
+    if (ser->isOpen()) {
+        ROS_INFO("Serial port is open.");
+    } else {
+        ROS_ERROR("Serial port is not open.");
+        return -1;  // 如果串口没有打开，直接退出程序
     }
 
-    while(ros::ok())
-    {
-        if(ser->isOpen() && ser->available()){
-            ROS_INFO("Switched to autowork state.");
-            start_time = ros::Time::now();
-            std::string speed_data;                         
-            default_path(ser, speed, start_time, speed_data);
-            ros::Duration(1).sleep();
+    // while(ros::ok()){
+        try{
+            if(ser->isOpen()){
+                std::string feedback = ser->readline();
+                ROS_INFO("Switched to autowork state.");
+                start_time = ros::Time::now();
+                std::string speed_data;                         
+                default_path(ser, speed, start_time, speed_data);
+                ros::Duration(1).sleep();
+            } 
+        }
+        catch (const serial::IOException& e){
+            ROS_ERROR("Serial read error: %s", e.what());
         } 
-        else{
-            ROS_INFO("Wrong!");
-        } 
-        ros::spinOnce();  // 确保处理回调函数
-        rate.sleep();
-  
-        return 0;
-    }
+        catch (const std::exception& e){
+            ROS_ERROR("Error: %s", e.what());
+        }  
+    //     ros::spinOnce();  // 确保处理回调函数
+    //     rate.sleep();
+    // }
+    return 0;
+
 }
 
 bool serial_init(serial::Serial* m_ser, std::string m_serial_port, int m_serial_baudrate, int m_control_rate){
@@ -71,7 +77,7 @@ bool serial_init(serial::Serial* m_ser, std::string m_serial_port, int m_serial_
         serial::Timeout to = serial::Timeout::simpleTimeout(1000 * 0.5 / m_control_rate);
         m_ser->setTimeout(to);
         m_ser->open();
-    
+        ROS_INFO("serial init!");
         if (!m_ser->isOpen()){
             throw serial::PortNotOpenedException("Failed to open serial port");
         }
