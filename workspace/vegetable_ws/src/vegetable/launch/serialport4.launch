@@ -1,0 +1,3 @@
+<launch>
+    <node name="serialport4" pkg="vegetable" type="serialport4" output="screen"/> 
+</launch>

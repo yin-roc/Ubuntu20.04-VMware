@@ -288,6 +288,5 @@ void default_path(serial::Serial* m_ser, geometry_msgs::Twist m_speed, ros::Time
         ROS_INFO("一次循环完成！");
         if(stop_thread.load())
             break;
-        }
-        
+        }  
 }
