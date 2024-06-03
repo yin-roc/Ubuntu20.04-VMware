@@ -1,0 +1,4 @@
+<launch>
+    <node name="autowork" pkg="vegetable" type="autowork" output="screen"/>
+    
+</launch>

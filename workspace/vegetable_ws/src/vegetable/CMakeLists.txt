@@ -140,6 +140,14 @@ add_executable(test_pub_twist src/test_pub_twist.cpp)
 add_executable(serialport src/serialport.cpp)
 add_executable(serialport2 src/serialport2.cpp)
 add_executable(serialport3 src/serialport3.cpp)
+add_executable(serialport4 src/serialport4.cpp)
+add_executable(test_thread1 src/test_thread1.cpp)
+add_executable(test_thread2 src/test_thread2.cpp)
+add_executable(test_thread3 src/test_thread3.cpp)
+add_executable(test_thread4 src/test_thread4.cpp)
+add_executable(pub_test src/pub_test.cpp)
+add_executable(kill_thread src/kill_thread.cpp)
+add_executable(autowork src/autowork.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -158,13 +166,37 @@ add_executable(serialport3 src/serialport3.cpp)
 target_link_libraries(test_pub_twist
   ${catkin_LIBRARIES}
 )
-target_link_libraries(serialport
+target_link_libraries(serialport 
   ${catkin_LIBRARIES}
 )
 target_link_libraries(serialport2
   ${catkin_LIBRARIES}
 )
 target_link_libraries(serialport3
+  ${catkin_LIBRARIES}
+)
+target_link_libraries(serialport4
+  ${catkin_LIBRARIES}
+)
+target_link_libraries(test_thread1
+  ${catkin_LIBRARIES}
+)
+target_link_libraries(test_thread2
+  ${catkin_LIBRARIES}
+)
+target_link_libraries(test_thread3
+  ${catkin_LIBRARIES}
+)
+target_link_libraries(test_thread4
+  ${catkin_LIBRARIES}
+)
+target_link_libraries(pub_test
+  ${catkin_LIBRARIES}
+)
+target_link_libraries(kill_thread
+  ${catkin_LIBRARIES}
+)
+target_link_libraries(autowork
   ${catkin_LIBRARIES}
 )
 

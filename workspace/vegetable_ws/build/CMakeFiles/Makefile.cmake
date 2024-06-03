@@ -230,4 +230,12 @@ set(CMAKE_DEPEND_INFO_FILES
   "vegetable/CMakeFiles/serialport.dir/DependInfo.cmake"
   "vegetable/CMakeFiles/serialport2.dir/DependInfo.cmake"
   "vegetable/CMakeFiles/serialport3.dir/DependInfo.cmake"
+  "vegetable/CMakeFiles/serialport4.dir/DependInfo.cmake"
+  "vegetable/CMakeFiles/test_thread1.dir/DependInfo.cmake"
+  "vegetable/CMakeFiles/test_thread2.dir/DependInfo.cmake"
+  "vegetable/CMakeFiles/test_thread3.dir/DependInfo.cmake"
+  "vegetable/CMakeFiles/test_thread4.dir/DependInfo.cmake"
+  "vegetable/CMakeFiles/pub_test.dir/DependInfo.cmake"
+  "vegetable/CMakeFiles/kill_thread.dir/DependInfo.cmake"
+  "vegetable/CMakeFiles/autowork.dir/DependInfo.cmake"
   )

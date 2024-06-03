@@ -507,6 +507,190 @@ serialport3/fast:
 	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/serialport3.dir/build.make vegetable/CMakeFiles/serialport3.dir/build
 .PHONY : serialport3/fast
 
+# Convenience name for target.
+vegetable/CMakeFiles/serialport4.dir/rule:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vegetable/CMakeFiles/serialport4.dir/rule
+.PHONY : vegetable/CMakeFiles/serialport4.dir/rule
+
+# Convenience name for target.
+serialport4: vegetable/CMakeFiles/serialport4.dir/rule
+.PHONY : serialport4
+
+# fast build rule for target.
+serialport4/fast:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/serialport4.dir/build.make vegetable/CMakeFiles/serialport4.dir/build
+.PHONY : serialport4/fast
+
+# Convenience name for target.
+vegetable/CMakeFiles/test_thread1.dir/rule:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vegetable/CMakeFiles/test_thread1.dir/rule
+.PHONY : vegetable/CMakeFiles/test_thread1.dir/rule
+
+# Convenience name for target.
+test_thread1: vegetable/CMakeFiles/test_thread1.dir/rule
+.PHONY : test_thread1
+
+# fast build rule for target.
+test_thread1/fast:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread1.dir/build.make vegetable/CMakeFiles/test_thread1.dir/build
+.PHONY : test_thread1/fast
+
+# Convenience name for target.
+vegetable/CMakeFiles/test_thread2.dir/rule:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vegetable/CMakeFiles/test_thread2.dir/rule
+.PHONY : vegetable/CMakeFiles/test_thread2.dir/rule
+
+# Convenience name for target.
+test_thread2: vegetable/CMakeFiles/test_thread2.dir/rule
+.PHONY : test_thread2
+
+# fast build rule for target.
+test_thread2/fast:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread2.dir/build.make vegetable/CMakeFiles/test_thread2.dir/build
+.PHONY : test_thread2/fast
+
+# Convenience name for target.
+vegetable/CMakeFiles/test_thread3.dir/rule:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vegetable/CMakeFiles/test_thread3.dir/rule
+.PHONY : vegetable/CMakeFiles/test_thread3.dir/rule
+
+# Convenience name for target.
+test_thread3: vegetable/CMakeFiles/test_thread3.dir/rule
+.PHONY : test_thread3
+
+# fast build rule for target.
+test_thread3/fast:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread3.dir/build.make vegetable/CMakeFiles/test_thread3.dir/build
+.PHONY : test_thread3/fast
+
+# Convenience name for target.
+vegetable/CMakeFiles/test_thread4.dir/rule:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vegetable/CMakeFiles/test_thread4.dir/rule
+.PHONY : vegetable/CMakeFiles/test_thread4.dir/rule
+
+# Convenience name for target.
+test_thread4: vegetable/CMakeFiles/test_thread4.dir/rule
+.PHONY : test_thread4
+
+# fast build rule for target.
+test_thread4/fast:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread4.dir/build.make vegetable/CMakeFiles/test_thread4.dir/build
+.PHONY : test_thread4/fast
+
+# Convenience name for target.
+vegetable/CMakeFiles/pub_test.dir/rule:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vegetable/CMakeFiles/pub_test.dir/rule
+.PHONY : vegetable/CMakeFiles/pub_test.dir/rule
+
+# Convenience name for target.
+pub_test: vegetable/CMakeFiles/pub_test.dir/rule
+.PHONY : pub_test
+
+# fast build rule for target.
+pub_test/fast:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/pub_test.dir/build.make vegetable/CMakeFiles/pub_test.dir/build
+.PHONY : pub_test/fast
+
+# Convenience name for target.
+vegetable/CMakeFiles/kill_thread.dir/rule:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vegetable/CMakeFiles/kill_thread.dir/rule
+.PHONY : vegetable/CMakeFiles/kill_thread.dir/rule
+
+# Convenience name for target.
+kill_thread: vegetable/CMakeFiles/kill_thread.dir/rule
+.PHONY : kill_thread
+
+# fast build rule for target.
+kill_thread/fast:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/kill_thread.dir/build.make vegetable/CMakeFiles/kill_thread.dir/build
+.PHONY : kill_thread/fast
+
+# Convenience name for target.
+vegetable/CMakeFiles/autowork.dir/rule:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vegetable/CMakeFiles/autowork.dir/rule
+.PHONY : vegetable/CMakeFiles/autowork.dir/rule
+
+# Convenience name for target.
+autowork: vegetable/CMakeFiles/autowork.dir/rule
+.PHONY : autowork
+
+# fast build rule for target.
+autowork/fast:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/autowork.dir/build.make vegetable/CMakeFiles/autowork.dir/build
+.PHONY : autowork/fast
+
+src/autowork.o: src/autowork.cpp.o
+.PHONY : src/autowork.o
+
+# target to build an object file
+src/autowork.cpp.o:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/autowork.dir/build.make vegetable/CMakeFiles/autowork.dir/src/autowork.cpp.o
+.PHONY : src/autowork.cpp.o
+
+src/autowork.i: src/autowork.cpp.i
+.PHONY : src/autowork.i
+
+# target to preprocess a source file
+src/autowork.cpp.i:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/autowork.dir/build.make vegetable/CMakeFiles/autowork.dir/src/autowork.cpp.i
+.PHONY : src/autowork.cpp.i
+
+src/autowork.s: src/autowork.cpp.s
+.PHONY : src/autowork.s
+
+# target to generate assembly for a file
+src/autowork.cpp.s:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/autowork.dir/build.make vegetable/CMakeFiles/autowork.dir/src/autowork.cpp.s
+.PHONY : src/autowork.cpp.s
+
+src/kill_thread.o: src/kill_thread.cpp.o
+.PHONY : src/kill_thread.o
+
+# target to build an object file
+src/kill_thread.cpp.o:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/kill_thread.dir/build.make vegetable/CMakeFiles/kill_thread.dir/src/kill_thread.cpp.o
+.PHONY : src/kill_thread.cpp.o
+
+src/kill_thread.i: src/kill_thread.cpp.i
+.PHONY : src/kill_thread.i
+
+# target to preprocess a source file
+src/kill_thread.cpp.i:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/kill_thread.dir/build.make vegetable/CMakeFiles/kill_thread.dir/src/kill_thread.cpp.i
+.PHONY : src/kill_thread.cpp.i
+
+src/kill_thread.s: src/kill_thread.cpp.s
+.PHONY : src/kill_thread.s
+
+# target to generate assembly for a file
+src/kill_thread.cpp.s:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/kill_thread.dir/build.make vegetable/CMakeFiles/kill_thread.dir/src/kill_thread.cpp.s
+.PHONY : src/kill_thread.cpp.s
+
+src/pub_test.o: src/pub_test.cpp.o
+.PHONY : src/pub_test.o
+
+# target to build an object file
+src/pub_test.cpp.o:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/pub_test.dir/build.make vegetable/CMakeFiles/pub_test.dir/src/pub_test.cpp.o
+.PHONY : src/pub_test.cpp.o
+
+src/pub_test.i: src/pub_test.cpp.i
+.PHONY : src/pub_test.i
+
+# target to preprocess a source file
+src/pub_test.cpp.i:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/pub_test.dir/build.make vegetable/CMakeFiles/pub_test.dir/src/pub_test.cpp.i
+.PHONY : src/pub_test.cpp.i
+
+src/pub_test.s: src/pub_test.cpp.s
+.PHONY : src/pub_test.s
+
+# target to generate assembly for a file
+src/pub_test.cpp.s:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/pub_test.dir/build.make vegetable/CMakeFiles/pub_test.dir/src/pub_test.cpp.s
+.PHONY : src/pub_test.cpp.s
+
 src/serialport.o: src/serialport.cpp.o
 .PHONY : src/serialport.o
 
@@ -579,6 +763,30 @@ src/serialport3.cpp.s:
 	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/serialport3.dir/build.make vegetable/CMakeFiles/serialport3.dir/src/serialport3.cpp.s
 .PHONY : src/serialport3.cpp.s
 
+src/serialport4.o: src/serialport4.cpp.o
+.PHONY : src/serialport4.o
+
+# target to build an object file
+src/serialport4.cpp.o:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/serialport4.dir/build.make vegetable/CMakeFiles/serialport4.dir/src/serialport4.cpp.o
+.PHONY : src/serialport4.cpp.o
+
+src/serialport4.i: src/serialport4.cpp.i
+.PHONY : src/serialport4.i
+
+# target to preprocess a source file
+src/serialport4.cpp.i:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/serialport4.dir/build.make vegetable/CMakeFiles/serialport4.dir/src/serialport4.cpp.i
+.PHONY : src/serialport4.cpp.i
+
+src/serialport4.s: src/serialport4.cpp.s
+.PHONY : src/serialport4.s
+
+# target to generate assembly for a file
+src/serialport4.cpp.s:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/serialport4.dir/build.make vegetable/CMakeFiles/serialport4.dir/src/serialport4.cpp.s
+.PHONY : src/serialport4.cpp.s
+
 src/test_pub_twist.o: src/test_pub_twist.cpp.o
 .PHONY : src/test_pub_twist.o
 
@@ -602,6 +810,102 @@ src/test_pub_twist.s: src/test_pub_twist.cpp.s
 src/test_pub_twist.cpp.s:
 	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_pub_twist.dir/build.make vegetable/CMakeFiles/test_pub_twist.dir/src/test_pub_twist.cpp.s
 .PHONY : src/test_pub_twist.cpp.s
+
+src/test_thread1.o: src/test_thread1.cpp.o
+.PHONY : src/test_thread1.o
+
+# target to build an object file
+src/test_thread1.cpp.o:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread1.dir/build.make vegetable/CMakeFiles/test_thread1.dir/src/test_thread1.cpp.o
+.PHONY : src/test_thread1.cpp.o
+
+src/test_thread1.i: src/test_thread1.cpp.i
+.PHONY : src/test_thread1.i
+
+# target to preprocess a source file
+src/test_thread1.cpp.i:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread1.dir/build.make vegetable/CMakeFiles/test_thread1.dir/src/test_thread1.cpp.i
+.PHONY : src/test_thread1.cpp.i
+
+src/test_thread1.s: src/test_thread1.cpp.s
+.PHONY : src/test_thread1.s
+
+# target to generate assembly for a file
+src/test_thread1.cpp.s:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread1.dir/build.make vegetable/CMakeFiles/test_thread1.dir/src/test_thread1.cpp.s
+.PHONY : src/test_thread1.cpp.s
+
+src/test_thread2.o: src/test_thread2.cpp.o
+.PHONY : src/test_thread2.o
+
+# target to build an object file
+src/test_thread2.cpp.o:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread2.dir/build.make vegetable/CMakeFiles/test_thread2.dir/src/test_thread2.cpp.o
+.PHONY : src/test_thread2.cpp.o
+
+src/test_thread2.i: src/test_thread2.cpp.i
+.PHONY : src/test_thread2.i
+
+# target to preprocess a source file
+src/test_thread2.cpp.i:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread2.dir/build.make vegetable/CMakeFiles/test_thread2.dir/src/test_thread2.cpp.i
+.PHONY : src/test_thread2.cpp.i
+
+src/test_thread2.s: src/test_thread2.cpp.s
+.PHONY : src/test_thread2.s
+
+# target to generate assembly for a file
+src/test_thread2.cpp.s:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread2.dir/build.make vegetable/CMakeFiles/test_thread2.dir/src/test_thread2.cpp.s
+.PHONY : src/test_thread2.cpp.s
+
+src/test_thread3.o: src/test_thread3.cpp.o
+.PHONY : src/test_thread3.o
+
+# target to build an object file
+src/test_thread3.cpp.o:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread3.dir/build.make vegetable/CMakeFiles/test_thread3.dir/src/test_thread3.cpp.o
+.PHONY : src/test_thread3.cpp.o
+
+src/test_thread3.i: src/test_thread3.cpp.i
+.PHONY : src/test_thread3.i
+
+# target to preprocess a source file
+src/test_thread3.cpp.i:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread3.dir/build.make vegetable/CMakeFiles/test_thread3.dir/src/test_thread3.cpp.i
+.PHONY : src/test_thread3.cpp.i
+
+src/test_thread3.s: src/test_thread3.cpp.s
+.PHONY : src/test_thread3.s
+
+# target to generate assembly for a file
+src/test_thread3.cpp.s:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread3.dir/build.make vegetable/CMakeFiles/test_thread3.dir/src/test_thread3.cpp.s
+.PHONY : src/test_thread3.cpp.s
+
+src/test_thread4.o: src/test_thread4.cpp.o
+.PHONY : src/test_thread4.o
+
+# target to build an object file
+src/test_thread4.cpp.o:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread4.dir/build.make vegetable/CMakeFiles/test_thread4.dir/src/test_thread4.cpp.o
+.PHONY : src/test_thread4.cpp.o
+
+src/test_thread4.i: src/test_thread4.cpp.i
+.PHONY : src/test_thread4.i
+
+# target to preprocess a source file
+src/test_thread4.cpp.i:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread4.dir/build.make vegetable/CMakeFiles/test_thread4.dir/src/test_thread4.cpp.i
+.PHONY : src/test_thread4.cpp.i
+
+src/test_thread4.s: src/test_thread4.cpp.s
+.PHONY : src/test_thread4.s
+
+# target to generate assembly for a file
+src/test_thread4.cpp.s:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread4.dir/build.make vegetable/CMakeFiles/test_thread4.dir/src/test_thread4.cpp.s
+.PHONY : src/test_thread4.cpp.s
 
 # Help Target
 help:
@@ -636,10 +940,27 @@ help:
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
+	@echo "... autowork"
+	@echo "... kill_thread"
+	@echo "... pub_test"
 	@echo "... serialport"
 	@echo "... serialport2"
 	@echo "... serialport3"
+	@echo "... serialport4"
 	@echo "... test_pub_twist"
+	@echo "... test_thread1"
+	@echo "... test_thread2"
+	@echo "... test_thread3"
+	@echo "... test_thread4"
+	@echo "... src/autowork.o"
+	@echo "... src/autowork.i"
+	@echo "... src/autowork.s"
+	@echo "... src/kill_thread.o"
+	@echo "... src/kill_thread.i"
+	@echo "... src/kill_thread.s"
+	@echo "... src/pub_test.o"
+	@echo "... src/pub_test.i"
+	@echo "... src/pub_test.s"
 	@echo "... src/serialport.o"
 	@echo "... src/serialport.i"
 	@echo "... src/serialport.s"
@@ -649,9 +970,24 @@ help:
 	@echo "... src/serialport3.o"
 	@echo "... src/serialport3.i"
 	@echo "... src/serialport3.s"
+	@echo "... src/serialport4.o"
+	@echo "... src/serialport4.i"
+	@echo "... src/serialport4.s"
 	@echo "... src/test_pub_twist.o"
 	@echo "... src/test_pub_twist.i"
 	@echo "... src/test_pub_twist.s"
+	@echo "... src/test_thread1.o"
+	@echo "... src/test_thread1.i"
+	@echo "... src/test_thread1.s"
+	@echo "... src/test_thread2.o"
+	@echo "... src/test_thread2.i"
+	@echo "... src/test_thread2.s"
+	@echo "... src/test_thread3.o"
+	@echo "... src/test_thread3.i"
+	@echo "... src/test_thread3.s"
+	@echo "... src/test_thread4.o"
+	@echo "... src/test_thread4.i"
+	@echo "... src/test_thread4.s"
 .PHONY : help
 
 

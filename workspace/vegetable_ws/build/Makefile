@@ -600,6 +600,110 @@ serialport3/fast:
 	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/serialport3.dir/build.make vegetable/CMakeFiles/serialport3.dir/build
 .PHONY : serialport3/fast
 
+#=============================================================================
+# Target rules for targets named serialport4
+
+# Build rule for target.
+serialport4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 serialport4
+.PHONY : serialport4
+
+# fast build rule for target.
+serialport4/fast:
+	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/serialport4.dir/build.make vegetable/CMakeFiles/serialport4.dir/build
+.PHONY : serialport4/fast
+
+#=============================================================================
+# Target rules for targets named test_thread1
+
+# Build rule for target.
+test_thread1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_thread1
+.PHONY : test_thread1
+
+# fast build rule for target.
+test_thread1/fast:
+	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread1.dir/build.make vegetable/CMakeFiles/test_thread1.dir/build
+.PHONY : test_thread1/fast
+
+#=============================================================================
+# Target rules for targets named test_thread2
+
+# Build rule for target.
+test_thread2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_thread2
+.PHONY : test_thread2
+
+# fast build rule for target.
+test_thread2/fast:
+	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread2.dir/build.make vegetable/CMakeFiles/test_thread2.dir/build
+.PHONY : test_thread2/fast
+
+#=============================================================================
+# Target rules for targets named test_thread3
+
+# Build rule for target.
+test_thread3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_thread3
+.PHONY : test_thread3
+
+# fast build rule for target.
+test_thread3/fast:
+	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread3.dir/build.make vegetable/CMakeFiles/test_thread3.dir/build
+.PHONY : test_thread3/fast
+
+#=============================================================================
+# Target rules for targets named test_thread4
+
+# Build rule for target.
+test_thread4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_thread4
+.PHONY : test_thread4
+
+# fast build rule for target.
+test_thread4/fast:
+	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread4.dir/build.make vegetable/CMakeFiles/test_thread4.dir/build
+.PHONY : test_thread4/fast
+
+#=============================================================================
+# Target rules for targets named pub_test
+
+# Build rule for target.
+pub_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pub_test
+.PHONY : pub_test
+
+# fast build rule for target.
+pub_test/fast:
+	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/pub_test.dir/build.make vegetable/CMakeFiles/pub_test.dir/build
+.PHONY : pub_test/fast
+
+#=============================================================================
+# Target rules for targets named kill_thread
+
+# Build rule for target.
+kill_thread: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kill_thread
+.PHONY : kill_thread
+
+# fast build rule for target.
+kill_thread/fast:
+	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/kill_thread.dir/build.make vegetable/CMakeFiles/kill_thread.dir/build
+.PHONY : kill_thread/fast
+
+#=============================================================================
+# Target rules for targets named autowork
+
+# Build rule for target.
+autowork: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 autowork
+.PHONY : autowork
+
+# fast build rule for target.
+autowork/fast:
+	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/autowork.dir/build.make vegetable/CMakeFiles/autowork.dir/build
+.PHONY : autowork/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -638,14 +742,22 @@ help:
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... tests"
+	@echo "... autowork"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... kill_thread"
+	@echo "... pub_test"
 	@echo "... serialport"
 	@echo "... serialport2"
 	@echo "... serialport3"
+	@echo "... serialport4"
 	@echo "... test_pub_twist"
+	@echo "... test_thread1"
+	@echo "... test_thread2"
+	@echo "... test_thread3"
+	@echo "... test_thread4"
 .PHONY : help
 
 

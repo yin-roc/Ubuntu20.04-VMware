@@ -59,6 +59,14 @@
 /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/vegetable/CMakeFiles/serialport.dir
 /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/vegetable/CMakeFiles/serialport2.dir
 /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/vegetable/CMakeFiles/serialport3.dir
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/vegetable/CMakeFiles/serialport4.dir
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/vegetable/CMakeFiles/test_thread1.dir
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/vegetable/CMakeFiles/test_thread2.dir
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/vegetable/CMakeFiles/test_thread3.dir
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/vegetable/CMakeFiles/test_thread4.dir
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/vegetable/CMakeFiles/pub_test.dir
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/vegetable/CMakeFiles/kill_thread.dir
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/vegetable/CMakeFiles/autowork.dir
 /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/vegetable/CMakeFiles/test.dir
 /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/vegetable/CMakeFiles/edit_cache.dir
 /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/vegetable/CMakeFiles/rebuild_cache.dir
