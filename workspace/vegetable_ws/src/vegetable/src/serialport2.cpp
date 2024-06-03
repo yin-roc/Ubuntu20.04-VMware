@@ -92,9 +92,7 @@ int main(int argc, char *argv[])
                         cur_state = AUTOState::waiting;
                         output = "#switch to telecontrol,OK\n";
                         ROS_INFO("Sending response: %s", output.c_str());
-                        // 死活写不进去
                         ser->write(output);
-                        ser->write("----------------------");
                         ros::Duration(1).sleep();
                     } 
                     else if(feedback == AUTOStateToString(AUTOState::autowork)){
