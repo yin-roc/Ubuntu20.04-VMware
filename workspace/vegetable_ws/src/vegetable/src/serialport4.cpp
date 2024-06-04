@@ -166,7 +166,7 @@ void default_path(serial::Serial* m_ser, geometry_msgs::Twist m_speed, ros::Time
     while(!stop_thread.load()){
         // 直行 10s
         while(ros::Time::now() - m_start_time < ros::Duration(10.0) && !stop_thread.load()){
-            m_speed.linear.x = 0.5;  // 设置线速度
+            m_speed.linear.x = 100.0;  // 设置线速度
             m_speed.angular.z = 0.0;  // 无角速度
             m_speed_data = "move " + std::to_string(m_speed.linear.x) + ", " + std::to_string(m_speed.angular.z) + "\n";
             m_ser->write(m_speed_data);
@@ -191,7 +191,7 @@ void default_path(serial::Serial* m_ser, geometry_msgs::Twist m_speed, ros::Time
         while (ros::Time::now() - m_start_time < ros::Duration(2.0) && !stop_thread.load())
         {
             m_speed.linear.x = 0.0;
-            m_speed.angular.z = M_PI / 4.0;
+            m_speed.angular.z = 90.0;
             m_speed_data = "move " + std::to_string(m_speed.linear.x) + ", " + std::to_string(m_speed.angular.z) + "\n";
             ser->write(m_speed_data);
             ROS_INFO("Speed data sent to serial: %s", m_speed_data.c_str());
@@ -215,7 +215,7 @@ void default_path(serial::Serial* m_ser, geometry_msgs::Twist m_speed, ros::Time
         m_start_time = ros::Time::now();
         while (ros::Time::now() - m_start_time < ros::Duration(2.0) && !stop_thread.load())
         {
-            m_speed.linear.x = 0.5;  
+            m_speed.linear.x = 100.0;  
             m_speed.angular.z = 0.0;  
             m_speed_data = "move " + std::to_string(m_speed.linear.x) + ", " + std::to_string(m_speed.angular.z) + "\n";
             m_ser->write(m_speed_data);
@@ -241,7 +241,7 @@ void default_path(serial::Serial* m_ser, geometry_msgs::Twist m_speed, ros::Time
         while (ros::Time::now() - m_start_time < ros::Duration(2.0) && !stop_thread.load())
         {
             m_speed.linear.x = 0.0;
-            m_speed.angular.z = M_PI / 4.0;
+            m_speed.angular.z = 90.0;
             m_speed_data = "move " + std::to_string(m_speed.linear.x) + ", " + std::to_string(m_speed.angular.z) + "\n";
             ser->write(m_speed_data);
             ROS_INFO("Speed data sent to serial: %s", m_speed_data.c_str());
@@ -265,7 +265,7 @@ void default_path(serial::Serial* m_ser, geometry_msgs::Twist m_speed, ros::Time
         m_start_time = ros::Time::now();
         while (ros::Time::now() - m_start_time < ros::Duration(10.0) && !stop_thread.load())
         {
-            m_speed.linear.x = 0.5;  // 设置线速度
+            m_speed.linear.x = 100.0;  // 设置线速度
             m_speed.angular.z = 0.0;  // 无角速度
             m_speed_data = "move " + std::to_string(m_speed.linear.x) + ", " + std::to_string(m_speed.angular.z) + "\n";
             m_ser->write(m_speed_data);
