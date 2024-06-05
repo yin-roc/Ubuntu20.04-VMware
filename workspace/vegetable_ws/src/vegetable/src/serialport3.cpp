@@ -87,7 +87,8 @@ void monitorSerialPort() {
                 stop_thread.store(false);
                 std::thread(autoModeTask).detach();
             }
-        } else if (state == "hand") {
+        } 
+        else if (state == "hand") {
             if (auto_mode.load()) {
                 stop_thread.store(true);
                 {

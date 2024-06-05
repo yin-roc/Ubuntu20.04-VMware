@@ -679,19 +679,6 @@ pub_test/fast:
 .PHONY : pub_test/fast
 
 #=============================================================================
-# Target rules for targets named kill_thread
-
-# Build rule for target.
-kill_thread: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kill_thread
-.PHONY : kill_thread
-
-# fast build rule for target.
-kill_thread/fast:
-	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/kill_thread.dir/build.make vegetable/CMakeFiles/kill_thread.dir/build
-.PHONY : kill_thread/fast
-
-#=============================================================================
 # Target rules for targets named autowork
 
 # Build rule for target.
@@ -747,7 +734,6 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... kill_thread"
 	@echo "... pub_test"
 	@echo "... serialport"
 	@echo "... serialport2"

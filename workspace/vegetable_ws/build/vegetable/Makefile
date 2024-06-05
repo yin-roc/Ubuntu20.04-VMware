@@ -592,20 +592,6 @@ pub_test/fast:
 .PHONY : pub_test/fast
 
 # Convenience name for target.
-vegetable/CMakeFiles/kill_thread.dir/rule:
-	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vegetable/CMakeFiles/kill_thread.dir/rule
-.PHONY : vegetable/CMakeFiles/kill_thread.dir/rule
-
-# Convenience name for target.
-kill_thread: vegetable/CMakeFiles/kill_thread.dir/rule
-.PHONY : kill_thread
-
-# fast build rule for target.
-kill_thread/fast:
-	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/kill_thread.dir/build.make vegetable/CMakeFiles/kill_thread.dir/build
-.PHONY : kill_thread/fast
-
-# Convenience name for target.
 vegetable/CMakeFiles/autowork.dir/rule:
 	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vegetable/CMakeFiles/autowork.dir/rule
 .PHONY : vegetable/CMakeFiles/autowork.dir/rule
@@ -642,30 +628,6 @@ src/autowork.s: src/autowork.cpp.s
 src/autowork.cpp.s:
 	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/autowork.dir/build.make vegetable/CMakeFiles/autowork.dir/src/autowork.cpp.s
 .PHONY : src/autowork.cpp.s
-
-src/kill_thread.o: src/kill_thread.cpp.o
-.PHONY : src/kill_thread.o
-
-# target to build an object file
-src/kill_thread.cpp.o:
-	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/kill_thread.dir/build.make vegetable/CMakeFiles/kill_thread.dir/src/kill_thread.cpp.o
-.PHONY : src/kill_thread.cpp.o
-
-src/kill_thread.i: src/kill_thread.cpp.i
-.PHONY : src/kill_thread.i
-
-# target to preprocess a source file
-src/kill_thread.cpp.i:
-	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/kill_thread.dir/build.make vegetable/CMakeFiles/kill_thread.dir/src/kill_thread.cpp.i
-.PHONY : src/kill_thread.cpp.i
-
-src/kill_thread.s: src/kill_thread.cpp.s
-.PHONY : src/kill_thread.s
-
-# target to generate assembly for a file
-src/kill_thread.cpp.s:
-	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/kill_thread.dir/build.make vegetable/CMakeFiles/kill_thread.dir/src/kill_thread.cpp.s
-.PHONY : src/kill_thread.cpp.s
 
 src/pub_test.o: src/pub_test.cpp.o
 .PHONY : src/pub_test.o
@@ -941,7 +903,6 @@ help:
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... autowork"
-	@echo "... kill_thread"
 	@echo "... pub_test"
 	@echo "... serialport"
 	@echo "... serialport2"
@@ -955,9 +916,6 @@ help:
 	@echo "... src/autowork.o"
 	@echo "... src/autowork.i"
 	@echo "... src/autowork.s"
-	@echo "... src/kill_thread.o"
-	@echo "... src/kill_thread.i"
-	@echo "... src/kill_thread.s"
 	@echo "... src/pub_test.o"
 	@echo "... src/pub_test.i"
 	@echo "... src/pub_test.s"

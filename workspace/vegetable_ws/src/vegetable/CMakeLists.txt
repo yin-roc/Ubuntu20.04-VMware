@@ -146,7 +146,6 @@ add_executable(test_thread2 src/test_thread2.cpp)
 add_executable(test_thread3 src/test_thread3.cpp)
 add_executable(test_thread4 src/test_thread4.cpp)
 add_executable(pub_test src/pub_test.cpp)
-add_executable(kill_thread src/kill_thread.cpp)
 add_executable(autowork src/autowork.cpp)
 
 ## Rename C++ executable without prefix
@@ -191,9 +190,6 @@ target_link_libraries(test_thread4
   ${catkin_LIBRARIES}
 )
 target_link_libraries(pub_test
-  ${catkin_LIBRARIES}
-)
-target_link_libraries(kill_thread
   ${catkin_LIBRARIES}
 )
 target_link_libraries(autowork

@@ -30,8 +30,8 @@ int main(int argc, char *argv[])
 
     // 设置串口信息
     ser = new serial::Serial();
-    std::string serial_port = "/dev/ttyS0";  
-    int serial_baudrate = 115200;                                        
+    std::string serial_port = "/dev/ttyUSB1";  
+    int serial_baudrate = 9600;                                        
     int control_rate = 10;
 
     ros::Rate rate(1);
@@ -46,10 +46,11 @@ int main(int argc, char *argv[])
         return -1;  // 如果串口没有打开，直接退出程序
     }
 
-    // while(ros::ok()){
+    while(ros::ok()){
         try{
             if(ser->isOpen()){
                 std::string feedback = ser->readline();
+                ROS_INFO("%s", feedback.c_str());
                 ROS_INFO("Switched to autowork state.");
                 start_time = ros::Time::now();
                 std::string speed_data;                         
@@ -63,9 +64,9 @@ int main(int argc, char *argv[])
         catch (const std::exception& e){
             ROS_ERROR("Error: %s", e.what());
         }  
-    //     ros::spinOnce();  // 确保处理回调函数
-    //     rate.sleep();
-    // }
+        ros::spinOnce();  // 确保处理回调函数
+        rate.sleep();
+    }
     return 0;
 
 }
@@ -99,7 +100,8 @@ void default_path(serial::Serial* m_ser, geometry_msgs::Twist m_speed, ros::Time
     while(ros::Time::now() - m_start_time < ros::Duration(10.0)){
         m_speed.linear.x = 100.0;  // 设置线速度
         m_speed.angular.z = 0.0;  // 无角速度
-        m_speed_data = "move " + std::to_string(m_speed.linear.x) + ", " + std::to_string(m_speed.angular.z) + "\n";
+        // m_speed_data = "move " + std::to_string(m_speed.linear.x) + ", " + std::to_string(m_speed.angular.z) + "\n";
+        m_speed_data = "1";
         m_ser->write(m_speed_data);
         ROS_INFO("Speed data sent to serial: %s", m_speed_data.c_str());
         ros::Duration(1).sleep();

@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/build",
+  "command": "/usr/bin/cc  -I/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/include -g -o CMakeFiles/calc.dir/src/add.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/add.c",
+  "file": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/add.c"
+},
+{
+  "directory": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/build",
+  "command": "/usr/bin/cc  -I/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/include -g -o CMakeFiles/calc.dir/src/div.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/div.c",
+  "file": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/div.c"
+},
+{
+  "directory": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/build",
+  "command": "/usr/bin/cc  -I/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/include -g -o CMakeFiles/calc.dir/src/main.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/main.c",
+  "file": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/main.c"
+},
+{
+  "directory": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/build",
+  "command": "/usr/bin/cc  -I/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/include -g -o CMakeFiles/calc.dir/src/mult.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/mult.c",
+  "file": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/mult.c"
+},
+{
+  "directory": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/build",
+  "command": "/usr/bin/cc  -I/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/include -g -o CMakeFiles/calc.dir/src/sub.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/sub.c",
+  "file": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/sub.c"
+},
+{
+  "directory": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/build",
+  "command": "/usr/bin/cc  -I/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/include -g -o CMakeFiles/CALC.dir/src/add.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/add.c",
+  "file": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/add.c"
+},
+{
+  "directory": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/build",
+  "command": "/usr/bin/cc  -I/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/include -g -o CMakeFiles/CALC.dir/src/div.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/div.c",
+  "file": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/div.c"
+},
+{
+  "directory": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/build",
+  "command": "/usr/bin/cc  -I/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/include -g -o CMakeFiles/CALC.dir/src/main.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/main.c",
+  "file": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/main.c"
+},
+{
+  "directory": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/build",
+  "command": "/usr/bin/cc  -I/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/include -g -o CMakeFiles/CALC.dir/src/mult.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/mult.c",
+  "file": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/mult.c"
+},
+{
+  "directory": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/build",
+  "command": "/usr/bin/cc  -I/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/include -g -o CMakeFiles/CALC.dir/src/sub.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/sub.c",
+  "file": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/sub.c"
+}
+]

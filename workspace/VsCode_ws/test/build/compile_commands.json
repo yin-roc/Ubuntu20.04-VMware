@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/test/build",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/calcu.dir/main.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/test/main.c",
+  "file": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/test/main.c"
+},
+{
+  "directory": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/test/build",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/calcu.dir/div.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/test/div.c",
+  "file": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/test/div.c"
+},
+{
+  "directory": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/test/build",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/calcu.dir/mult.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/test/mult.c",
+  "file": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/test/mult.c"
+},
+{
+  "directory": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/test/build",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/calcu.dir/sub.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/test/sub.c",
+  "file": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/test/sub.c"
+},
+{
+  "directory": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/test/build",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/calcu.dir/add.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/test/add.c",
+  "file": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/test/add.c"
+}
+]

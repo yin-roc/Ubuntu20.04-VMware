@@ -144,7 +144,6 @@ vegetable/all: vegetable/CMakeFiles/test_thread2.dir/all
 vegetable/all: vegetable/CMakeFiles/test_thread3.dir/all
 vegetable/all: vegetable/CMakeFiles/test_thread4.dir/all
 vegetable/all: vegetable/CMakeFiles/pub_test.dir/all
-vegetable/all: vegetable/CMakeFiles/kill_thread.dir/all
 vegetable/all: vegetable/CMakeFiles/autowork.dir/all
 .PHONY : vegetable/all
 
@@ -183,7 +182,6 @@ vegetable/clean: vegetable/CMakeFiles/test_thread2.dir/clean
 vegetable/clean: vegetable/CMakeFiles/test_thread3.dir/clean
 vegetable/clean: vegetable/CMakeFiles/test_thread4.dir/clean
 vegetable/clean: vegetable/CMakeFiles/pub_test.dir/clean
-vegetable/clean: vegetable/CMakeFiles/kill_thread.dir/clean
 vegetable/clean: vegetable/CMakeFiles/autowork.dir/clean
 .PHONY : vegetable/clean
 
@@ -949,7 +947,7 @@ vegetable/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
 vegetable/CMakeFiles/test_pub_twist.dir/all:
 	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_pub_twist.dir/build.make vegetable/CMakeFiles/test_pub_twist.dir/depend
 	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_pub_twist.dir/build.make vegetable/CMakeFiles/test_pub_twist.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/CMakeFiles --progress-num=23,24 "Built target test_pub_twist"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/CMakeFiles --progress-num=21,22 "Built target test_pub_twist"
 .PHONY : vegetable/CMakeFiles/test_pub_twist.dir/all
 
 # Build rule for subdir invocation for target.
@@ -975,7 +973,7 @@ vegetable/CMakeFiles/test_pub_twist.dir/clean:
 vegetable/CMakeFiles/serialport.dir/all:
 	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/serialport.dir/build.make vegetable/CMakeFiles/serialport.dir/depend
 	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/serialport.dir/build.make vegetable/CMakeFiles/serialport.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/CMakeFiles --progress-num=15,16 "Built target serialport"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/CMakeFiles --progress-num=13,14 "Built target serialport"
 .PHONY : vegetable/CMakeFiles/serialport.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1001,7 +999,7 @@ vegetable/CMakeFiles/serialport.dir/clean:
 vegetable/CMakeFiles/serialport2.dir/all:
 	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/serialport2.dir/build.make vegetable/CMakeFiles/serialport2.dir/depend
 	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/serialport2.dir/build.make vegetable/CMakeFiles/serialport2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/CMakeFiles --progress-num=17,18 "Built target serialport2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/CMakeFiles --progress-num=15,16 "Built target serialport2"
 .PHONY : vegetable/CMakeFiles/serialport2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1027,7 +1025,7 @@ vegetable/CMakeFiles/serialport2.dir/clean:
 vegetable/CMakeFiles/serialport3.dir/all:
 	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/serialport3.dir/build.make vegetable/CMakeFiles/serialport3.dir/depend
 	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/serialport3.dir/build.make vegetable/CMakeFiles/serialport3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/CMakeFiles --progress-num=19,20 "Built target serialport3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/CMakeFiles --progress-num=17,18 "Built target serialport3"
 .PHONY : vegetable/CMakeFiles/serialport3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1053,7 +1051,7 @@ vegetable/CMakeFiles/serialport3.dir/clean:
 vegetable/CMakeFiles/serialport4.dir/all:
 	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/serialport4.dir/build.make vegetable/CMakeFiles/serialport4.dir/depend
 	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/serialport4.dir/build.make vegetable/CMakeFiles/serialport4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/CMakeFiles --progress-num=21,22 "Built target serialport4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/CMakeFiles --progress-num=19,20 "Built target serialport4"
 .PHONY : vegetable/CMakeFiles/serialport4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1079,7 +1077,7 @@ vegetable/CMakeFiles/serialport4.dir/clean:
 vegetable/CMakeFiles/test_thread1.dir/all:
 	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread1.dir/build.make vegetable/CMakeFiles/test_thread1.dir/depend
 	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread1.dir/build.make vegetable/CMakeFiles/test_thread1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/CMakeFiles --progress-num=25,26 "Built target test_thread1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/CMakeFiles --progress-num=23,24 "Built target test_thread1"
 .PHONY : vegetable/CMakeFiles/test_thread1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1105,7 +1103,7 @@ vegetable/CMakeFiles/test_thread1.dir/clean:
 vegetable/CMakeFiles/test_thread2.dir/all:
 	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread2.dir/build.make vegetable/CMakeFiles/test_thread2.dir/depend
 	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread2.dir/build.make vegetable/CMakeFiles/test_thread2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/CMakeFiles --progress-num=27,28 "Built target test_thread2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/CMakeFiles --progress-num=25,26 "Built target test_thread2"
 .PHONY : vegetable/CMakeFiles/test_thread2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1131,7 +1129,7 @@ vegetable/CMakeFiles/test_thread2.dir/clean:
 vegetable/CMakeFiles/test_thread3.dir/all:
 	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread3.dir/build.make vegetable/CMakeFiles/test_thread3.dir/depend
 	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread3.dir/build.make vegetable/CMakeFiles/test_thread3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/CMakeFiles --progress-num=29,30 "Built target test_thread3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/CMakeFiles --progress-num=27,28 "Built target test_thread3"
 .PHONY : vegetable/CMakeFiles/test_thread3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1157,7 +1155,7 @@ vegetable/CMakeFiles/test_thread3.dir/clean:
 vegetable/CMakeFiles/test_thread4.dir/all:
 	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread4.dir/build.make vegetable/CMakeFiles/test_thread4.dir/depend
 	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/test_thread4.dir/build.make vegetable/CMakeFiles/test_thread4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/CMakeFiles --progress-num=31,32 "Built target test_thread4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/CMakeFiles --progress-num=29,30 "Built target test_thread4"
 .PHONY : vegetable/CMakeFiles/test_thread4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1183,7 +1181,7 @@ vegetable/CMakeFiles/test_thread4.dir/clean:
 vegetable/CMakeFiles/pub_test.dir/all:
 	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/pub_test.dir/build.make vegetable/CMakeFiles/pub_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/pub_test.dir/build.make vegetable/CMakeFiles/pub_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/CMakeFiles --progress-num=13,14 "Built target pub_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/CMakeFiles --progress-num=11,12 "Built target pub_test"
 .PHONY : vegetable/CMakeFiles/pub_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1201,32 +1199,6 @@ pub_test: vegetable/CMakeFiles/pub_test.dir/rule
 vegetable/CMakeFiles/pub_test.dir/clean:
 	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/pub_test.dir/build.make vegetable/CMakeFiles/pub_test.dir/clean
 .PHONY : vegetable/CMakeFiles/pub_test.dir/clean
-
-#=============================================================================
-# Target rules for target vegetable/CMakeFiles/kill_thread.dir
-
-# All Build rule for target.
-vegetable/CMakeFiles/kill_thread.dir/all:
-	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/kill_thread.dir/build.make vegetable/CMakeFiles/kill_thread.dir/depend
-	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/kill_thread.dir/build.make vegetable/CMakeFiles/kill_thread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/CMakeFiles --progress-num=11,12 "Built target kill_thread"
-.PHONY : vegetable/CMakeFiles/kill_thread.dir/all
-
-# Build rule for subdir invocation for target.
-vegetable/CMakeFiles/kill_thread.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vegetable/CMakeFiles/kill_thread.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/CMakeFiles 0
-.PHONY : vegetable/CMakeFiles/kill_thread.dir/rule
-
-# Convenience name for target.
-kill_thread: vegetable/CMakeFiles/kill_thread.dir/rule
-.PHONY : kill_thread
-
-# clean rule for target.
-vegetable/CMakeFiles/kill_thread.dir/clean:
-	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/kill_thread.dir/build.make vegetable/CMakeFiles/kill_thread.dir/clean
-.PHONY : vegetable/CMakeFiles/kill_thread.dir/clean
 
 #=============================================================================
 # Target rules for target vegetable/CMakeFiles/autowork.dir
