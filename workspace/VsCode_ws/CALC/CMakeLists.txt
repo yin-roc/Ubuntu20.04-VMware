@@ -38,6 +38,3 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 # set(SRC_LIST main.c add.c sub.c mult.c div.c)
 # add_executable(CALC main.c add.c sub.c mult.c div.c)
 add_executable(CALC ${MAIN_SRC})
-
-
-
