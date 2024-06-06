@@ -8,6 +8,7 @@ project(CALC VERSION 0.1.0 LANGUAGES C CXX)
 # 包含头文件
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
+# 设置C++标准
 set(CMAKE_CXX_STANDARD 11)
 
 # 设置可执行文件的存放路径 （绝对路径）
@@ -33,7 +34,11 @@ file(GLOB MAIN_HEAD ${CMAKE_CURRENT_SOURCE_DIR}/include/*.h)
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 # 生成动态库
-add_library(calc SHARED ${MAIN_SRC})
+# add_library(calc SHARED ${MAIN_SRC})
+
+link_libraries(calc)
+link_directories(${CMAKE_CURRENT_SOURCE_DIR}/lib)
+
 
 # set(SRC_LIST main.c add.c sub.c mult.c div.c)
 # add_executable(CALC main.c add.c sub.c mult.c div.c)

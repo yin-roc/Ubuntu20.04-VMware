@@ -1,5 +1,5 @@
 CMakeFiles/calc.dir/src/sub.c.o: \
- /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/sub.c \
+ /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/src/sub.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -21,4 +21,4 @@ CMakeFiles/calc.dir/src/sub.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/include/head.h
+ /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/include/head.h

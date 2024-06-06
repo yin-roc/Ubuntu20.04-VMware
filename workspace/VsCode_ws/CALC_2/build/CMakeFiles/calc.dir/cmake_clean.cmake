@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../lib/libcalc.a"
-  "../lib/libcalc.pdb"
+  "../lib2/libcalc.pdb"
+  "../lib2/libcalc.so"
   "CMakeFiles/calc.dir/src/add.c.o"
   "CMakeFiles/calc.dir/src/add.c.o.d"
   "CMakeFiles/calc.dir/src/div.c.o"

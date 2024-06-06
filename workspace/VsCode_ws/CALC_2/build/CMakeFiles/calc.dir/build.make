@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC
+CMAKE_SOURCE_DIR = /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/build
+CMAKE_BINARY_DIR = /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/calc.dir/depend.make
@@ -72,72 +72,72 @@ include CMakeFiles/calc.dir/flags.make
 CMakeFiles/calc.dir/src/add.c.o: CMakeFiles/calc.dir/flags.make
 CMakeFiles/calc.dir/src/add.c.o: ../src/add.c
 CMakeFiles/calc.dir/src/add.c.o: CMakeFiles/calc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/calc.dir/src/add.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/calc.dir/src/add.c.o -MF CMakeFiles/calc.dir/src/add.c.o.d -o CMakeFiles/calc.dir/src/add.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/add.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/calc.dir/src/add.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/calc.dir/src/add.c.o -MF CMakeFiles/calc.dir/src/add.c.o.d -o CMakeFiles/calc.dir/src/add.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/src/add.c
 
 CMakeFiles/calc.dir/src/add.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/calc.dir/src/add.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/add.c > CMakeFiles/calc.dir/src/add.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/src/add.c > CMakeFiles/calc.dir/src/add.c.i
 
 CMakeFiles/calc.dir/src/add.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/calc.dir/src/add.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/add.c -o CMakeFiles/calc.dir/src/add.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/src/add.c -o CMakeFiles/calc.dir/src/add.c.s
 
 CMakeFiles/calc.dir/src/div.c.o: CMakeFiles/calc.dir/flags.make
 CMakeFiles/calc.dir/src/div.c.o: ../src/div.c
 CMakeFiles/calc.dir/src/div.c.o: CMakeFiles/calc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/calc.dir/src/div.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/calc.dir/src/div.c.o -MF CMakeFiles/calc.dir/src/div.c.o.d -o CMakeFiles/calc.dir/src/div.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/div.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/calc.dir/src/div.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/calc.dir/src/div.c.o -MF CMakeFiles/calc.dir/src/div.c.o.d -o CMakeFiles/calc.dir/src/div.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/src/div.c
 
 CMakeFiles/calc.dir/src/div.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/calc.dir/src/div.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/div.c > CMakeFiles/calc.dir/src/div.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/src/div.c > CMakeFiles/calc.dir/src/div.c.i
 
 CMakeFiles/calc.dir/src/div.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/calc.dir/src/div.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/div.c -o CMakeFiles/calc.dir/src/div.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/src/div.c -o CMakeFiles/calc.dir/src/div.c.s
 
 CMakeFiles/calc.dir/src/main.c.o: CMakeFiles/calc.dir/flags.make
 CMakeFiles/calc.dir/src/main.c.o: ../src/main.c
 CMakeFiles/calc.dir/src/main.c.o: CMakeFiles/calc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/calc.dir/src/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/calc.dir/src/main.c.o -MF CMakeFiles/calc.dir/src/main.c.o.d -o CMakeFiles/calc.dir/src/main.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/calc.dir/src/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/calc.dir/src/main.c.o -MF CMakeFiles/calc.dir/src/main.c.o.d -o CMakeFiles/calc.dir/src/main.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/src/main.c
 
 CMakeFiles/calc.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/calc.dir/src/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/main.c > CMakeFiles/calc.dir/src/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/src/main.c > CMakeFiles/calc.dir/src/main.c.i
 
 CMakeFiles/calc.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/calc.dir/src/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/main.c -o CMakeFiles/calc.dir/src/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/src/main.c -o CMakeFiles/calc.dir/src/main.c.s
 
 CMakeFiles/calc.dir/src/mult.c.o: CMakeFiles/calc.dir/flags.make
 CMakeFiles/calc.dir/src/mult.c.o: ../src/mult.c
 CMakeFiles/calc.dir/src/mult.c.o: CMakeFiles/calc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/calc.dir/src/mult.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/calc.dir/src/mult.c.o -MF CMakeFiles/calc.dir/src/mult.c.o.d -o CMakeFiles/calc.dir/src/mult.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/mult.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/calc.dir/src/mult.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/calc.dir/src/mult.c.o -MF CMakeFiles/calc.dir/src/mult.c.o.d -o CMakeFiles/calc.dir/src/mult.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/src/mult.c
 
 CMakeFiles/calc.dir/src/mult.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/calc.dir/src/mult.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/mult.c > CMakeFiles/calc.dir/src/mult.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/src/mult.c > CMakeFiles/calc.dir/src/mult.c.i
 
 CMakeFiles/calc.dir/src/mult.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/calc.dir/src/mult.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/mult.c -o CMakeFiles/calc.dir/src/mult.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/src/mult.c -o CMakeFiles/calc.dir/src/mult.c.s
 
 CMakeFiles/calc.dir/src/sub.c.o: CMakeFiles/calc.dir/flags.make
 CMakeFiles/calc.dir/src/sub.c.o: ../src/sub.c
 CMakeFiles/calc.dir/src/sub.c.o: CMakeFiles/calc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/calc.dir/src/sub.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/calc.dir/src/sub.c.o -MF CMakeFiles/calc.dir/src/sub.c.o.d -o CMakeFiles/calc.dir/src/sub.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/sub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/calc.dir/src/sub.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/calc.dir/src/sub.c.o -MF CMakeFiles/calc.dir/src/sub.c.o.d -o CMakeFiles/calc.dir/src/sub.c.o -c /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/src/sub.c
 
 CMakeFiles/calc.dir/src/sub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/calc.dir/src/sub.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/sub.c > CMakeFiles/calc.dir/src/sub.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/src/sub.c > CMakeFiles/calc.dir/src/sub.c.i
 
 CMakeFiles/calc.dir/src/sub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/calc.dir/src/sub.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/src/sub.c -o CMakeFiles/calc.dir/src/sub.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/src/sub.c -o CMakeFiles/calc.dir/src/sub.c.s
 
 # Object files for target calc
 calc_OBJECTS = \
@@ -150,19 +150,18 @@ calc_OBJECTS = \
 # External object files for target calc
 calc_EXTERNAL_OBJECTS =
 
-../lib/libcalc.a: CMakeFiles/calc.dir/src/add.c.o
-../lib/libcalc.a: CMakeFiles/calc.dir/src/div.c.o
-../lib/libcalc.a: CMakeFiles/calc.dir/src/main.c.o
-../lib/libcalc.a: CMakeFiles/calc.dir/src/mult.c.o
-../lib/libcalc.a: CMakeFiles/calc.dir/src/sub.c.o
-../lib/libcalc.a: CMakeFiles/calc.dir/build.make
-../lib/libcalc.a: CMakeFiles/calc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library ../lib/libcalc.a"
-	$(CMAKE_COMMAND) -P CMakeFiles/calc.dir/cmake_clean_target.cmake
+../lib2/libcalc.so: CMakeFiles/calc.dir/src/add.c.o
+../lib2/libcalc.so: CMakeFiles/calc.dir/src/div.c.o
+../lib2/libcalc.so: CMakeFiles/calc.dir/src/main.c.o
+../lib2/libcalc.so: CMakeFiles/calc.dir/src/mult.c.o
+../lib2/libcalc.so: CMakeFiles/calc.dir/src/sub.c.o
+../lib2/libcalc.so: CMakeFiles/calc.dir/build.make
+../lib2/libcalc.so: CMakeFiles/calc.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library ../lib2/libcalc.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/calc.dir/build: ../lib/libcalc.a
+CMakeFiles/calc.dir/build: ../lib2/libcalc.so
 .PHONY : CMakeFiles/calc.dir/build
 
 CMakeFiles/calc.dir/clean:
@@ -170,6 +169,6 @@ CMakeFiles/calc.dir/clean:
 .PHONY : CMakeFiles/calc.dir/clean
 
 CMakeFiles/calc.dir/depend:
-	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/build /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/build /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/build/CMakeFiles/calc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2 /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2 /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/build /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/build /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/build/CMakeFiles/calc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/calc.dir/depend
 
