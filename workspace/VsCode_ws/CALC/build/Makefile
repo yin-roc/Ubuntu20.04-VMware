@@ -117,19 +117,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named calc
-
-# Build rule for target.
-calc: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 calc
-.PHONY : calc
-
-# fast build rule for target.
-calc/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/build
-.PHONY : calc/fast
-
-#=============================================================================
 # Target rules for targets named CALC
 
 # Build rule for target.
@@ -147,7 +134,6 @@ src/add.o: src/add.c.o
 
 # target to build an object file
 src/add.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/add.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CALC.dir/build.make CMakeFiles/CALC.dir/src/add.c.o
 .PHONY : src/add.c.o
 
@@ -156,7 +142,6 @@ src/add.i: src/add.c.i
 
 # target to preprocess a source file
 src/add.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/add.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CALC.dir/build.make CMakeFiles/CALC.dir/src/add.c.i
 .PHONY : src/add.c.i
 
@@ -165,7 +150,6 @@ src/add.s: src/add.c.s
 
 # target to generate assembly for a file
 src/add.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/add.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CALC.dir/build.make CMakeFiles/CALC.dir/src/add.c.s
 .PHONY : src/add.c.s
 
@@ -174,7 +158,6 @@ src/div.o: src/div.c.o
 
 # target to build an object file
 src/div.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/div.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CALC.dir/build.make CMakeFiles/CALC.dir/src/div.c.o
 .PHONY : src/div.c.o
 
@@ -183,7 +166,6 @@ src/div.i: src/div.c.i
 
 # target to preprocess a source file
 src/div.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/div.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CALC.dir/build.make CMakeFiles/CALC.dir/src/div.c.i
 .PHONY : src/div.c.i
 
@@ -192,7 +174,6 @@ src/div.s: src/div.c.s
 
 # target to generate assembly for a file
 src/div.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/div.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CALC.dir/build.make CMakeFiles/CALC.dir/src/div.c.s
 .PHONY : src/div.c.s
 
@@ -201,7 +182,6 @@ src/main.o: src/main.c.o
 
 # target to build an object file
 src/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/main.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CALC.dir/build.make CMakeFiles/CALC.dir/src/main.c.o
 .PHONY : src/main.c.o
 
@@ -210,7 +190,6 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/main.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CALC.dir/build.make CMakeFiles/CALC.dir/src/main.c.i
 .PHONY : src/main.c.i
 
@@ -219,7 +198,6 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/main.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CALC.dir/build.make CMakeFiles/CALC.dir/src/main.c.s
 .PHONY : src/main.c.s
 
@@ -228,7 +206,6 @@ src/mult.o: src/mult.c.o
 
 # target to build an object file
 src/mult.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/mult.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CALC.dir/build.make CMakeFiles/CALC.dir/src/mult.c.o
 .PHONY : src/mult.c.o
 
@@ -237,7 +214,6 @@ src/mult.i: src/mult.c.i
 
 # target to preprocess a source file
 src/mult.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/mult.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CALC.dir/build.make CMakeFiles/CALC.dir/src/mult.c.i
 .PHONY : src/mult.c.i
 
@@ -246,7 +222,6 @@ src/mult.s: src/mult.c.s
 
 # target to generate assembly for a file
 src/mult.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/mult.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CALC.dir/build.make CMakeFiles/CALC.dir/src/mult.c.s
 .PHONY : src/mult.c.s
 
@@ -255,7 +230,6 @@ src/sub.o: src/sub.c.o
 
 # target to build an object file
 src/sub.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/sub.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CALC.dir/build.make CMakeFiles/CALC.dir/src/sub.c.o
 .PHONY : src/sub.c.o
 
@@ -264,7 +238,6 @@ src/sub.i: src/sub.c.i
 
 # target to preprocess a source file
 src/sub.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/sub.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CALC.dir/build.make CMakeFiles/CALC.dir/src/sub.c.i
 .PHONY : src/sub.c.i
 
@@ -273,7 +246,6 @@ src/sub.s: src/sub.c.s
 
 # target to generate assembly for a file
 src/sub.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/src/sub.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CALC.dir/build.make CMakeFiles/CALC.dir/src/sub.c.s
 .PHONY : src/sub.c.s
 
@@ -286,7 +258,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CALC"
-	@echo "... calc"
 	@echo "... src/add.o"
 	@echo "... src/add.i"
 	@echo "... src/add.s"

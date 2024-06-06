@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = -I/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC/include
 
-C_FLAGS = -g
+C_FLAGS = 
 
