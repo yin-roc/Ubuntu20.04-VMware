@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/CALC.dir/src/add.c.o CMakeFiles/CALC.dir/src/div.c.o CMakeFiles/CALC.dir/src/main.c.o CMakeFiles/CALC.dir/src/mult.c.o CMakeFiles/CALC.dir/src/sub.c.o -o bin/CALC   -L/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_3/lib2  -Wl,-rpath,/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_3/lib2 ../lib2/libcalc.so 

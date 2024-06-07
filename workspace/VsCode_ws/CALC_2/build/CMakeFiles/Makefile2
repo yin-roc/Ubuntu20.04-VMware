@@ -106,7 +106,7 @@ CMakeFiles/calc.dir/clean:
 # Target rules for target CMakeFiles/CALC.dir
 
 # All Build rule for target.
-CMakeFiles/CALC.dir/all:
+CMakeFiles/CALC.dir/all: CMakeFiles/calc.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CALC.dir/build.make CMakeFiles/CALC.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CALC.dir/build.make CMakeFiles/CALC.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target CALC"
@@ -114,7 +114,7 @@ CMakeFiles/CALC.dir/all:
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CALC.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CALC.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/build/CMakeFiles 0
 .PHONY : CMakeFiles/CALC.dir/rule

@@ -1,0 +1,4 @@
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_3/build/CMakeFiles/calc.dir
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_3/build/CMakeFiles/CALC.dir
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_3/build/CMakeFiles/edit_cache.dir
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_3/build/CMakeFiles/rebuild_cache.dir

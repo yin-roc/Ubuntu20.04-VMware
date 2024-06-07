@@ -156,6 +156,7 @@ bin/CALC: CMakeFiles/CALC.dir/src/main.c.o
 bin/CALC: CMakeFiles/CALC.dir/src/mult.c.o
 bin/CALC: CMakeFiles/CALC.dir/src/sub.c.o
 bin/CALC: CMakeFiles/CALC.dir/build.make
+bin/CALC: ../lib2/libcalc.so
 bin/CALC: CMakeFiles/CALC.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/VsCode_ws/CALC_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable bin/CALC"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CALC.dir/link.txt --verbose=$(VERBOSE)
