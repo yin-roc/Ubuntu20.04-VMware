@@ -8,6 +8,7 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 
 # 设置可执行文件的输出路径
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/build/bin)
+
 # 定义可执行文件
 file(GLOB src_path ${CMAKE_CURRENT_SOURCE_DIR}/src/*.c)
 
@@ -18,12 +19,17 @@ file(GLOB src_path ${CMAKE_CURRENT_SOURCE_DIR}/src/*.c)
 # add_library(calc_static_lib STATIC ${src_path})
 
 # 包含静态库路径
-link_directories(LINK_LIBS ${PROJECT_SOURCE_DIR}/lib)
+# link_directories(${CMAKE_CURRENT_SOURCE_DIR}/lib)
 # 链接静态库
-link_libraries(calc_static_lib)
+# link_libraries(calc_static_lib)
+
+# 指定要链接的动态库的路径
+link_directories(${PROJECT_SOURCE_DIR}/lib)
 
 # 制作动态库
 # add_library(calc_shared_lib SHARED ${src_path})
 
+# 生成可执行文件
 add_executable(calc ${src_path})
-target_link_libraries(calc ${LINK_LIBS})
+# 链接动态库
+target_link_libraries(calc calc_shared_lib)
