@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34bcfda1-6295-4e8c-93e5-85eef7c4dd41" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/pythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/pythonProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +41,16 @@
     "Python.05_Python中的数据类型转换.executor": "Run",
     "Python.06_Python中的标识符.executor": "Run",
     "Python.07_Python中的运算符.executor": "Run",
+    "Python.08_字符串的多种定义方式.executor": "Run",
+    "Python.09_Python中的字符串拼接.executor": "Run",
+    "Python.10_Python中的字符串格式化.executor": "Run",
+    "Python.11_Python中的字符串格式化的精度控制.executor": "Run",
+    "Python.12_Python中的字符串格式化的方法2.executor": "Run",
+    "Python.13_Python中对表达式进行格式化.executor": "Run",
+    "Python.14_字符串格式化练习.executor": "Run",
+    "Python.15_Python中的数据输入语句.executor": "Run",
+    "Python.16_Python中的布尔类型和比较运算符.executor": "Run",
+    "Python.17_Python中的if语句基本格式.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -58,8 +63,8 @@
       <recent name="$PROJECT_DIR$/02_Python入门语法" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.07_Python中的运算符">
-    <configuration name="01_Python中的字面量" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.17_Python中的if语句基本格式">
+    <configuration name="13_Python中对表达式进行格式化" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,7 +77,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/01_Python中的字面量.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/13_Python中对表达式进行格式化.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03_Python中的变量" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="14_字符串格式化练习" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,7 +99,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/03_Python中的变量.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/14_字符串格式化练习.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="05_Python中的数据类型转换" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="15_Python中的数据输入语句" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,7 +121,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/05_Python中的数据类型转换.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/15_Python中的数据输入语句.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="06_Python中的标识符" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="16_Python中的布尔类型和比较运算符" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,7 +143,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/06_Python中的标识符.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/16_Python中的布尔类型和比较运算符.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="07_Python中的运算符" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="17_Python中的if语句基本格式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,7 +165,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/07_Python中的运算符.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/17_Python中的if语句基本格式.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.07_Python中的运算符" />
-        <item itemvalue="Python.06_Python中的标识符" />
-        <item itemvalue="Python.05_Python中的数据类型转换" />
-        <item itemvalue="Python.03_Python中的变量" />
-        <item itemvalue="Python.01_Python中的字面量" />
+        <item itemvalue="Python.17_Python中的if语句基本格式" />
+        <item itemvalue="Python.16_Python中的布尔类型和比较运算符" />
+        <item itemvalue="Python.15_Python中的数据输入语句" />
+        <item itemvalue="Python.14_字符串格式化练习" />
+        <item itemvalue="Python.13_Python中对表达式进行格式化" />
       </list>
     </recent_temporary>
   </component>
