@@ -51,11 +51,21 @@
     "Python.15_Python中的数据输入语句.executor": "Run",
     "Python.16_Python中的布尔类型和比较运算符.executor": "Run",
     "Python.17_Python中的if语句基本格式.executor": "Run",
+    "Python.18_成年人判断练习.executor": "Run",
+    "Python.19_Python中ifelse语句的使用.executor": "Run",
+    "Python.20_我要买票吗练习.executor": "Run",
+    "Python.21_Python中的if_elif_else语句的使用.executor": "Run",
+    "Python.22_猜猜心里数字.executor": "Run",
+    "Python.23_Python中判断语句的嵌套.executor": "Run",
+    "Python.24_判断语句综合案例.executor": "Run",
+    "Python.25_Python中的while循环的基础应用.executor": "Run",
+    "Python.26_求1-100的和练习.executor": "Run",
+    "Python.27_while循环猜数字练习.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/pythonProject/Python_Learning/02_Python入门语法",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.配色方案字体"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -63,8 +73,8 @@
       <recent name="$PROJECT_DIR$/02_Python入门语法" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.17_Python中的if语句基本格式">
-    <configuration name="13_Python中对表达式进行格式化" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.27_while循环猜数字练习">
+    <configuration name="23_Python中判断语句的嵌套" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,7 +87,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/13_Python中对表达式进行格式化.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/23_Python中判断语句的嵌套.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="14_字符串格式化练习" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="24_判断语句综合案例" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,7 +109,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/14_字符串格式化练习.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/24_判断语句综合案例.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="15_Python中的数据输入语句" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="25_Python中的while循环的基础应用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,7 +131,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/15_Python中的数据输入语句.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/25_Python中的while循环的基础应用.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,7 +140,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="16_Python中的布尔类型和比较运算符" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="26_求1-100的和练习" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,7 +153,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/16_Python中的布尔类型和比较运算符.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/26_求1-100的和练习.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,7 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="17_Python中的if语句基本格式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="27_while循环猜数字练习" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,7 +175,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/17_Python中的if语句基本格式.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/27_while循环猜数字练习.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.17_Python中的if语句基本格式" />
-        <item itemvalue="Python.16_Python中的布尔类型和比较运算符" />
-        <item itemvalue="Python.15_Python中的数据输入语句" />
-        <item itemvalue="Python.14_字符串格式化练习" />
-        <item itemvalue="Python.13_Python中对表达式进行格式化" />
+        <item itemvalue="Python.27_while循环猜数字练习" />
+        <item itemvalue="Python.26_求1-100的和练习" />
+        <item itemvalue="Python.25_Python中的while循环的基础应用" />
+        <item itemvalue="Python.24_判断语句综合案例" />
+        <item itemvalue="Python.23_Python中判断语句的嵌套" />
       </list>
     </recent_temporary>
   </component>
