@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="34bcfda1-6295-4e8c-93e5-85eef7c4dd41" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Python入门语法/27_while循环猜数字练习.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_Python入门语法/27_Python中的while循环猜数字练习.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +62,14 @@
     "Python.25_Python中的while循环的基础应用.executor": "Run",
     "Python.26_求1-100的和练习.executor": "Run",
     "Python.27_while循环猜数字练习.executor": "Run",
+    "Python.28_Python中的while循环的嵌套应用.executor": "Run",
+    "Python.29_while循环的应用—九九乘法表.executor": "Run",
+    "Python.30_Python中的for循环的基本语法.executor": "Run",
+    "Python.32_Python中的range语句.executor": "Run",
+    "Python.34_Python中的for循环的嵌套使用.executor": "Run",
+    "Python.35_Python中的for循环打印九九乘法表.executor": "Run",
+    "Python.36_Python中的循环中断.executor": "Run",
+    "Python.37_循环综合案例.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -73,8 +82,8 @@
       <recent name="$PROJECT_DIR$/02_Python入门语法" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.27_while循环猜数字练习">
-    <configuration name="23_Python中判断语句的嵌套" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.37_循环综合案例">
+    <configuration name="32_Python中的range语句" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,7 +96,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/23_Python中判断语句的嵌套.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/32_Python中的range语句.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="24_判断语句综合案例" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="34_Python中的for循环的嵌套使用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,7 +118,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/24_判断语句综合案例.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/34_Python中的for循环的嵌套使用.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="25_Python中的while循环的基础应用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="35_Python中的for循环打印九九乘法表" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,7 +140,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/25_Python中的while循环的基础应用.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/35_Python中的for循环打印九九乘法表.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +149,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="26_求1-100的和练习" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="36_Python中的循环中断" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,7 +162,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/26_求1-100的和练习.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/36_Python中的循环中断.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,7 +171,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="27_while循环猜数字练习" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="37_循环综合案例" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,7 +184,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/27_while循环猜数字练习.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/37_循环综合案例.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.27_while循环猜数字练习" />
-        <item itemvalue="Python.26_求1-100的和练习" />
-        <item itemvalue="Python.25_Python中的while循环的基础应用" />
-        <item itemvalue="Python.24_判断语句综合案例" />
-        <item itemvalue="Python.23_Python中判断语句的嵌套" />
+        <item itemvalue="Python.37_循环综合案例" />
+        <item itemvalue="Python.36_Python中的循环中断" />
+        <item itemvalue="Python.35_Python中的for循环打印九九乘法表" />
+        <item itemvalue="Python.34_Python中的for循环的嵌套使用" />
+        <item itemvalue="Python.32_Python中的range语句" />
       </list>
     </recent_temporary>
   </component>
