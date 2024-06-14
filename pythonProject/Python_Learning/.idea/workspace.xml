@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="34bcfda1-6295-4e8c-93e5-85eef7c4dd41" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_Python入门语法/27_while循环猜数字练习.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_Python入门语法/27_Python中的while循环猜数字练习.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +35,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python 测试.42_函数的基础定义案例练习—升级版自动查核酸.test 的 Python 测试.executor": "Run",
+    "Python 测试.Python 测试 (42_Python中的函数的传入参数练习.py 内).executor": "Run",
+    "Python 测试.Python 测试 (42_函数的基础定义案例练习—升级版自动查核酸.py 内).executor": "Run",
+    "Python 测试.Python 测试 (47_Python中的变量在函数中的作用域.py 内).executor": "Run",
     "Python.01_Python中的字面量.executor": "Run",
     "Python.03_Python中的变量.executor": "Run",
     "Python.04_Python中的数据类型.executor": "Run",
@@ -70,11 +73,25 @@
     "Python.35_Python中的for循环打印九九乘法表.executor": "Run",
     "Python.36_Python中的循环中断.executor": "Run",
     "Python.37_循环综合案例.executor": "Run",
+    "Python.38_Python中的函数初体验.executor": "Run",
+    "Python.39_Python中的函数定义.executor": "Run",
+    "Python.40_函数的基础定义案例练习.executor": "Run",
+    "Python.41_Python中的函数的传入参数.executor": "Run",
+    "Python.42_Python中的函数的传入参数练习.executor": "Run",
+    "Python.42_函数的基础定义案例练习—升级版自动查核酸.executor": "Run",
+    "Python.43_Python中的函数的返回值.executor": "Run",
+    "Python.44_Python中的函数的返回值之None类型.executor": "Run",
+    "Python.46_Python中的函数的嵌套调用.executor": "Run",
+    "Python.47_Python中的变量在函数中的作用域.executor": "Run",
+    "Python.48_函数综合案例练习.executor": "Run",
+    "Python.49_Python中列表的定义语法.executor": "Run",
+    "Python.50_Python中列表的下标索引.executor": "Run",
+    "Python.51_Python中列表的常用操作方法.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/pythonProject/Python_Learning/02_Python入门语法",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.配色方案字体"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -82,8 +99,8 @@
       <recent name="$PROJECT_DIR$/02_Python入门语法" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.37_循环综合案例">
-    <configuration name="32_Python中的range语句" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.51_Python中列表的常用操作方法">
+    <configuration name="47_Python中的变量在函数中的作用域" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,7 +113,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/32_Python中的range语句.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/47_Python中的变量在函数中的作用域.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="34_Python中的for循环的嵌套使用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="48_函数综合案例练习" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,7 +135,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/34_Python中的for循环的嵌套使用.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/48_函数综合案例练习.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="35_Python中的for循环打印九九乘法表" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="49_Python中列表的定义语法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,7 +157,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/35_Python中的for循环打印九九乘法表.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/49_Python中列表的定义语法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,7 +166,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="36_Python中的循环中断" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="50_Python中列表的下标索引" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,7 +179,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/36_Python中的循环中断.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/50_Python中列表的下标索引.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,7 +188,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="37_循环综合案例" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="51_Python中列表的常用操作方法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,7 +201,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/37_循环综合案例.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/51_Python中列表的常用操作方法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,11 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.37_循环综合案例" />
-        <item itemvalue="Python.36_Python中的循环中断" />
-        <item itemvalue="Python.35_Python中的for循环打印九九乘法表" />
-        <item itemvalue="Python.34_Python中的for循环的嵌套使用" />
-        <item itemvalue="Python.32_Python中的range语句" />
+        <item itemvalue="Python.51_Python中列表的常用操作方法" />
+        <item itemvalue="Python.50_Python中列表的下标索引" />
+        <item itemvalue="Python.49_Python中列表的定义语法" />
+        <item itemvalue="Python.48_函数综合案例练习" />
+        <item itemvalue="Python.47_Python中的变量在函数中的作用域" />
       </list>
     </recent_temporary>
   </component>
