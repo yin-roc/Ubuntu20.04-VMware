@@ -99,6 +99,13 @@
     "Python.61_集合的课后练习.executor": "Run",
     "Python.62_Python中的字典的定义.executor": "Run",
     "Python.63_Python中的字典的常用操作.executor": "Run",
+    "Python.64_字典的课后习题.executor": "Run",
+    "Python.65_Python中数据容器的通用功能.executor": "Run",
+    "Python.66_Python中字符串的大小比较.executor": "Run",
+    "Python.67_Python中函数的多返回值.executor": "Run",
+    "Python.68_Python中函数的多种参数使用形式.executor": "Run",
+    "Python.69_Python中函数作为参数传递.executor": "Run",
+    "Python.70_Python中lambda匿名函数.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -111,8 +118,8 @@
       <recent name="$PROJECT_DIR$/02_Python入门语法" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.63_Python中的字典的常用操作">
-    <configuration name="59_序列的切片课后习题" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.70_Python中lambda匿名函数">
+    <configuration name="66_Python中字符串的大小比较" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,7 +132,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/59_序列的切片课后习题.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/66_Python中字符串的大小比较.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="60_Python中的集合的定义和操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="67_Python中函数的多返回值" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,7 +154,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/60_Python中的集合的定义和操作.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/67_Python中函数的多返回值.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,7 +163,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="61_集合的课后练习" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="68_Python中函数的多种参数使用形式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,7 +176,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/61_集合的课后练习.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/68_Python中函数的多种参数使用形式.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,7 +185,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="62_Python中的字典的定义" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="69_Python中函数作为参数传递" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,7 +198,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/62_Python中的字典的定义.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/69_Python中函数作为参数传递.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,7 +207,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="63_Python中的字典的常用操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="70_Python中lambda匿名函数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,7 +220,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/63_Python中的字典的常用操作.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/70_Python中lambda匿名函数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,11 +253,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.63_Python中的字典的常用操作" />
-        <item itemvalue="Python.62_Python中的字典的定义" />
-        <item itemvalue="Python.61_集合的课后练习" />
-        <item itemvalue="Python.60_Python中的集合的定义和操作" />
-        <item itemvalue="Python.59_序列的切片课后习题" />
+        <item itemvalue="Python.70_Python中lambda匿名函数" />
+        <item itemvalue="Python.69_Python中函数作为参数传递" />
+        <item itemvalue="Python.68_Python中函数的多种参数使用形式" />
+        <item itemvalue="Python.67_Python中函数的多返回值" />
+        <item itemvalue="Python.66_Python中字符串的大小比较" />
       </list>
     </recent_temporary>
   </component>
