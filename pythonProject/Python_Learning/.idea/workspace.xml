@@ -106,7 +106,17 @@
     "Python.68_Python中函数的多种参数使用形式.executor": "Run",
     "Python.69_Python中函数作为参数传递.executor": "Run",
     "Python.70_Python中lambda匿名函数.executor": "Run",
+    "Python.71_Python中文件的读取操作.executor": "Run",
+    "Python.72_文件读取的课后练习.executor": "Run",
+    "Python.73_Python中文件的写出操作.executor": "Run",
+    "Python.74_Python中文件的追加写入操作.executor": "Run",
+    "Python.75_文件操作的综合案例.executor": "Run",
+    "Python.76_Python中异常的捕获.executor": "Run",
+    "Python.80_Python中异常的传递性.executor": "Run",
+    "Python.81_Python中模块的概念和导入.executor": "Run",
+    "Python.82_Python中的自定义模块并导入.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.my_module1_82.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/pythonProject/Python_Learning/02_Python入门语法",
@@ -118,8 +128,8 @@
       <recent name="$PROJECT_DIR$/02_Python入门语法" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.70_Python中lambda匿名函数">
-    <configuration name="66_Python中字符串的大小比较" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.82_Python中的自定义模块并导入">
+    <configuration name="76_Python中异常的捕获" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,7 +142,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/66_Python中字符串的大小比较.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/76_Python中异常的捕获.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,7 +151,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="67_Python中函数的多返回值" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="80_Python中异常的传递性" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,7 +164,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/67_Python中函数的多返回值.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/80_Python中异常的传递性.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,7 +173,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="68_Python中函数的多种参数使用形式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="81_Python中模块的概念和导入" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,7 +186,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/68_Python中函数的多种参数使用形式.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/81_Python中模块的概念和导入.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,7 +195,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="69_Python中函数作为参数传递" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="82_Python中的自定义模块并导入" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -198,29 +208,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/69_Python中函数作为参数传递.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="70_Python中lambda匿名函数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_Learning" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_Python入门语法" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/70_Python中lambda匿名函数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/82_Python中的自定义模块并导入.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,13 +239,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="my_module1_82" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Learning" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_Python入门语法" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/my_module1_82.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.70_Python中lambda匿名函数" />
-        <item itemvalue="Python.69_Python中函数作为参数传递" />
-        <item itemvalue="Python.68_Python中函数的多种参数使用形式" />
-        <item itemvalue="Python.67_Python中函数的多返回值" />
-        <item itemvalue="Python.66_Python中字符串的大小比较" />
+        <item itemvalue="Python.82_Python中的自定义模块并导入" />
+        <item itemvalue="Python.my_module1_82" />
+        <item itemvalue="Python.81_Python中模块的概念和导入" />
+        <item itemvalue="Python.80_Python中异常的传递性" />
+        <item itemvalue="Python.76_Python中异常的捕获" />
       </list>
     </recent_temporary>
   </component>
