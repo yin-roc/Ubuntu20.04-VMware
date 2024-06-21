@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="34bcfda1-6295-4e8c-93e5-85eef7c4dd41" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Python入门语法/可视化案例数据/地图数据/疫情.txt" beforeDir="false" afterPath="$PROJECT_DIR$/02_Python入门语法/可视化案例数据/地图数据/疫情.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,114 +34,120 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python 测试.42_函数的基础定义案例练习—升级版自动查核酸.test 的 Python 测试.executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.Python 测试 (42_Python中的函数的传入参数练习.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.Python 测试 (42_函数的基础定义案例练习—升级版自动查核酸.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.Python 测试 (47_Python中的变量在函数中的作用域.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_Python中的字面量.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_Python中的变量.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04_Python中的数据类型.executor&quot;: &quot;Run&quot;,
-    &quot;Python.05_Python中的数据类型转换.executor&quot;: &quot;Run&quot;,
-    &quot;Python.06_Python中的标识符.executor&quot;: &quot;Run&quot;,
-    &quot;Python.07_Python中的运算符.executor&quot;: &quot;Run&quot;,
-    &quot;Python.08_字符串的多种定义方式.executor&quot;: &quot;Run&quot;,
-    &quot;Python.09_Python中的字符串拼接.executor&quot;: &quot;Run&quot;,
-    &quot;Python.10_Python中的字符串格式化.executor&quot;: &quot;Run&quot;,
-    &quot;Python.11_Python中的字符串格式化的精度控制.executor&quot;: &quot;Run&quot;,
-    &quot;Python.12_Python中的字符串格式化的方法2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.13_Python中对表达式进行格式化.executor&quot;: &quot;Run&quot;,
-    &quot;Python.14_字符串格式化练习.executor&quot;: &quot;Run&quot;,
-    &quot;Python.15_Python中的数据输入语句.executor&quot;: &quot;Run&quot;,
-    &quot;Python.16_Python中的布尔类型和比较运算符.executor&quot;: &quot;Run&quot;,
-    &quot;Python.17_Python中的if语句基本格式.executor&quot;: &quot;Run&quot;,
-    &quot;Python.18_成年人判断练习.executor&quot;: &quot;Run&quot;,
-    &quot;Python.19_Python中ifelse语句的使用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.20_我要买票吗练习.executor&quot;: &quot;Run&quot;,
-    &quot;Python.21_Python中的if_elif_else语句的使用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.22_猜猜心里数字.executor&quot;: &quot;Run&quot;,
-    &quot;Python.23_Python中判断语句的嵌套.executor&quot;: &quot;Run&quot;,
-    &quot;Python.24_判断语句综合案例.executor&quot;: &quot;Run&quot;,
-    &quot;Python.25_Python中的while循环的基础应用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.26_求1-100的和练习.executor&quot;: &quot;Run&quot;,
-    &quot;Python.27_while循环猜数字练习.executor&quot;: &quot;Run&quot;,
-    &quot;Python.28_Python中的while循环的嵌套应用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.29_while循环的应用—九九乘法表.executor&quot;: &quot;Run&quot;,
-    &quot;Python.30_Python中的for循环的基本语法.executor&quot;: &quot;Run&quot;,
-    &quot;Python.32_Python中的range语句.executor&quot;: &quot;Run&quot;,
-    &quot;Python.34_Python中的for循环的嵌套使用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.35_Python中的for循环打印九九乘法表.executor&quot;: &quot;Run&quot;,
-    &quot;Python.36_Python中的循环中断.executor&quot;: &quot;Run&quot;,
-    &quot;Python.37_循环综合案例.executor&quot;: &quot;Run&quot;,
-    &quot;Python.38_Python中的函数初体验.executor&quot;: &quot;Run&quot;,
-    &quot;Python.39_Python中的函数定义.executor&quot;: &quot;Run&quot;,
-    &quot;Python.40_函数的基础定义案例练习.executor&quot;: &quot;Run&quot;,
-    &quot;Python.41_Python中的函数的传入参数.executor&quot;: &quot;Run&quot;,
-    &quot;Python.42_Python中的函数的传入参数练习.executor&quot;: &quot;Run&quot;,
-    &quot;Python.42_函数的基础定义案例练习—升级版自动查核酸.executor&quot;: &quot;Run&quot;,
-    &quot;Python.43_Python中的函数的返回值.executor&quot;: &quot;Run&quot;,
-    &quot;Python.44_Python中的函数的返回值之None类型.executor&quot;: &quot;Run&quot;,
-    &quot;Python.46_Python中的函数的嵌套调用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.47_Python中的变量在函数中的作用域.executor&quot;: &quot;Run&quot;,
-    &quot;Python.48_函数综合案例练习.executor&quot;: &quot;Run&quot;,
-    &quot;Python.49_Python中列表的定义语法.executor&quot;: &quot;Run&quot;,
-    &quot;Python.50_Python中列表的下标索引.executor&quot;: &quot;Run&quot;,
-    &quot;Python.51_Python中列表的常用操作方法.executor&quot;: &quot;Run&quot;,
-    &quot;Python.52_列表的常用操作课后习题练习.executor&quot;: &quot;Run&quot;,
-    &quot;Python.53_Python中列表的循环遍历.executor&quot;: &quot;Run&quot;,
-    &quot;Python.54_列表的循环遍历练习题.executor&quot;: &quot;Run&quot;,
-    &quot;Python.55_元组的定义与操作.executor&quot;: &quot;Run&quot;,
-    &quot;Python.56_Python中的字符串的定义与操作.executor&quot;: &quot;Run&quot;,
-    &quot;Python.57_字符串的课后练习.executor&quot;: &quot;Run&quot;,
-    &quot;Python.58_Python中的数列容器(序列)的切片.executor&quot;: &quot;Run&quot;,
-    &quot;Python.59_序列的切片课后习题.executor&quot;: &quot;Run&quot;,
-    &quot;Python.60_Python中的集合的定义和操作.executor&quot;: &quot;Run&quot;,
-    &quot;Python.61_集合的课后练习.executor&quot;: &quot;Run&quot;,
-    &quot;Python.62_Python中的字典的定义.executor&quot;: &quot;Run&quot;,
-    &quot;Python.63_Python中的字典的常用操作.executor&quot;: &quot;Run&quot;,
-    &quot;Python.64_字典的课后习题.executor&quot;: &quot;Run&quot;,
-    &quot;Python.65_Python中数据容器的通用功能.executor&quot;: &quot;Run&quot;,
-    &quot;Python.66_Python中字符串的大小比较.executor&quot;: &quot;Run&quot;,
-    &quot;Python.67_Python中函数的多返回值.executor&quot;: &quot;Run&quot;,
-    &quot;Python.68_Python中函数的多种参数使用形式.executor&quot;: &quot;Run&quot;,
-    &quot;Python.69_Python中函数作为参数传递.executor&quot;: &quot;Run&quot;,
-    &quot;Python.70_Python中lambda匿名函数.executor&quot;: &quot;Run&quot;,
-    &quot;Python.71_Python中文件的读取操作.executor&quot;: &quot;Run&quot;,
-    &quot;Python.72_文件读取的课后练习.executor&quot;: &quot;Run&quot;,
-    &quot;Python.73_Python中文件的写出操作.executor&quot;: &quot;Run&quot;,
-    &quot;Python.74_Python中文件的追加写入操作.executor&quot;: &quot;Run&quot;,
-    &quot;Python.75_文件操作的综合案例.executor&quot;: &quot;Run&quot;,
-    &quot;Python.76_Python中异常的捕获.executor&quot;: &quot;Run&quot;,
-    &quot;Python.80_Python中异常的传递性.executor&quot;: &quot;Run&quot;,
-    &quot;Python.81_Python中模块的概念和导入.executor&quot;: &quot;Run&quot;,
-    &quot;Python.82_Python中的自定义模块并导入.executor&quot;: &quot;Run&quot;,
-    &quot;Python.83_Python中的自定义Python包.executor&quot;: &quot;Run&quot;,
-    &quot;Python.84_异常_模块_包综合案例.executor&quot;: &quot;Run&quot;,
-    &quot;Python.85_Python中的json的数据格式.executor&quot;: &quot;Run&quot;,
-    &quot;Python.86_Python中的pyecharts的入门使用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.87_Python中的折线图数据准备.executor&quot;: &quot;Run&quot;,
-    &quot;Python.88_Python中的可视化案例——基础地图的使用.executor&quot;: &quot;Run&quot;,
-    &quot;Python.file_util (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.file_util.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.my_module1_82.executor&quot;: &quot;Run&quot;,
-    &quot;Python.str_util (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.str_util.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/yin-roc/1-Github/Ubuntu20.04-VMware/pythonProject/Python_Learning/02_Python入门语法&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python 测试.42_函数的基础定义案例练习—升级版自动查核酸.test 的 Python 测试.executor": "Run",
+    "Python 测试.Python 测试 (42_Python中的函数的传入参数练习.py 内).executor": "Run",
+    "Python 测试.Python 测试 (42_函数的基础定义案例练习—升级版自动查核酸.py 内).executor": "Run",
+    "Python 测试.Python 测试 (47_Python中的变量在函数中的作用域.py 内).executor": "Run",
+    "Python.01_Python中的字面量.executor": "Run",
+    "Python.03_Python中的变量.executor": "Run",
+    "Python.04_Python中的数据类型.executor": "Run",
+    "Python.05_Python中的数据类型转换.executor": "Run",
+    "Python.06_Python中的标识符.executor": "Run",
+    "Python.07_Python中的运算符.executor": "Run",
+    "Python.08_字符串的多种定义方式.executor": "Run",
+    "Python.09_Python中的字符串拼接.executor": "Run",
+    "Python.10_Python中的字符串格式化.executor": "Run",
+    "Python.11_Python中的字符串格式化的精度控制.executor": "Run",
+    "Python.12_Python中的字符串格式化的方法2.executor": "Run",
+    "Python.13_Python中对表达式进行格式化.executor": "Run",
+    "Python.14_字符串格式化练习.executor": "Run",
+    "Python.15_Python中的数据输入语句.executor": "Run",
+    "Python.16_Python中的布尔类型和比较运算符.executor": "Run",
+    "Python.17_Python中的if语句基本格式.executor": "Run",
+    "Python.18_成年人判断练习.executor": "Run",
+    "Python.19_Python中ifelse语句的使用.executor": "Run",
+    "Python.20_我要买票吗练习.executor": "Run",
+    "Python.21_Python中的if_elif_else语句的使用.executor": "Run",
+    "Python.22_猜猜心里数字.executor": "Run",
+    "Python.23_Python中判断语句的嵌套.executor": "Run",
+    "Python.24_判断语句综合案例.executor": "Run",
+    "Python.25_Python中的while循环的基础应用.executor": "Run",
+    "Python.26_求1-100的和练习.executor": "Run",
+    "Python.27_while循环猜数字练习.executor": "Run",
+    "Python.28_Python中的while循环的嵌套应用.executor": "Run",
+    "Python.29_while循环的应用—九九乘法表.executor": "Run",
+    "Python.30_Python中的for循环的基本语法.executor": "Run",
+    "Python.32_Python中的range语句.executor": "Run",
+    "Python.34_Python中的for循环的嵌套使用.executor": "Run",
+    "Python.35_Python中的for循环打印九九乘法表.executor": "Run",
+    "Python.36_Python中的循环中断.executor": "Run",
+    "Python.37_循环综合案例.executor": "Run",
+    "Python.38_Python中的函数初体验.executor": "Run",
+    "Python.39_Python中的函数定义.executor": "Run",
+    "Python.40_函数的基础定义案例练习.executor": "Run",
+    "Python.41_Python中的函数的传入参数.executor": "Run",
+    "Python.42_Python中的函数的传入参数练习.executor": "Run",
+    "Python.42_函数的基础定义案例练习—升级版自动查核酸.executor": "Run",
+    "Python.43_Python中的函数的返回值.executor": "Run",
+    "Python.44_Python中的函数的返回值之None类型.executor": "Run",
+    "Python.46_Python中的函数的嵌套调用.executor": "Run",
+    "Python.47_Python中的变量在函数中的作用域.executor": "Run",
+    "Python.48_函数综合案例练习.executor": "Run",
+    "Python.49_Python中列表的定义语法.executor": "Run",
+    "Python.50_Python中列表的下标索引.executor": "Run",
+    "Python.51_Python中列表的常用操作方法.executor": "Run",
+    "Python.52_列表的常用操作课后习题练习.executor": "Run",
+    "Python.53_Python中列表的循环遍历.executor": "Run",
+    "Python.54_列表的循环遍历练习题.executor": "Run",
+    "Python.55_元组的定义与操作.executor": "Run",
+    "Python.56_Python中的字符串的定义与操作.executor": "Run",
+    "Python.57_字符串的课后练习.executor": "Run",
+    "Python.58_Python中的数列容器(序列)的切片.executor": "Run",
+    "Python.59_序列的切片课后习题.executor": "Run",
+    "Python.60_Python中的集合的定义和操作.executor": "Run",
+    "Python.61_集合的课后练习.executor": "Run",
+    "Python.62_Python中的字典的定义.executor": "Run",
+    "Python.63_Python中的字典的常用操作.executor": "Run",
+    "Python.64_字典的课后习题.executor": "Run",
+    "Python.65_Python中数据容器的通用功能.executor": "Run",
+    "Python.66_Python中字符串的大小比较.executor": "Run",
+    "Python.67_Python中函数的多返回值.executor": "Run",
+    "Python.68_Python中函数的多种参数使用形式.executor": "Run",
+    "Python.69_Python中函数作为参数传递.executor": "Run",
+    "Python.70_Python中lambda匿名函数.executor": "Run",
+    "Python.71_Python中文件的读取操作.executor": "Run",
+    "Python.72_文件读取的课后练习.executor": "Run",
+    "Python.73_Python中文件的写出操作.executor": "Run",
+    "Python.74_Python中文件的追加写入操作.executor": "Run",
+    "Python.75_文件操作的综合案例.executor": "Run",
+    "Python.76_Python中异常的捕获.executor": "Run",
+    "Python.80_Python中异常的传递性.executor": "Run",
+    "Python.81_Python中模块的概念和导入.executor": "Run",
+    "Python.82_Python中的自定义模块并导入.executor": "Run",
+    "Python.83_Python中的自定义Python包.executor": "Run",
+    "Python.84_异常_模块_包综合案例.executor": "Run",
+    "Python.85_Python中的json的数据格式.executor": "Run",
+    "Python.86_Python中的pyecharts的入门使用.executor": "Run",
+    "Python.87_Python中的折线图数据准备.executor": "Run",
+    "Python.88_Python中的可视化案例——基础地图的使用.executor": "Run",
+    "Python.89_Python中的可视化案例—全国疫情地图构建.executor": "Run",
+    "Python.90_Python中的可视化案例—河南省疫情地图构建.executor": "Run",
+    "Python.91_Python中的可视化案例—基础柱状图.executor": "Run",
+    "Python.92_Python中的可视化案例—基础时间线柱状图.executor": "Run",
+    "Python.93_Python中的可视化案例—动态GDP柱状图绘制.executor": "Run",
+    "Python.94_Python中的可视化案例—动态GDP柱状图绘制.executor": "Run",
+    "Python.file_util (1).executor": "Run",
+    "Python.file_util.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.my_module1_82.executor": "Run",
+    "Python.str_util (1).executor": "Run",
+    "Python.str_util.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/pythonProject/Python_Learning/02_Python入门语法",
+    "settings.editor.selected.configurable": "settings.sync"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/02_Python入门语法" />
       <recent name="$PROJECT_DIR$/my_package_83" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.88_Python中的可视化案例——基础地图的使用">
-    <configuration name="84_异常_模块_包综合案例" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.94_Python中的可视化案例—动态GDP柱状图绘制">
+    <configuration name="90_Python中的可视化案例—河南省疫情地图构建" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,7 +160,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/84_异常_模块_包综合案例.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/90_Python中的可视化案例—河南省疫情地图构建.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,7 +169,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="85_Python中的json的数据格式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="91_Python中的可视化案例—基础柱状图" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,7 +182,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/85_Python中的json的数据格式.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/91_Python中的可视化案例—基础柱状图.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,7 +191,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="86_Python中的pyecharts的入门使用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="92_Python中的可视化案例—基础时间线柱状图" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,7 +204,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/86_Python中的pyecharts的入门使用.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/92_Python中的可视化案例—基础时间线柱状图.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,7 +213,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="87_Python中的折线图数据准备" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="93_扩展知识点—列表的sort方法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,7 +226,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/87_Python中的折线图数据准备.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/93_扩展知识点—列表的sort方法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -228,7 +235,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="88_Python中的可视化案例——基础地图的使用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="94_Python中的可视化案例—动态GDP柱状图绘制" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,7 +248,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/88_Python中的可视化案例——基础地图的使用.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/94_Python中的可视化案例—动态GDP柱状图绘制.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -274,11 +281,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.88_Python中的可视化案例——基础地图的使用" />
-        <item itemvalue="Python.87_Python中的折线图数据准备" />
-        <item itemvalue="Python.86_Python中的pyecharts的入门使用" />
-        <item itemvalue="Python.85_Python中的json的数据格式" />
-        <item itemvalue="Python.84_异常_模块_包综合案例" />
+        <item itemvalue="Python.94_Python中的可视化案例—动态GDP柱状图绘制" />
+        <item itemvalue="Python.93_扩展知识点—列表的sort方法" />
+        <item itemvalue="Python.92_Python中的可视化案例—基础时间线柱状图" />
+        <item itemvalue="Python.91_Python中的可视化案例—基础柱状图" />
+        <item itemvalue="Python.90_Python中的可视化案例—河南省疫情地图构建" />
       </list>
     </recent_temporary>
   </component>
