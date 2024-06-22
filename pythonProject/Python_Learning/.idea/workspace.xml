@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="34bcfda1-6295-4e8c-93e5-85eef7c4dd41" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_Python入门语法/可视化案例数据/地图数据/疫情.txt" beforeDir="false" afterPath="$PROJECT_DIR$/02_Python入门语法/可视化案例数据/地图数据/疫情.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +47,8 @@
     "Python.07_Python中的运算符.executor": "Run",
     "Python.08_字符串的多种定义方式.executor": "Run",
     "Python.09_Python中的字符串拼接.executor": "Run",
+    "Python.100_Python中的魔术方法.executor": "Run",
+    "Python.101_Python中的封装.executor": "Run",
     "Python.10_Python中的字符串格式化.executor": "Run",
     "Python.11_Python中的字符串格式化的精度控制.executor": "Run",
     "Python.12_Python中的字符串格式化的方法2.executor": "Run",
@@ -128,6 +129,11 @@
     "Python.92_Python中的可视化案例—基础时间线柱状图.executor": "Run",
     "Python.93_Python中的可视化案例—动态GDP柱状图绘制.executor": "Run",
     "Python.94_Python中的可视化案例—动态GDP柱状图绘制.executor": "Run",
+    "Python.95_Python中的初识对象.executor": "Run",
+    "Python.96_Python中的类的成员方法.executor": "Run",
+    "Python.97_Python中的类和对象.executor": "Run",
+    "Python.98_Python中的构造方法.executor": "Run",
+    "Python.99_构造方法课后练习.executor": "Run",
     "Python.file_util (1).executor": "Run",
     "Python.file_util.executor": "Run",
     "Python.main.executor": "Run",
@@ -136,18 +142,19 @@
     "Python.str_util.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/pythonProject/Python_Learning/02_Python入门语法",
-    "settings.editor.selected.configurable": "settings.sync"
+    "last_opened_file_path": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/pythonProject/Python_Learning/03_Python第三阶段",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/03_Python第三阶段" />
       <recent name="$PROJECT_DIR$/02_Python入门语法" />
       <recent name="$PROJECT_DIR$/my_package_83" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.94_Python中的可视化案例—动态GDP柱状图绘制">
-    <configuration name="90_Python中的可视化案例—河南省疫情地图构建" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.101_Python中的封装">
+    <configuration name="100_Python中的魔术方法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,11 +163,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_Python入门语法" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_Python第三阶段" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/90_Python中的可视化案例—河南省疫情地图构建.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_Python第三阶段/100_Python中的魔术方法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,7 +176,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="91_Python中的可视化案例—基础柱状图" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="101_Python中的封装" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,11 +185,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_Python入门语法" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_Python第三阶段" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/91_Python中的可视化案例—基础柱状图.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_Python第三阶段/101_Python中的封装.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,7 +198,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="92_Python中的可视化案例—基础时间线柱状图" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="97_Python中的类和对象" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,11 +207,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_Python入门语法" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_Python第三阶段" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/92_Python中的可视化案例—基础时间线柱状图.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_Python第三阶段/97_Python中的类和对象.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,7 +220,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="93_扩展知识点—列表的sort方法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="98_Python中的构造方法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -222,11 +229,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_Python入门语法" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_Python第三阶段" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/93_扩展知识点—列表的sort方法.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_Python第三阶段/98_Python中的构造方法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -235,7 +242,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="94_Python中的可视化案例—动态GDP柱状图绘制" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="99_构造方法课后练习" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -244,11 +251,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_Python入门语法" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_Python第三阶段" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Python入门语法/94_Python中的可视化案例—动态GDP柱状图绘制.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_Python第三阶段/99_构造方法课后练习.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -281,11 +288,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.94_Python中的可视化案例—动态GDP柱状图绘制" />
-        <item itemvalue="Python.93_扩展知识点—列表的sort方法" />
-        <item itemvalue="Python.92_Python中的可视化案例—基础时间线柱状图" />
-        <item itemvalue="Python.91_Python中的可视化案例—基础柱状图" />
-        <item itemvalue="Python.90_Python中的可视化案例—河南省疫情地图构建" />
+        <item itemvalue="Python.101_Python中的封装" />
+        <item itemvalue="Python.100_Python中的魔术方法" />
+        <item itemvalue="Python.99_构造方法课后练习" />
+        <item itemvalue="Python.98_Python中的构造方法" />
+        <item itemvalue="Python.97_Python中的类和对象" />
       </list>
     </recent_temporary>
   </component>
