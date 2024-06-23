@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="34bcfda1-6295-4e8c-93e5-85eef7c4dd41" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Python第三阶段/101_Python中的封装.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Python第三阶段/101_Python中的封装.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,10 @@
     "Python.09_Python中的字符串拼接.executor": "Run",
     "Python.100_Python中的魔术方法.executor": "Run",
     "Python.101_Python中的封装.executor": "Run",
+    "Python.101_封装的课后练习.executor": "Run",
+    "Python.102_Python中的继承.executor": "Run",
+    "Python.103_Python中的复写父类成员和调用父类成员.executor": "Run",
+    "Python.107_Python中的多态.executor": "Run",
     "Python.10_Python中的字符串格式化.executor": "Run",
     "Python.11_Python中的字符串格式化的精度控制.executor": "Run",
     "Python.12_Python中的字符串格式化的方法2.executor": "Run",
@@ -153,8 +158,8 @@
       <recent name="$PROJECT_DIR$/my_package_83" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.101_Python中的封装">
-    <configuration name="100_Python中的魔术方法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.107_Python中的多态">
+    <configuration name="101_封装的课后练习" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,7 +172,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_Python第三阶段/100_Python中的魔术方法.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_Python第三阶段/101_封装的课后练习.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,7 +203,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="97_Python中的类和对象" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="102_Python中的继承" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,7 +216,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_Python第三阶段/97_Python中的类和对象.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_Python第三阶段/102_Python中的继承.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,7 +225,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="98_Python中的构造方法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="103_Python中的复写父类成员和调用父类成员" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,7 +238,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_Python第三阶段/98_Python中的构造方法.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_Python第三阶段/103_Python中的复写父类成员和调用父类成员.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,7 +247,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="99_构造方法课后练习" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="107_Python中的多态" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -255,7 +260,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_Python第三阶段/99_构造方法课后练习.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_Python第三阶段/107_Python中的多态.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,11 +293,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.107_Python中的多态" />
+        <item itemvalue="Python.103_Python中的复写父类成员和调用父类成员" />
+        <item itemvalue="Python.102_Python中的继承" />
+        <item itemvalue="Python.101_封装的课后练习" />
         <item itemvalue="Python.101_Python中的封装" />
-        <item itemvalue="Python.100_Python中的魔术方法" />
-        <item itemvalue="Python.99_构造方法课后练习" />
-        <item itemvalue="Python.98_Python中的构造方法" />
-        <item itemvalue="Python.97_Python中的类和对象" />
       </list>
     </recent_temporary>
   </component>
