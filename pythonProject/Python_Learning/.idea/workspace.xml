@@ -40,9 +40,15 @@
     "Python 测试.Python 测试 (42_函数的基础定义案例练习—升级版自动查核酸.py 内).executor": "Run",
     "Python 测试.Python 测试 (47_Python中的变量在函数中的作用域.py 内).executor": "Run",
     "Python.01_Python中的字面量.executor": "Run",
+    "Python.01_基础准备.executor": "Run",
+    "Python.01_闭包.executor": "Run",
+    "Python.02_装饰器.executor": "Run",
     "Python.03_Python中的变量.executor": "Run",
+    "Python.03_单例模式.executor": "Run",
     "Python.04_Python中的数据类型.executor": "Run",
+    "Python.04_工厂模式.executor": "Run",
     "Python.05_Python中的数据类型转换.executor": "Run",
+    "Python.05_多线程编程.executor": "Run",
     "Python.06_Python中的标识符.executor": "Run",
     "Python.07_Python中的运算符.executor": "Run",
     "Python.08_字符串的多种定义方式.executor": "Run",
@@ -148,24 +154,28 @@
     "Python.str_util (1).executor": "Run",
     "Python.str_util.executor": "Run",
     "Python.test.executor": "Run",
+    "Python.test2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/pythonProject/Python_Learning/03_Python第三阶段",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "last_opened_file_path": "/home/yin-roc/1-Github/Ubuntu20.04-VMware/pythonProject/Python_Learning/04_Python第四阶段/Python高阶技巧",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/04_Python第四阶段/Python高阶技巧" />
+      <recent name="$PROJECT_DIR$/04_Python第四阶段/Python高阶技巧/03_单例模式" />
       <recent name="$PROJECT_DIR$/03_Python第三阶段" />
       <recent name="$PROJECT_DIR$/02_Python入门语法" />
       <recent name="$PROJECT_DIR$/my_package_83" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/04_Python第四阶段/Python高阶技巧/03_单例模式" />
       <recent name="$PROJECT_DIR$/03_Python第三阶段/数据分析案例" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main_109_110">
-    <configuration name="107_Python中的多态" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.05_多线程编程">
+    <configuration name="非单例测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,11 +184,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_Python第三阶段" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_Python第四阶段/Python高阶技巧" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_Python第三阶段/107_Python中的多态.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_Python第四阶段/Python高阶技巧/03_单例模式/非单例测试.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,7 +197,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="data_define_108" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="04_工厂模式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,11 +206,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_Python第三阶段/数据分析案例" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_Python第四阶段/Python高阶技巧" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_Python第三阶段/数据分析案例/data_define_108.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_Python第四阶段/Python高阶技巧/04_工厂模式.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,7 +219,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="file_define_108" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="05_多线程编程" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,11 +228,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_Python第三阶段/数据分析案例" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_Python第四阶段/Python高阶技巧" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_Python第三阶段/数据分析案例/file_define_108.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_Python第四阶段/Python高阶技巧/05_多线程编程.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,28 +263,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_109_110" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_Learning" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_Python第三阶段/数据分析案例" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_Python第三阶段/数据分析案例/main_109_110.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Learning" />
       <option name="ENV_FILES" value="" />
@@ -284,11 +272,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_Python第三阶段" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_Python第四阶段/Python高阶技巧/03_单例模式" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_Python第三阶段/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_Python第四阶段/Python高阶技巧/03_单例模式/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Learning" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_Python第四阶段/Python高阶技巧/03_单例模式" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_Python第四阶段/Python高阶技巧/03_单例模式/test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,11 +309,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main_109_110" />
+        <item itemvalue="Python.05_多线程编程" />
+        <item itemvalue="Python.04_工厂模式" />
+        <item itemvalue="Python.test2" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.file_define_108" />
-        <item itemvalue="Python.data_define_108" />
-        <item itemvalue="Python.107_Python中的多态" />
+        <item itemvalue="Python.非单例测试" />
       </list>
     </recent_temporary>
   </component>
