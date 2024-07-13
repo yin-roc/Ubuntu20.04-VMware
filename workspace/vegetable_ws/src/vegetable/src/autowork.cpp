@@ -71,6 +71,15 @@ int main(int argc, char *argv[])
 
 }
 
+
+/*
+serial_init 函数可以接受 4 个参数，进行串口初始化的功能
+:param m_ser: 串口对象指针
+:param m_serial_port: 串口名
+:param m_serial_baudrate: 串口波特率
+:param m_control_rate: 控制频率
+:return: 返回是否打开串口成功，true：打开串口成功，false：打开串口失败
+*/
 bool serial_init(serial::Serial* m_ser, std::string m_serial_port, int m_serial_baudrate, int m_control_rate){
     try{
         m_ser->setPort(m_serial_port);
@@ -95,11 +104,20 @@ bool serial_init(serial::Serial* m_ser, std::string m_serial_port, int m_serial_
     return true;
 }
 
+
+/*
+default_path 函数可以接受 4 个参数，进行绕圈表演的功能
+:param m_ser: 串口对象指针
+:param m_speed: 速度
+:param m_start_time: 开始的时间戳
+:param m_speed_data: 向下位机发送的速度指令
+:return: 无返回值
+*/
 void default_path(serial::Serial* m_ser, geometry_msgs::Twist m_speed, ros::Time m_start_time, std::string m_speed_data){
     // 直行 10s
     while(ros::Time::now() - m_start_time < ros::Duration(10.0)){
-        m_speed.linear.x = 100.0;  // 设置线速度
-        m_speed.angular.z = 0.0;  // 无角速度
+        m_speed.linear.x = 100.0;  
+        m_speed.angular.z = 0.0;  
         // m_speed_data = "move " + std::to_string(m_speed.linear.x) + ", " + std::to_string(m_speed.angular.z) + "\n";
         m_speed_data = "1";
         m_ser->write(m_speed_data);

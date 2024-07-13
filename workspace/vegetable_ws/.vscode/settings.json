@@ -6,7 +6,6 @@
         "/opt/ros/noetic/lib/python3/dist-packages"
     ],
     "files.associations": {
-        "random": "cpp",
         "cctype": "cpp",
         "clocale": "cpp",
         "cmath": "cpp",
@@ -42,6 +41,7 @@
         "memory_resource": "cpp",
         "numeric": "cpp",
         "optional": "cpp",
+        "random": "cpp",
         "ratio": "cpp",
         "set": "cpp",
         "string": "cpp",

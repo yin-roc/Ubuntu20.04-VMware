@@ -147,6 +147,8 @@ add_executable(test_thread3 src/test_thread3.cpp)
 add_executable(test_thread4 src/test_thread4.cpp)
 add_executable(pub_test src/pub_test.cpp)
 add_executable(autowork src/autowork.cpp)
+add_executable(autowork_1 src/autowork_1.cpp)
+
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -193,6 +195,9 @@ target_link_libraries(pub_test
   ${catkin_LIBRARIES}
 )
 target_link_libraries(autowork
+  ${catkin_LIBRARIES}
+)
+target_link_libraries(autowork_1
   ${catkin_LIBRARIES}
 )
 

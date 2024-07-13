@@ -66,6 +66,7 @@
 /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/vegetable/CMakeFiles/test_thread4.dir
 /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/vegetable/CMakeFiles/pub_test.dir
 /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/vegetable/CMakeFiles/autowork.dir
+/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/vegetable/CMakeFiles/autowork_1.dir
 /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/vegetable/CMakeFiles/test.dir
 /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/vegetable/CMakeFiles/edit_cache.dir
 /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build/vegetable/CMakeFiles/rebuild_cache.dir

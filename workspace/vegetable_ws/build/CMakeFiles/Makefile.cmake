@@ -237,4 +237,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "vegetable/CMakeFiles/test_thread4.dir/DependInfo.cmake"
   "vegetable/CMakeFiles/pub_test.dir/DependInfo.cmake"
   "vegetable/CMakeFiles/autowork.dir/DependInfo.cmake"
+  "vegetable/CMakeFiles/autowork_1.dir/DependInfo.cmake"
   )

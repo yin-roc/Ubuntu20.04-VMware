@@ -691,6 +691,19 @@ autowork/fast:
 	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/autowork.dir/build.make vegetable/CMakeFiles/autowork.dir/build
 .PHONY : autowork/fast
 
+#=============================================================================
+# Target rules for targets named autowork_1
+
+# Build rule for target.
+autowork_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 autowork_1
+.PHONY : autowork_1
+
+# fast build rule for target.
+autowork_1/fast:
+	$(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/autowork_1.dir/build.make vegetable/CMakeFiles/autowork_1.dir/build
+.PHONY : autowork_1/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -730,6 +743,7 @@ help:
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... tests"
 	@echo "... autowork"
+	@echo "... autowork_1"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"

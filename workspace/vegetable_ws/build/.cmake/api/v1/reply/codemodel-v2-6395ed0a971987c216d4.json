@@ -1,0 +1,542 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-4a8a869e1a1f9ef89131.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						25,
+						40
+					]
+				},
+				{
+					"build" : "gtest",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-gtest-RelWithDebInfo-40f9edd0af6c04d6f946.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/usr/src/googletest"
+				},
+				{
+					"build" : "gtest/googlemock",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-gtest.googlemock-RelWithDebInfo-8fd0af86403c015b5fbc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "/usr/src/googletest/googlemock",
+					"targetIndexes" : 
+					[
+						10,
+						11
+					]
+				},
+				{
+					"build" : "gtest/googletest",
+					"jsonFile" : "directory-gtest.googletest-RelWithDebInfo-5804ba12edef54b53d36.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "/usr/src/googletest/googletest",
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				},
+				{
+					"build" : "vegetable",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-vegetable-RelWithDebInfo-b909200c681bbaeb717c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "vegetable",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						5,
+						6,
+						7,
+						8,
+						9,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						25,
+						40
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "vegetable",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						5,
+						6,
+						7,
+						8,
+						9,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "autowork::@e1cdd7907822919a604f",
+					"jsonFile" : "target-autowork-RelWithDebInfo-921e5aaef2cf1e7efaff.json",
+					"name" : "autowork",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "autowork_1::@e1cdd7907822919a604f",
+					"jsonFile" : "target-autowork_1-RelWithDebInfo-6ac7c243416574eadcc1.json",
+					"name" : "autowork_1",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clean_test_results::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clean_test_results-RelWithDebInfo-698ba33a63b181f9d0c5.json",
+					"name" : "clean_test_results",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "download_extra_data::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-download_extra_data-RelWithDebInfo-26d419a6bf2b582c2a72.json",
+					"name" : "download_extra_data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "doxygen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-doxygen-RelWithDebInfo-88595cbda2a15872d775.json",
+					"name" : "doxygen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "geometry_msgs_generate_messages_cpp::@e1cdd7907822919a604f",
+					"jsonFile" : "target-geometry_msgs_generate_messages_cpp-RelWithDebInfo-00600895b55e01477c2e.json",
+					"name" : "geometry_msgs_generate_messages_cpp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "geometry_msgs_generate_messages_eus::@e1cdd7907822919a604f",
+					"jsonFile" : "target-geometry_msgs_generate_messages_eus-RelWithDebInfo-28f903b7ce2307085581.json",
+					"name" : "geometry_msgs_generate_messages_eus",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "geometry_msgs_generate_messages_lisp::@e1cdd7907822919a604f",
+					"jsonFile" : "target-geometry_msgs_generate_messages_lisp-RelWithDebInfo-d3b1e56fcb753463ee02.json",
+					"name" : "geometry_msgs_generate_messages_lisp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "geometry_msgs_generate_messages_nodejs::@e1cdd7907822919a604f",
+					"jsonFile" : "target-geometry_msgs_generate_messages_nodejs-RelWithDebInfo-cb711be585e9e030b3fd.json",
+					"name" : "geometry_msgs_generate_messages_nodejs",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "geometry_msgs_generate_messages_py::@e1cdd7907822919a604f",
+					"jsonFile" : "target-geometry_msgs_generate_messages_py-RelWithDebInfo-5b972f7c2b08a3aa3aa8.json",
+					"name" : "geometry_msgs_generate_messages_py",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock::@e3f94eedc5dc07131386",
+					"jsonFile" : "target-gmock-RelWithDebInfo-328ddd6d05cc3d27f4c1.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock_main::@e3f94eedc5dc07131386",
+					"jsonFile" : "target-gmock_main-RelWithDebInfo-4c4e6ef2c4256576d42d.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest::@b738d542747fbb7ea6e3",
+					"jsonFile" : "target-gtest-RelWithDebInfo-631f99a03e1c28fbf240.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest_main::@b738d542747fbb7ea6e3",
+					"jsonFile" : "target-gtest_main-RelWithDebInfo-18292e9593ae4e6127c8.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "pub_test::@e1cdd7907822919a604f",
+					"jsonFile" : "target-pub_test-RelWithDebInfo-442b76d7e8ff20630c8c.json",
+					"name" : "pub_test",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "roscpp_generate_messages_cpp::@e1cdd7907822919a604f",
+					"jsonFile" : "target-roscpp_generate_messages_cpp-RelWithDebInfo-0f122ed7ef2c98717bd4.json",
+					"name" : "roscpp_generate_messages_cpp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "roscpp_generate_messages_eus::@e1cdd7907822919a604f",
+					"jsonFile" : "target-roscpp_generate_messages_eus-RelWithDebInfo-7b2135334cbcfd4cef69.json",
+					"name" : "roscpp_generate_messages_eus",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "roscpp_generate_messages_lisp::@e1cdd7907822919a604f",
+					"jsonFile" : "target-roscpp_generate_messages_lisp-RelWithDebInfo-a344da30652d92d70ca8.json",
+					"name" : "roscpp_generate_messages_lisp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "roscpp_generate_messages_nodejs::@e1cdd7907822919a604f",
+					"jsonFile" : "target-roscpp_generate_messages_nodejs-RelWithDebInfo-47ac930b2e3763d6a121.json",
+					"name" : "roscpp_generate_messages_nodejs",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "roscpp_generate_messages_py::@e1cdd7907822919a604f",
+					"jsonFile" : "target-roscpp_generate_messages_py-RelWithDebInfo-5d299d35937de6b9b057.json",
+					"name" : "roscpp_generate_messages_py",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "rosgraph_msgs_generate_messages_cpp::@e1cdd7907822919a604f",
+					"jsonFile" : "target-rosgraph_msgs_generate_messages_cpp-RelWithDebInfo-4f944e5993ac3bb77444.json",
+					"name" : "rosgraph_msgs_generate_messages_cpp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "rosgraph_msgs_generate_messages_eus::@e1cdd7907822919a604f",
+					"jsonFile" : "target-rosgraph_msgs_generate_messages_eus-RelWithDebInfo-314abcc27b5ad860084d.json",
+					"name" : "rosgraph_msgs_generate_messages_eus",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "rosgraph_msgs_generate_messages_lisp::@e1cdd7907822919a604f",
+					"jsonFile" : "target-rosgraph_msgs_generate_messages_lisp-RelWithDebInfo-70446be33514fd82de51.json",
+					"name" : "rosgraph_msgs_generate_messages_lisp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "rosgraph_msgs_generate_messages_nodejs::@e1cdd7907822919a604f",
+					"jsonFile" : "target-rosgraph_msgs_generate_messages_nodejs-RelWithDebInfo-ca9bc5e38bf11cb0854b.json",
+					"name" : "rosgraph_msgs_generate_messages_nodejs",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "rosgraph_msgs_generate_messages_py::@e1cdd7907822919a604f",
+					"jsonFile" : "target-rosgraph_msgs_generate_messages_py-RelWithDebInfo-d4b30a1363448b3f5e20.json",
+					"name" : "rosgraph_msgs_generate_messages_py",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_tests-RelWithDebInfo-8df51f7a33fa18f9de57.json",
+					"name" : "run_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "serialport::@e1cdd7907822919a604f",
+					"jsonFile" : "target-serialport-RelWithDebInfo-c9dcfd6b56a122c00ea2.json",
+					"name" : "serialport",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "serialport2::@e1cdd7907822919a604f",
+					"jsonFile" : "target-serialport2-RelWithDebInfo-2ff967979ea458ef4661.json",
+					"name" : "serialport2",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "serialport3::@e1cdd7907822919a604f",
+					"jsonFile" : "target-serialport3-RelWithDebInfo-f00f33ea51a3ea87899c.json",
+					"name" : "serialport3",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "serialport4::@e1cdd7907822919a604f",
+					"jsonFile" : "target-serialport4-RelWithDebInfo-0ed0922ba4baa96f2092.json",
+					"name" : "serialport4",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "std_msgs_generate_messages_cpp::@e1cdd7907822919a604f",
+					"jsonFile" : "target-std_msgs_generate_messages_cpp-RelWithDebInfo-52feed47235d0dcd1a51.json",
+					"name" : "std_msgs_generate_messages_cpp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "std_msgs_generate_messages_eus::@e1cdd7907822919a604f",
+					"jsonFile" : "target-std_msgs_generate_messages_eus-RelWithDebInfo-3ef6307471a730b71831.json",
+					"name" : "std_msgs_generate_messages_eus",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "std_msgs_generate_messages_lisp::@e1cdd7907822919a604f",
+					"jsonFile" : "target-std_msgs_generate_messages_lisp-RelWithDebInfo-37886df7ce60ccf65f1c.json",
+					"name" : "std_msgs_generate_messages_lisp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "std_msgs_generate_messages_nodejs::@e1cdd7907822919a604f",
+					"jsonFile" : "target-std_msgs_generate_messages_nodejs-RelWithDebInfo-f59a12df4aa44f842076.json",
+					"name" : "std_msgs_generate_messages_nodejs",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "std_msgs_generate_messages_py::@e1cdd7907822919a604f",
+					"jsonFile" : "target-std_msgs_generate_messages_py-RelWithDebInfo-f8217297e162b26f2683.json",
+					"name" : "std_msgs_generate_messages_py",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "test_pub_twist::@e1cdd7907822919a604f",
+					"jsonFile" : "target-test_pub_twist-RelWithDebInfo-ad84dbf31cba02fc25c7.json",
+					"name" : "test_pub_twist",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "test_thread1::@e1cdd7907822919a604f",
+					"jsonFile" : "target-test_thread1-RelWithDebInfo-bd881a7a86272e98119b.json",
+					"name" : "test_thread1",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "test_thread2::@e1cdd7907822919a604f",
+					"jsonFile" : "target-test_thread2-RelWithDebInfo-09601b4f6450f203fd1b.json",
+					"name" : "test_thread2",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "test_thread3::@e1cdd7907822919a604f",
+					"jsonFile" : "target-test_thread3-RelWithDebInfo-8764467f1db070ec3ded.json",
+					"name" : "test_thread3",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "test_thread4::@e1cdd7907822919a604f",
+					"jsonFile" : "target-test_thread4-RelWithDebInfo-36bc90481e35f9d94d3d.json",
+					"name" : "test_thread4",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tests-RelWithDebInfo-645674a8b6faee116c67.json",
+					"name" : "tests",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build",
+		"source" : "/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

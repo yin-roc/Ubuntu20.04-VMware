@@ -605,6 +605,20 @@ autowork/fast:
 	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/autowork.dir/build.make vegetable/CMakeFiles/autowork.dir/build
 .PHONY : autowork/fast
 
+# Convenience name for target.
+vegetable/CMakeFiles/autowork_1.dir/rule:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vegetable/CMakeFiles/autowork_1.dir/rule
+.PHONY : vegetable/CMakeFiles/autowork_1.dir/rule
+
+# Convenience name for target.
+autowork_1: vegetable/CMakeFiles/autowork_1.dir/rule
+.PHONY : autowork_1
+
+# fast build rule for target.
+autowork_1/fast:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/autowork_1.dir/build.make vegetable/CMakeFiles/autowork_1.dir/build
+.PHONY : autowork_1/fast
+
 src/autowork.o: src/autowork.cpp.o
 .PHONY : src/autowork.o
 
@@ -628,6 +642,30 @@ src/autowork.s: src/autowork.cpp.s
 src/autowork.cpp.s:
 	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/autowork.dir/build.make vegetable/CMakeFiles/autowork.dir/src/autowork.cpp.s
 .PHONY : src/autowork.cpp.s
+
+src/autowork_1.o: src/autowork_1.cpp.o
+.PHONY : src/autowork_1.o
+
+# target to build an object file
+src/autowork_1.cpp.o:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/autowork_1.dir/build.make vegetable/CMakeFiles/autowork_1.dir/src/autowork_1.cpp.o
+.PHONY : src/autowork_1.cpp.o
+
+src/autowork_1.i: src/autowork_1.cpp.i
+.PHONY : src/autowork_1.i
+
+# target to preprocess a source file
+src/autowork_1.cpp.i:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/autowork_1.dir/build.make vegetable/CMakeFiles/autowork_1.dir/src/autowork_1.cpp.i
+.PHONY : src/autowork_1.cpp.i
+
+src/autowork_1.s: src/autowork_1.cpp.s
+.PHONY : src/autowork_1.s
+
+# target to generate assembly for a file
+src/autowork_1.cpp.s:
+	cd /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/vegetable_ws/build && $(MAKE) $(MAKESILENT) -f vegetable/CMakeFiles/autowork_1.dir/build.make vegetable/CMakeFiles/autowork_1.dir/src/autowork_1.cpp.s
+.PHONY : src/autowork_1.cpp.s
 
 src/pub_test.o: src/pub_test.cpp.o
 .PHONY : src/pub_test.o
@@ -903,6 +941,7 @@ help:
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... autowork"
+	@echo "... autowork_1"
 	@echo "... pub_test"
 	@echo "... serialport"
 	@echo "... serialport2"
@@ -916,6 +955,9 @@ help:
 	@echo "... src/autowork.o"
 	@echo "... src/autowork.i"
 	@echo "... src/autowork.s"
+	@echo "... src/autowork_1.o"
+	@echo "... src/autowork_1.i"
+	@echo "... src/autowork_1.s"
 	@echo "... src/pub_test.o"
 	@echo "... src/pub_test.i"
 	@echo "... src/pub_test.s"

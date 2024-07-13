@@ -41,6 +41,7 @@ void monitorSerialPort(serial::Serial* m_ser, ros::Time m_start_time, geometry_m
     while (ros::ok()){
         if(m_ser->isOpen() && m_ser->available()){
             std::string feedback = m_ser->readline();
+            feedback.erase(std::remove(feedback.begin(), feedback.end(), '\n'), feedback.end());
             ROS_INFO("PC received: %s", feedback.c_str());
             if(feedback.length() > 1){
                 try{
@@ -96,7 +97,7 @@ int main(int argc, char *argv[])
     ros::NodeHandle nh_serial;
     ros::NodeHandle nh_speed;
 
-    std::string serial_port = "/dev/ttyUSB1";  
+    std::string serial_port = "/dev/ttyS0";  
     int serial_baudrate = 9600;                                        
     int control_rate = 10;
     std::string output; 
