@@ -1,0 +1,18 @@
+<!-- 继承导航相关的 launch 文件 -->
+<launch>
+    <!-- 地图服务 -->
+    <include file="$(find three_nav_demo)/launch/demo03_map_server_read.launch" />
+    
+    <!-- amcl -->
+    <include file="$(find three_nav_demo)/launch/demo04_amcl.launch" />
+
+    <!-- move_base -->
+    <include file="$(find three_nav_demo)/launch/demo06_nav_path.launch" />
+
+    <!-- rviz -->
+    <node pkg="joint_state_publisher" name="joint_state_publisher" type="joint_state_publisher" />
+    <node pkg="robot_state_publisher" name="robot_state_publisher" type="robot_state_publisher" />
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find three_nav_demo)/config/demo07_nav_test.rviz"/>
+    <!-- <node pkg="rviz" type="rviz" name="rviz" /> -->
+
+</launch>

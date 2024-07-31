@@ -1,0 +1,8 @@
+prefix=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/ros_ws/ROS_demo_ws/devel
+
+Name: eleven_rename02_topic
+Description: Description of eleven_rename02_topic
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

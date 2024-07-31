@@ -1,0 +1,2 @@
+arbotix_ros/arbotix:arbotix_ros/arbotix_controllers:arbotix_ros/arbotix_firmware:arbotix_ros/arbotix_msgs:arbotix_ros/arbotix_python:arbotix_ros/arbotix_sensors:one_urdf01_rviz:three_nav_demo:two_urdf02_gazebo
+-DCATKIN_DEVEL_PREFIX=/home/yin-roc/1_Code/Ubuntu20.04/ROS_demo/demo03_ws/devel -DCMAKE_INSTALL_PREFIX=/home/yin-roc/1_Code/Ubuntu20.04/ROS_demo/demo03_ws/install -G Unix Makefiles

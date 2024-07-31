@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O2 -g -DNDEBUG -shared -Wl,-soname,libhead_src.so -o /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/ros_ws/ROS_demo_ws/devel/lib/libhead_src.so CMakeFiles/head_src.dir/src/hello.cpp.o 

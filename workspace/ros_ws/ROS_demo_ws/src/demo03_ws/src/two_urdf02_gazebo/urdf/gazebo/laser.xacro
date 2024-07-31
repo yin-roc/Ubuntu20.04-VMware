@@ -1,0 +1,54 @@
+<robot name="my_sensors" xmlns:xacro="http://wiki.ros.org/xacro">
+
+  <!-- 雷达 -->
+  <!-- 修改处，reference 针对于 laser link连杆名 -->
+  <gazebo reference="laser">
+      <!-- 雷达的名称和类型 -->
+    <sensor type="ray" name="rplidar">
+    <!-- 雷达位姿，xyz和rpy -->
+      <pose>0 0 0 0 0 0</pose>
+      <!-- 可视化，Gazebo中会显示雷达射线 -->
+      <visualize>true</visualize>
+      <!-- 雷达射线的更新频率 -->
+      <update_rate>5.5</update_rate>
+      <ray>
+        <scan>
+          <horizontal>
+          <!-- 雷达参数 -->
+
+            <!-- 雷达采样个数：雷达旋转一周采样的点 -->
+            <samples>360</samples>
+            <!-- 分辨率：可以为2，3...n， 表示：每n个射线里面有一个是测距的 -->
+            <resolution>1</resolution>
+            <!-- 采样范围 -->
+            <!-- 雷达旋转是有范围的，有限制的，有 360 无死角旋转，也有 180 度旋转 -->
+            <!-- 一圈大概6.28弧度 -->
+            <!-- 以前进方向为基准，向左转-3弧度，向右转3弧度 -->
+            <min_angle>-3</min_angle>
+            <max_angle>3</max_angle>
+          </horizontal>
+        </scan>
+        <range>
+        <!-- 雷达采样的有效范围 0.1m~30m -->
+          <min>0.10</min>
+          <max>30.0</max>
+          <!-- 采样精度，精确到 0.01m，障碍物距离1.234m，那么实际只能测到1.23m或1.24m -->
+          <resolution>0.01</resolution>
+        </range>
+        <noise>
+        <!-- 高斯噪音，现象就是：rviz的红点在波动 -->
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.01</stddev>
+        </noise>
+      </ray>
+      <plugin name="gazebo_rplidar" filename="libgazebo_ros_laser.so">
+        <topicName>/scan</topicName>
+
+        <!-- 修改处2：frameName -->
+        <frameName>laser</frameName>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+</robot>

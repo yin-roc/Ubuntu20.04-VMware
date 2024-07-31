@@ -1,0 +1,8 @@
+prefix=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/ros_ws/ROS_demo_ws/install
+
+Name: one_urdf01_rviz
+Description: Description of one_urdf01_rviz
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

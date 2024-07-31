@@ -1,0 +1,8 @@
+prefix=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/ros_ws/ROS_demo_ws/install
+
+Name: tf01_static
+Description: Description of tf01_static
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

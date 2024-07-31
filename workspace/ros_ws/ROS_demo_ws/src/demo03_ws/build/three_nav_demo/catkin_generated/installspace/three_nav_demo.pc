@@ -1,0 +1,8 @@
+prefix=/home/yin-roc/1_Code/Ubuntu20.04/ROS_demo/demo03_ws/install
+
+Name: three_nav_demo
+Description: Description of three_nav_demo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,7 @@
+<launch>
+
+    <!-- 方便修改 -->
+    <arg name="map" default="demo02_map.yaml" />
+    <node name="map_server" pkg="map_server" type="map_server" args="$(find three_nav_demo)/map/$(arg map)" />
+    
+</launch>

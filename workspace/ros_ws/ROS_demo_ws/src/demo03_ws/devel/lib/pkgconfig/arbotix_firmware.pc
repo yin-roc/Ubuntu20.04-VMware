@@ -1,0 +1,8 @@
+prefix=/home/yin-roc/1_Code/Ubuntu20.04/ROS_demo/demo03_ws/devel
+
+Name: arbotix_firmware
+Description: Description of arbotix_firmware
+Version: 0.11.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,29 @@
+<launch>
+    <param name="robot_description" textfile="$(find one_urdf01_rviz)/urdf/urdf/demo03_joint.urdf" />
+    <!-- <node pkg="rviz" type="rviz" name="rviz" /> -->
+
+    <!-- 
+        只有上述两条语句：
+            表现：设置头显示位置与颜色异常
+            提示：No transform from [camera] to [base_link]
+            原因：rviz中显示 URDF 时，必须发布不同部件之间的 坐标系 关系
+            解决：ROS中提供了关于机器人模型显示的坐标发布相关节点（两个）
+     -->
+
+    <!-- 关节状态发布节点 -->
+    <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher" />
+    
+    <!-- 机器人状态发布节点 -->
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" />
+
+    <node pkg="rviz" type="rviz" name="rviz" args = "-d $(find one_urdf01_rviz)/config/show_car.rviz"/>
+    
+    <!-- 添加控制关节运动的节点 -->
+    <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui" />
+
+    <!-- 调整旋转摄像头时，摄像头疯狂鬼畜：
+        法1、毫无反应的把gui的节点放到rviz下面就行了，成为第三条
+        法2、注释关节发布节点
+        原因：抖动是因为joint_state_publisher与joint_state_publisher_gui发布消息叠加导致的
+     -->
+</launch>

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O2 -g -DNDEBUG -shared -Wl,-soname,libplus.so -o /home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/ros_ws/ROS_demo_ws/devel/lib/libplus.so CMakeFiles/plus.dir/src/plus.cpp.o 

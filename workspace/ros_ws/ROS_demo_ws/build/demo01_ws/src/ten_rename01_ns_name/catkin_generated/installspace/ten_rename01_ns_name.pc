@@ -1,0 +1,8 @@
+prefix=/home/yin-roc/1-Github/Ubuntu20.04-VMware/workspace/ros_ws/ROS_demo_ws/install
+
+Name: ten_rename01_ns_name
+Description: Description of ten_rename01_ns_name
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
