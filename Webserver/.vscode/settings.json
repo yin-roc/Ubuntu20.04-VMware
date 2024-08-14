@@ -7,5 +7,6 @@
         "sstream": "c",
         "types.h": "c",
         "stdlib.h": "c"
-    }
+    },
+    "window.zoomLevel": 2
 }
