@@ -6,7 +6,8 @@
         "unistd.h": "c",
         "sstream": "c",
         "types.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "pthread.h": "c"
     },
     "window.zoomLevel": 2
 }
